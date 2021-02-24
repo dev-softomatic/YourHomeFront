@@ -49,11 +49,12 @@ const Contact = () => {
     return (
         <section id="contactPage">
             <div className="container">
+                {aboutData && 
                 <div className="contact-box">
                     <div className='row justify-content-center' style={{marginBottom: '4%'}}>
                         <h1 className="title-section">{getStr('contact')}</h1>
                     </div>
-                    {aboutData && 
+                     
                     <div className='row'>
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
                             <form className="form-contact" onSubmit={onSend}>
@@ -99,11 +100,13 @@ const Contact = () => {
                                 <div className='col-8'><p>{aboutData.support_email}</p></div>
                             </div>
                         </div>
-                    </div>}
-                    <div className="google-map mb-3" style={{height: "500px", position:"relative", marginTop: "50px"}}>
-                        <GoogleMap />
                     </div>
+                    <div className="google-map mb-3" style={{height: "500px", position:"relative", marginTop: "50px"}}>
+                        <GoogleMap location={aboutData.location}/>
+                    </div>
+                
                 </div>
+               }
             </div>
         </section>
     )

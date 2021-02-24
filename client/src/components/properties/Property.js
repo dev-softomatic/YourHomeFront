@@ -218,7 +218,7 @@ const Property = ({ getProperty, property: { property, loading, properties }, ma
             <div className="map mt-3">
                 <h3>{getStr('location')}</h3>
                 <div className="google-map" style={{height: "500px", position:"relative", width:"90%", margin: "auto"}}>
-                  <GoogleMap />
+                  <GoogleMap location={{longitude: property.longitude, altitude: property.altitude}}/>
                 </div>
             </div>
             <hr />
