@@ -1,0 +1,192 @@
+#company .features {
+    padding: 20px;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+
+
+#company .feature-card {
+    max-width: 210px;
+    height: 250px;
+    border: solid 1px #ccc;
+    box-shadow: 2px 2px 5px #ccc;
+    background-color: #fff;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 3% 1% 3% 1%;
+    align-items: center;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+@media(max-width: 600px) {
+    #company .feature-card {
+        max-width: 190px;
+        margin: 10px 3px;
+    }
+}
+
+@media(max-width: 400px) {
+    #company .feature-card {
+        max-width: 46%;
+        margin: 10px 4px;
+    }
+}
+
+#company .feature-card:hover {
+    background-color: #FFCF0A;
+}
+
+#company h6, .be-agent h3 {
+    text-align: center;
+}
+
+#company .feature-card img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 100px;
+    width: 100px;
+}
+
+#company .about-company  {
+    padding-top: 30px;
+}
+
+#company .column {
+    margin-bottom: 0px;
+}
+
+#company .about-company img {
+    height: 100%;
+    width: 77%;
+    position: relative;
+    top: -399px;
+    right: -18px;
+    margin: auto;
+    display: block;
+}
+
+#company .square {
+    background-color: #FFCF0A;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+#company .be-agent {
+   background-color: #f7f7f7;
+    padding-top: 20px;
+    margin-top: -1px;
+}
+
+#company .be-agent .be-agent-content {
+    width: 80%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#company .title-company {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0px 0 30px 0;
+}
+
+
+.be-agent img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.be-agent form {
+    padding: 4%;
+    max-width: 75%;
+    margin-right: auto;
+}
+
+@media(min-width: 1400px) and (max-width: 2000px) {
+    .be-agent img {
+        height: 240px;
+        width: 240px;
+    }
+
+    .be-agent p {
+        width: 82%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 767px) {
+    .be-agent form {
+        max-width: 100%;
+    }
+}
+
+html:lang(ar) .be-agent form {
+    margin-left: auto;
+}
+
+.be-agent form input,
+.be-agent form textarea {
+    padding: 1.4rem .75rem;
+    border-radius: 0;
+}
+
+.be-agent form button {
+    border: solid 1px #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.be-agent p {
+    color: #074252;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 14px;
+}
+
+#company .be-agent .btn-agent {
+    padding: 10px 20px !important;
+    background-color: #FFCF0A;
+    border-color: #FFCF0A;
+    color: #444;
+    border-radius: 0 !important;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#company .be-agent .btn-agent:focus {
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 578px){
+    #company .column {
+        margin-bottom: 20px;
+    }
+
+    #company .about-company img {
+        height: 221px;
+        width: 187px;
+        position: relative;
+        top: -208px;
+        right: -10px;
+    }
+    
+    #company .square {
+        background-color: #FFCF0A;
+        width: 200px;
+        height: 100%;
+    }
+
+    #company .about-company p {
+        max-width: 90%;
+        padding: 0 5% 5% 0;
+    }
+}

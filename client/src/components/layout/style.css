@@ -1,0 +1,245 @@
+.logo {
+    margin-left: 102px;
+    margin-right: 0;
+}
+
+.logo img{
+   position: relative;
+   left: 0px;
+   top: 0px;
+   height: 80px;
+   width: 100px; 
+}
+
+@media(max-width: 1024px) {
+    .logo {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .logo img {
+        margin-left: 0 !important
+    }
+    
+}
+
+@media(max-width: 767px) {
+    .google-map {
+        height: 200px !important;
+    }
+
+    html:lang(ar) nav .logo {
+        margin-right: 0px !important;
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .logo img {
+        height: 60px;
+        width: 80px;
+        margin-left: 1%;
+        position: unset;
+    }
+}
+
+ a.nav-link {
+    font-size: 17px;
+    white-space: pre;
+    
+}
+
+
+
+.navbar {
+    background-color: #fff;
+    z-index: 999999999999;
+}
+
+.navbar .nav-item {
+    border-radius: 10px !important;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    text-align: center;
+    padding: 0.25rem !important;
+}
+
+.navbra .nav-item .menu-prop {
+    border: 0;
+    
+}
+
+.navbar .nav-item .menu-prop a:focus {
+    background-color: #FFCF0A;
+    border-radius: 0 !important;
+}
+
+.navbar .nav-item-menu:hover {
+    background-color: #FFCF0A;
+    text-decoration: double;
+    
+}
+
+.nav-number i{
+    margin: auto;
+}
+
+
+ .activeLink {
+    background-color: #FFCF0A;
+    text-decoration: double;
+    border-radius: 10px;
+}
+
+
+ a.page-link {
+    color: #074252;
+}
+
+a.page-link:hover, a.page-link:active {
+    background-color: #074252;
+    color: #fff;
+}
+
+
+footer {
+    background-color: #303030;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+}
+
+footer img.logo {
+    height: 42%;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+footer hr {
+    height: 1px;
+    background-color: #fff;
+    width: 60px;
+    margin: 7px 0 0 0;
+}
+
+footer .btn-lang-footer,
+footer .btn-lang-footer:hover,
+footer .btn-lang-footer:focus {
+    border: none;
+    border-bottom: 1px solid #6c757d;
+    border-radius: 0 !important;
+    background-color: transparent !important;
+}
+
+.footer-link {
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-link .fa-circle {
+    font-size: 10px;
+}
+
+.footer-link .circle-icon {
+    padding: 0 4px 0 2px;
+}
+
+.footer-link:hover, .footer-link:active {
+    color: #efefef;
+}
+
+
+
+footer form {
+    background-color: #ffffff3f;
+    padding: 15px;
+}
+
+footer form input,
+footer form textarea {
+    background-color: #b1b1b1 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin: 10px 0 !important;
+}
+
+footer form input::placeholder,
+footer form textarea::placeholder,
+footer form input {
+    color: #fff !important;
+}
+
+footer form input::placeholder, footer form textarea::placeholder, footer form button.btn {
+    font-size: 12px;
+}
+
+footer form button {
+    background-color: #FFCF0A !important;
+    border: 0 !important;
+    border-radius: 7px !important;
+    padding: 10px !important;
+}
+
+footer form button:focus {
+    box-shadow: none !important;
+}
+
+
+@media only screen and (max-width: 578px){
+    footer .row {
+        flex-direction: column;
+        padding: 15px;
+    }
+    footer .col{
+        margin: 0 6px;
+    }
+}
+
+html:lang(ar) nav .logo {
+    margin-right: 110px;
+    margin-left: 0;
+}
+
+
+html:lang(ar) nav .logo img {
+    right: 36px;
+    margin-right: 3rem !important;
+}
+
+.list-social {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.list-social li {
+    padding: 8px 6px;
+    margin: 12px 3px;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+.list-social li a {
+    color: #666;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+}
+
+.list-social li:hover a {
+    color: #f7f7f7;
+}

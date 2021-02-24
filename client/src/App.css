@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+html:lang(ar) * {
+	text-align: right;
+	font-family: 'Cairo', sans-serif;
+}
+
+html:lang(en) * {
+    text-align: left;
+}
+
+html:lang(en) .currency {
+	position: fixed;
+    top: 330px;
+    right: 0;
+    z-index: 99999999;
+}
+
+html:lang(en) .select-currency {
+	margin-bottom: 3px;
+    position: relative;
+    right: calc(100% - 81px);
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+    direction: ltr;
+    font-size: 30px;
+    padding: 1px 10px;
+    background-color: #ffcf0a;
+	color: #000000;
+}
+
+html:lang(en) .select-currency:hover,
+html:lang(en) .select-currency:focus {
+    right: 0;
+    -webkit-transition: .2s all ease-in-out;
+	transition: .2s all ease-in-out;
+	box-shadow: none;
+}
+
+html:lang(ar) .currency {
+	position: fixed;
+    top: 330px;
+    left: 0;
+    z-index: 99999999;
+}
+
+html:lang(ar) .select-currency {
+	margin-bottom: 3px;
+    position: relative;
+    left: calc(100% - 73px);
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+    direction: rtl;
+    font-size: 30px;
+    padding: 1px 10px;
+    background-color: #ffcf0a;
+	color: #000000;
+}
+
+html:lang(ar) .select-currency:hover,
+html:lang(ar) .select-currency:focus {
+    left: 0;
+    -webkit-transition: .2s all ease-in-out;
+	transition: .2s all ease-in-out;
+	box-shadow: none;
+}
+
+button,
+select,
+input,
+textarea {
+	box-shadow: none;
+	border: 0;
+	outline: none !important;
+}
+
+
+#root {
+    white-space: pre-line;
+    overflow: hidden;
+}
+
+.span-title {
+	display: block;
+    color: #FFCF0A;
+    font-size: 17px;
+	font-weight: 500;
+	width: 100%;
+	text-align: center !important;
+	margin-bottom: 8px;
+}
+
+.title-section {
+	font-weight: 400;
+    margin-top: 0;
+    color: #1a1a1a;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+#recentProperties .slick-list {
+	overflow: inherit;
+}
+
+.icon-whatsapp {
+    position: fixed;
+    bottom: 32px;
+    background-color: #25d366;
+    padding: 15px;
+    border-radius: 50% !important;
+    text-align: center;
+    z-index: 999999999;
+}
+
+.icon-whatsapp i {
+    color: #f7f7f7;
+    font-size: 32px;
+    font-weight: 500;
+    
+}
+
+i {
+    font-family: "FontAwesome" !important;
+}
+
+div#coverflow__arrow1__2X2XF {
+    direction: ltr;
+}
+
+html:lang(en) .icon-whatsapp {left: 35px;}
+html:lang(ar) .icon-whatsapp {right: 35px;}
+
+html:lang(ar) .btn-warning.btn-contact {
+    margin: 0px auto 80px 10px !important;
+}
+
+html:lang(ar) .btn-white.btn-contact {
+    margin: 0px 0 80px auto !important;
+}
+
+.carousel-form form.row {
+    justify-content: center !important;
+}
+

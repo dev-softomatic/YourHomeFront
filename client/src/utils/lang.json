@@ -1,0 +1,934 @@
+{
+    "properties": {
+        "en": "Properties",
+        "ar": "العقارات"
+    },
+    "all": {
+        "en" : "all",
+        "ar" : "الكل"
+    },
+    "best_offers": {
+        "en": "Best Offers",
+        "ar": "أفضل العروض"
+    },
+    "bedrooms": {
+        "en": "Bedrooms",
+        "ar": "الغرف"
+    },
+    "area": {
+        "en": "Area",
+        "ar": "المساحة"
+    },
+    "type": {
+        "en": "Type",
+        "ar": "النوع"
+    },
+    "company_services": {
+        "en": "Company Services",
+        "ar": "خدمات الشركة"
+    },
+    "team_members": {
+        "en": "Team Members",
+        "ar": "أعضاء الفريق"
+    },
+    "client_testimonails": {
+        "en": "Client Testimonails",
+        "ar": "أراء االعملاء"
+    },
+    "testimonails": {
+        "en": "Testimonails",
+        "ar": "أراء االعملاء"
+    },
+    "looking_to_buy_new_prop": {
+        "en": "Looking to Buy a new property or Sell an existing one? YourHome provides you an awesome solution!",
+        "ar": "تبحث لشراء عقار جديد أو بيع عقار موجود؟ YourHome يوفر لك حلاً رائعًا!"
+    },
+    "latest_blog": {
+        "en": "Latest Blog",
+        "ar": "أحدث المقالات"
+    },
+    "our_partners": {
+        "en": "Our Parners",
+        "ar": "شركائنا"
+    },
+    "partners" : {
+        "en" : "Partner",
+        "ar": "شريك"
+    },
+    "blogSpan": {
+        "en" : "Blog",
+        "ar" : "مقالة"
+    },
+    "team": {
+        "en" : "Team",
+        "ar" : "فريق"
+    },
+    "service": {
+        "en" : "Service",
+        "ar" : "خدمة"
+    },
+    "name": {
+        "en": "Name",
+        "ar": "الاسم"
+    },
+    "email": {
+        "en":"Email",
+        "ar": "البريد الالكتروني"
+    },
+    "phone": {
+        "en":"Phone",
+        "ar": " رقم الهاتف"
+    },
+    "country": {
+        "en":"Country",
+        "ar": "البلد"
+    },
+    "message": {
+        "en":"Message",
+        "ar": " رسالة"
+    },
+    "date": {
+        "en":"Date",
+        "ar": " التاريخ "
+    },
+    "project_nearby": {
+        "en":"Project Nearby",
+        "ar": " بالقرب من المشروع "
+    },
+    "services": {
+        "en":"Services",
+        "ar": "الخدمات"
+    },
+    "why_this_project": {
+        "en": "Why This Project?",
+        "ar": "لماذا هذا المشروع؟"
+    },
+    "about_this_project": {
+        "en": "About this project",
+        "ar": "عن المشروع"
+    },
+    "video_for_this_project": {
+        "en": "Video For This Project",
+        "ar": "فيديو عن المشروع"
+    },
+    "share_via": {
+        "en": "Share via",
+        "ar": "مشاركة"
+    },
+    "similar_projects": {
+        "en": "Similar Projects",
+        "ar": "مشاريع مشابهة"
+    },
+    "overview": {
+        "en": "Oveview",
+        "ar": "نبذة عن المشروع"
+    },
+    "turkish_citizenship": {
+        "en": "Turkish Citizenship",
+        "ar": "الجنسية التركية"
+    },
+    "citizenship": {
+        "en": "Citizenship",
+        "ar": "الجنسية"
+    },
+    "citizenship_offers": {
+        "en": "Citizenship Offers",
+        "ar": "عروض الجنسية"
+    },
+    "read_more": {
+        "en": "Read More",
+        "ar": "قراءة المزيد"
+    },
+    "book_free_consultation": {
+        "en": "Book a free consultation",
+        "ar": "حجز استشارة مجانية"
+    },
+    "recent_properties": {
+        "en": "Recent Properties",
+        "ar": "مشاريع حديثه"
+    },
+    "contact": {
+        "en": "Contact",
+        "ar": "تواصل معنا"
+    },
+    "home": {
+        "en": "Home",
+        "ar": "الرئيسية"
+    },
+    "our_company": {
+        "en": "Our Company",
+        "ar": "من نحن"
+    },
+    "blog":{
+        "en": "Blog",
+        "ar": "المدونة"
+    },
+    "about_us": {
+        "en": "About Us",
+        "ar": "من نحن"
+    },
+    "hassle_free_products_for_buyers": {
+        "en": "Hassle Free Products For Buyers",
+        "ar": "منتجات خالية من المتاعب للمشترين"
+    },
+    "avoid_worries": {
+        "en": "Avoid Worries",
+        "ar": "تجنب القلق"
+    },
+    "finding_the_best_options": {
+        "en": "Finding The best options",
+        "ar": "إيجاد الخيار الأفضل"
+    },
+    "time_saving_for_investor": {
+        "en": "Time saving for investor",
+        "ar": "توفير الوقت للمستثمر"
+    },
+    "about_us_text": {
+        "en": "We've been working for more than ten years in Turkish real estates market. Your Home Istanbul is not a conciliator between buyer and seller, but working entirly for buyer.therefore removing the conflict of interest. We offer buyers invetment strategy, guid investment process, after sale property management services and many more services. We have delivered hundereds of title deeds. and throughout this period attain 100% satisfication of all our customers. We only deal with reliable projects, and matter for us is not just handing over the key to an apartment and siging contracts, but we are always beside you. We have served more than 100's of customers from different nationalities, such as US, Canada, Holland, UK, ..etc",
+        "ar": "نحن نعمل منذ أكثر من عشر سنوات في سوق العقارات التركي. إن Your Home Istanbul ليس توفيقًا بين المشتري والبائع ، ولكنه يعمل بالكامل للمشتري ، وبالتالي إزالة تضارب المصالح. نحن نقدم استراتيجية استثمار المشترين ، وعملية الاستثمار في الدليل ، وخدمات إدارة الممتلكات بعد البيع والعديد من الخدمات الأخرى. لقد قمنا بتسليم الكثير من سندات الملكية. وطوال هذه الفترة نحقق إرضاء جميع عملائنا بنسبة 100٪. نحن نتعامل فقط مع المشاريع الموثوقة ، والمهم بالنسبة لنا ليس فقط تسليم مفتاح الشقة وعقود التوقيع ، ولكننا دائمًا بجانبك. لقد خدمنا أكثر من 100 عميل من جنسيات مختلفة ، مثل الولايات المتحدة وكندا وهولندا والمملكة المتحدة .. إلخ"
+    },
+    "be_agent": {
+        "en": "Be An Agent",
+        "ar": "كن وكيلاً"
+    },
+    "send": {
+        "en": "Send",
+        "ar": "إرسال"
+    },
+    "be_agent_text": {
+        "en": "Wether you are an individual or an organization and you like to work with us as an agent or marketer, we welcome you to join our team.",
+        "ar": "سواء كنت فردًا أو مؤسسة وترغب في العمل معنا كوكيل أو مسوق ، نرحب بك للانضمام إلى فريقنا."
+    },
+    "sent_successfully": {
+        "en": "Sent Successfully",
+        "ar": "تم الارسال"
+    },
+    "ways_to_obtain_turkish_citizenship": {
+        "en": "Ways to obtain Turkish citizenship",
+        "ar": "طرق الحصول على الجنسية التركية"
+    },
+    "by_investment_route": {
+        "en": "By investment route ?",
+        "ar": "عن طريق الاستثمار؟"
+    },
+    "bank_account": {
+        "en": "Bank Account",
+        "ar": "حساب بنكي"
+    },
+    "bank_account_text": {
+        "en": "By depositing at least 500,000 USD in bank account and this amount must be held for three years, for more information",
+        "ar": "عن طريق إيداع ما لا يقل عن 500000 دولار أمريكي في حساب مصرفي ويجب الاحتفاظ بهذا المبلغ لمدة ثلاث سنوات ، لمزيد من المعلومات"
+    },
+    "business": {
+        "en": "Business",
+        "ar": "العمل"
+    },
+    "business_text": {
+        "en": "By establishing a business and recruiting at least 50 persons. For more information",
+        "ar": "من خلال إنشاء شركة وتوظيف ما لا يقل عن 50 شخصًا. للمزيد من المعلومات"
+    },
+    "real_estate": {
+        "en": "Real Estate",
+        "ar": "العقار"
+    },
+    "real_estate_text": {
+        "en": "By investing minimum of 250,000 USD in real estate, this property must be held for 3 years. For more information",
+        "ar": "من خلال استثمار 250.000 دولار أمريكي كحد أدنى في العقارات ، يجب الاحتفاظ بهذا العقار لمدة 3 سنوات. للمزيد من المعلومات"
+    },
+    "visa_free_countries": {
+        "en": "Visa Free Countries",
+        "ar": "البلدان الخالية من التأشيرات"
+    },
+    "visa_free_countries_1": {
+        "en": "Turkey passport is ranked 39. There are 72 countries that doesn't require visa from Turkish citizens to enter. Such as Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and more.",
+        "ar": "يحتل جواز السفر التركي المرتبة 39. هناك 72 دولة لا تتطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها."
+    },
+    "visa_free_countries_2": {
+        "en": "More than 42 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebenon, and more. More than 7 countries allow Turkish citizen to apply for online visa, including: Australia, Oman and more. ",
+        "ar": "تصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبينون وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما."
+    },
+    "benefits_of_turkish_citizenship": {
+        "en": "Benefits of Turkish Citizenship",
+        "ar": "فوائد الجنسية التركية"
+    },
+    "benefits_1": {
+        "en": "Permenent Right of living in Turkey.",
+        "ar": "حق دائم في العيش في تركيا."
+    },
+    "benefits_2": {
+        "en": "Entire family (Spouse, Children under 18 and disablechildren of any age).",
+        "ar": "الأسرة بأكملها (الزوج / الزوجة ، الأطفال دون سن 18 عامًا والمعاقين الأطفال في أي عمر)."
+    },
+    "benefits_3": {
+        "en": " You will have right to work.",
+        "ar": "سيكون لك الحق في العمل."
+    },
+    "benefits_4": {
+        "en": "- Visa free travel to more than 72 countries",
+        "ar": "السفر بدون تأشيرة إلى أكثر من 72 دولة"
+    },
+    "benefits_5": {
+        "en": "Easy visa application evaluation to all countries.",
+        "ar": "تقييم سهل لطلب التأشيرة لجميع البلدان."
+    },
+    "benefits_6": {
+        "en": "All rights granted to you same as any other Turkish citizen.",
+        "ar": "جميع الحقوق الممنوحة لك مثل أي مواطن تركي آخر."
+    },
+    "benefits_7": {
+        "en": "Right to vote",
+        "ar": "حق التصويت"
+    },
+    "who_among_us_doesnt_aspire_better_future": {
+        "en": "Who among us does not aspire to a better future?",
+        "ar": "من منا لا يطمح إلى مستقبل أفضل؟"
+    },
+    "aspire_text_1": {
+        "en": "If you are a businessman and you need a powerful passport; The Turkish passport allows its holder to enter more than 72 countries without requiring a visa in advance, with more than 42 countries issue visa to Turkish nationals upon their arrival and 7 countries allow Turkish nationals to apply for visa online.",
+        "ar": "إذا كنت رجل أعمال وتحتاج إلى جواز سفر قوي ؛ يسمح جواز السفر التركي لحامله بدخول أكثر من 72  البلدان دون الحاجة إلى تأشيرة مسبقة ، مع أكثر من تصدر 42 دولة تأشيرة للمواطنين الأتراك عند دخولهم  الوصول و 7 دول تسمح للمواطنين الأتراك بالتقدم لها تأشيرة عبر الإنترنت."
+    },
+    "aspire_text_2": {
+        "en": "If you want to live in a country that is economically strong, with strong infrastructure and great educational and health services comparable to European countries, then Turkey is the correct answer.",
+        "ar": "إذا كنت تريد أن تعيش في بلد قوي اقتصاديًا ، وبنية تحتية قوية وخدمات تعليمية وصحية رائعة تضاهي الدول الأوروبية ، فإن تركيا هي الإجابة الصحيحة."
+    },
+    "aspire_text_3": {
+        "en": "After the amendment of the Turkish citizenship law in 2018, instead of investing $ 1000000 and obtaining Turkish citizenship, the amount became much less than that of only $250000, with very simple and uncomplicated procedures. Which made many turn their eyes to Turkey for real estate investment and obtaining Turkish citizenship.",
+        "ar": "بعد تعديل قانون الجنسية التركية في 2018 ، بدلًا من استثمار 1000000 دولار والحصول على الجنسية التركية ، أصبح المبلغ أقل بكثير من 250000 دولار فقط ، بإجراءات بسيطة جدًا وغير معقدة. الأمر الذي جعل الكثيرين يوجهون أعينهم إلى تركيا للاستثمار العقاري والحصول على الجنسية التركية."
+    },
+    "aspire_text_4": {
+        "en": "In some countries, you are allowed to obtain citizenship in exchange for donating to the state a certain amount or buying a property. One of these countries is \"Malta\", where you can obtain citizenship through a investment of €896,000 – €1,150,000 and the property must be held for the duration of 5 years",
+        "ar": "في بعض البلدان ، يُسمح لك بالحصول على الجنسية مقابل التبرع بمبلغ معين للدولة أو شراء عقار. إحدى هذه البلدان هي  مالطا  ، حيث يمكنك الحصول على الجنسية من خلال استثمار بقيمة 896000 يورو - 1150000 يورو ويجب الاحتفاظ بالعقار لمدة 5 سنوات"
+    },
+    "aspire_text_5": {
+        "en": " Grenada also allows you to obtain its citizenship by paying $150,000 in donation to a government fund or buying a property of $ 350,000 and must be held for 5 years.",
+        "ar": "تسمح لك غرينادا أيضًا بالحصول على جنسيتها عن طريق دفع مبلغ 150.000 دولار أمريكي كتبرع لصندوق حكومي أو شراء عقار بقيمة 350.000 دولار أمريكي ويجب الاحتفاظ به لمدة 5 سنوات."
+    },
+    "aspire_text_6": {
+        "en": "But what is the investment value in taking this step?",
+        "ar": "ولكن ما هي قيمة الاستثمار في اتخاذ هذه الخطوة؟"
+    },
+    "aspire_text_7": {
+        "en": " Most of the countries that grant citizenship in exchange for a real estate investment, either the procedures are very complicated and the amount is huge, like some European countries, or they are countries where you buy a property that has no investment value, but you pay this amount in order to obtain a nationality. The matter in Turkey is completely different, it is a real investment and not only obtaining a passport, but due to the recovery of the real estate market in Turkey. After three years of obtaining Turkish citizenship, you can sell your property with a gain of up to 50% on the capital. Thus, you will have invested your money in a good and profitable manner, and at the same time you got all the advantages of becoming Turkish citizen.",
+        "ar": "معظم الدول التي تمنح الجنسية مقابل استثمار عقاري ، إما أن تكون الإجراءات معقدة للغاية والمبلغ ضخم ، مثل بعض الدول الأوروبية ، أو أنها دول تشتري فيها عقارًا ليس له قيمة استثمارية ، لكنك تدفع هذا المبلغ من أجل الحصول على الجنسية. الأمر في تركيا مختلف تمامًا ، فهو استثمار حقيقي وليس فقط الحصول على جواز سفر ، ولكن بسبب انتعاش سوق العقارات في تركيا. بعد ثلاث سنوات من الحصول على الجنسية التركية ، يمكنك بيع عقارك بربح يصل إلى 50٪ على رأس المال. وهكذا تكون قد استثمرت أموالك بطريقة جيدة ومربحة ، وفي نفس الوقت حصلت على جميع مزايا أن تصبح مواطنًا تركيًا."
+    },
+    "advantages": {
+        "en": "Advantages of obtaining Turkish citizenship",
+        "ar": "مزايا الحصول على الجنسية التركية"
+    },
+    "advantages_1": {
+        "en": "The Turkish economic development in the past years has drawn the world's attention to it and placed it on the list of the most developed countries from the last ten years.",
+        "ar": "لفتت التنمية الاقتصادية التركية في السنوات الماضية انتباه العالم إليها ووضعتها في قائمة الدول الأكثر تقدماً في السنوات العشر الماضية."
+    },
+    "advantages_2":{
+        "en": "This was one of the most important factors that attracted investors from all over the world and the desire of many people to obtain Turkish citizenship increased. Especially after the reduction of the minimum investment for obtaining citizenship in 2018 from $ 1,000,000 to $ 250,000, in addition to easing procedures related to obtaining citizenship.",
+        "ar": "كان هذا من أهم العوامل التي جذبت المستثمرين من جميع أنحاء العالم وزادت رغبة الكثير من الناس في الحصول على الجنسية التركية. خاصة بعد تخفيض الحد الأدنى للاستثمار للحصول على الجنسية عام 2018 من مليون دولار إلى 250 ألف دولار ، بالإضافة إلى تسهيل الإجراءات المتعلقة بالحصول على الجنسية."
+    },
+    "advantages_3": {
+        "en": " Certainly, there are many reasons why investors are investing in real estate in Turkey, and the most important of these reasons are:",
+        "ar": "بالتأكيد ، هناك العديد من الأسباب التي تدفع المستثمرين للاستثمار في العقارات في تركيا ، ومن أهم هذه الأسباب"
+    },
+    "advantages_4": {
+        "en": " The Turkish passport is ranked 39th in the world, and its holder can enter more than 70 countries without a visa, and more than 40 other countries with a visa on arrival in the airport.",
+        "ar": "يحتل جواز السفر التركي المرتبة 39 عالميًا ، ويمكن لحامله دخول أكثر من 70 دولة بدون تأشيرة ، وأكثر من 40 دولة أخرى بتأشيرة دخول عند الوصول إلى المطار."
+    },
+    "ease_of_procedures": {
+        "en": "Ease of procedures",
+        "ar": "سهولة الإجراءات"
+    },
+    "ease_text": {
+        "en": " There are great facilities in the procedures related to obtaining citizenship by real estate investment. After purchasing the property, Citizenship can be obtained in a very short period and through uncomplicated procedures.",
+        "ar": "هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الاستثمار العقاري. بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة."
+    },
+    "the_investment_values": {
+        "en": "The investment values",
+        "ar": "قيم الاستثمار"
+    },
+    "values_text": {
+        "en": "Real estate investment in Turkey is a guaranteed way to increase capital due to the development of the real estate market in Turkey and what it is witnessing from the continuous increase in prices.",
+        "ar": "الاستثمار العقاري في تركيا طريقة مضمونة لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
+    },
+    "dual_nationality": {
+        "en": "Dual nationality",
+        "ar": "الجنسية المزدوجة"
+    },
+    "dual_text": {
+        "en": "Turkey allows you to maintain your other nationality and does not require you to revoke it as some other countries do.",
+        "ar": "تسمح لك تركيا بالاحتفاظ بجنسيتك الأخرى ولا تطلب منك إلغاؤها كما تفعل بعض الدول الأخرى."
+    },
+    "validity": {
+        "en": "The length of Turkish passport validity",
+        "ar": "طول مدة صلاحية جواز السفر التركي"
+    },
+    "validity_text": {
+        "en": "The validity period of the Turkish passport is 10 years after receiving it. It can be renewed",
+        "ar": "مدة صلاحية جواز السفر التركي 10 سنوات بعد استلامه. يمكن تجديده"
+    },
+    "concessions": {
+        "en": "Concessions",
+        "ar": "امتيازات"
+    },
+    "concessions_text": {
+        "en": "A Turkish citizen gets all the benefits of education, health and retirement just like any Turkish citizen, and has the right to vote in the elections.",
+        "ar": "يحصل المواطن التركي على جميع مزايا التعليم والصحة والتقاعد تمامًا مثل أي مواطن تركي ، وله الحق في التصويت في الانتخابات."
+    },
+    "strength": {
+        "en": "The strength of the Turkish economy",
+        "ar": "قوة الاقتصاد التركي"
+    },
+    "strength_text": {
+        "en": "The Turkish economy is in continuous development and the Turkish government is carrying out continuous reforms to include Turkey in the top ten club",
+        "ar": "الاقتصاد التركي في تطور مستمر وتقوم الحكومة التركية بإصلاحات مستمرة لإدراج تركيا في قائمة العشرة الأوائل"
+    },
+    "facts": {
+        "en":"Facts about Turkish Citizenship",
+        "ar": "حقائق عن الجنسية التركية"
+    },
+   "facts_1": {
+       "en": "Time limit for the property to be held is 3 years",
+       "ar": "المهلة الزمنية للعقار المزمع عقده هي 3 سنوات"
+   },
+   "facts_2": {
+       "en": "You are allowed to sell your property after the 3 years’ time condition expires.",
+       "ar": "يُسمح لك ببيع الممتلكات الخاصة بك بعد انتهاء شرط 3 سنوات."
+   },
+   "facts_3": {
+    "en": "Applicant’s spouse, children under age of 18 and disabled children of any age are eligible to apply for citizenship under this scheme. ",
+    "ar": "زوج مقدم الطلب والأطفال الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للتقدم بطلب للحصول على الجنسية بموجب هذا النظام."
+   },
+   "facts_4": {
+    "en": "It is not necessary for the applicant to live in Turkey to obtain citizenship by this route.",
+    "ar": "ليس من الضروري أن يعيش مقدم الطلب في تركيا للحصول على الجنسية عن طريق هذا الطريق"
+    },
+    "facts_5": {
+        "en": "Turkish citizenship will be life long and descendants will be also born as Turkish citizens",
+        "ar": "ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك"
+    },
+    "facts_6": {
+        "en": "Turkey allows their citizens to hold multiple nationalities.",
+        "ar": "تسمح تركيا لمواطنيها بحمل جنسيات متعددة"
+    },
+    "about_your_home": {
+        "en": "About Your Home Istanbul",
+        "ar": "حول YourHome اسطنبول"
+    },
+    "footer_text_1": {
+        "en": "Together we the people achieve more we than any person could ever does snoopers alone..",
+        "ar": "معًا نحقق نحن الناس أكثر مما يمكن لأي شخص أن يفعله بمفرده .."
+    },
+    "location" : {
+        "en" : "Location",
+        "ar" : "الموقع"
+    },
+
+    "btn-readmore" : {
+        "en" : "Read more",
+        "ar" : "اقرأ المزيد"
+    },
+
+    "bathrooms" : {
+        "en" : "Bathrooms",
+        "ar" : "الحمامات"
+    },
+    "title-citzinship" : {
+        "en" : "Turkish Citizenship",
+        "ar" : "الجنسية التركية"
+    },
+    "desc1-citzinship" : {
+        "en" : "Get Turkish passport with simplified application procedure. Turkish citizenship offers many routes to relocating to UK and USA under visa categories available for Turkish Passport holders.",
+        "ar" : "احصل على جواز سفر تركي مع إجراءات تقديم مبسطة. توفر الجنسية التركية العديد من الطرق للانتقال إلى المملكة المتحدة والولايات المتحدة الأمريكية بموجب فئات التأشيرة المتاحة لحاملي جوازات السفر التركية."
+    },
+    "desc2-citzinship" : {
+        "en" : "Turkey passport is ranked 39. There are 72 countries that doesn’t require visa from Turkish citizens to enter. Such as: Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and more. More than 42 countries issue visa on arrival to Turkish Citizens, such as: Kuwait, Bahrain, Lebanon and more. More than 7 countries allow Turkish citizen to apply for online visa including: Australia and Oman and more.",
+        "ar" : "يحتل جواز السفر التركي المرتبة 39. هناك 72 دولة لا تتطلب تأشيرة دخول من المواطنين الأتراك للدخول. مثل: قطر ، تونس ، الأردن ، العراق ، المغرب ، اليابان ، كوريا الجنوبية ، ماليزيا ، سنغافورة ، هونج كونج ، إندونيسيا ، البرازيل ، الأرجنتين ، جنوب إفريقيا ، تايلاند ، أوكرانيا ، وأكثر من ذلك. تصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبنان وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت بما في ذلك: أستراليا وعمان وغيرهما."
+    },
+
+    "quation-citizenship" : {
+        "en" : "Ways to obtain Turkish citizenship \n by investment route?",
+        "ar" : "ماهي طرق الحصول على الجنسية التركية \n عن طريق الاستثمار؟ "
+    },
+
+    "title-visa" : {
+        "en" : "Visa Free Countries",
+        "ar" : "البلدان الخالية من التأشيرات"
+    },
+
+    "desc1-visa" : {
+        "en" : "Turkey passport is ranked 39. There are 72 countries that doesn't require visa from Turkish citizens to enter. Such as Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and more.",
+        "ar" : "يحتل جواز السفر التركي المرتبة 39. هناك 72 دولة لا تتطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها."
+    },
+
+    "desc2-visa" : {
+        "en" : "More than 42 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebenon, and more. More than 7 countries allow Turkish citizen to apply for online visa, including: Australia, Oman and more.",
+        "ar" : "تصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبينون وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما."
+    },
+
+    "title1-faq" : {
+        "en" : "+ Benefits of Turkish Citizenship",
+        "ar" : "+ فوائد الجنسية التركية"
+    },
+
+    "rep1-faq" : {
+        "en" : "- Permenent Right of living in Turkey. \n - Entire family (Spouse, Children under 18 and disable children of any age). \n - You will have right to work. \n - Visa free travel to more than 72 countries. \n - Easy visa application evaluation to all countries. \n - All rights granted to you same as any other Turkish citizen. \n - Right to vote.",
+        "ar" : "- حق العيش الدائم في تركيا. \n - الأسرة بأكملها (الزوج / الزوجة ، والأطفال دون سن 18 عامًا ، وإعاقة الأطفال في أي عمر). \n - سيكون لك الحق في العمل. \n - السفر بدون تأشيرة إلى أكثر من 72 دولة. \n - تقييم سهل لطلب التأشيرة لجميع البلدان. \n - جميع الحقوق الممنوحة لك مثل أي مواطن تركي آخر. \n - حق التصويت."
+    },
+
+    "title2-faq" : {
+        "en" : "+ Who among us does not aspire to a better future?",
+        "ar" : "+ من منا لا يطمح لمستقبل أفضل؟"
+    },
+
+    "rep2-faq" : {
+        "en" : "If you are a businessman and you need a powerful passport; The Turkish passport allows its holder to enter more than 72 countries without requiring a visa in advance, with more than 42 countries issue visa to Turkish nationals upon their arrival and 7 countries allow Turkish nationals to apply for visa online. \n If you want to live in a country that is economically strong, with strong infrastructure and great educational and health services comparable to European countries, then Turkey is the correct answer. \n After the amendment of the Turkish citizenship law in 2018, instead of investing $ 1000000 and obtaining Turkish citizenship, the amount became much less than that of only $250000, with very simple and made many turn their eyes to Turkey for real estate investment and obtaining Turkish citizenship. \n In some countries, you are allowed to obtain citizenship in exchange for donating to the state a certain amount or buying a property. One of these countries is 'Malta', where you can obtain citizenship through a investment of €896,000 –€1,150,000 and the property must be held for the duration of 5 years \n Grenada also allows you to obtain its citizenship by paying $150,000 in donation to a government fund or buying a property of $ 350,000 and must be held for 5 years. \n But what is the investment value in taking this step? \n Most of the countries that grant citizenship in exchange for a real estate investment, either the procedures are very complicated and the amount is huge, like some European countries, or they are countries where you buy a property that has no investment value, but you pay this amount in order to obtain a nationality. The matter in Turkey is passport, but due to the recovery of the real estate market in Turkey. After three years of obtaining Turkish citizenship, you can sell your property with a gain of up to 50% on the capital. Thus, you will have invested your money in a good and profitable manner, and at the same time you got all the advantages of becoming Turkish citizen.",
+        "ar" : "إذا كنت رجل أعمال وتحتاج إلى جواز سفر قوي ؛ يسمح جواز السفر التركي لحامله بدخول أكثر من 72 دولة دون الحاجة إلى تأشيرة مسبقة ، حيث تصدر أكثر من 42 دولة تأشيرة للمواطنين الأتراك عند وصولهم وتسمح 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت. \n إذا كنت ترغب في العيش في بلد قوي اقتصاديًا وبنية تحتية قوية وخدمات تعليمية وصحية رائعة تضاهي الدول الأوروبية ، فإن تركيا هي الإجابة الصحيحة. \n بعد تعديل قانون الجنسية التركية في عام 2018 ، بدلًا من استثمار 1000000 دولار والحصول على الجنسية التركية ، أصبح المبلغ أقل بكثير من 250000 دولار فقط ، وببساطة شديدة وجعل الكثيرين يتجهون إلى تركيا للاستثمار العقاري و الحصول على الجنسية التركية. \n في بعض البلدان ، يُسمح لك بالحصول على الجنسية مقابل التبرع للدولة بمبلغ معين أو شراء عقار. إحدى هذه الدول هي 'مالطا' ، حيث يمكنك الحصول على الجنسية من خلال استثمار بقيمة 896000 يورو - 1150000 يورو ويجب الاحتفاظ بالعقار لمدة 5 سنوات \n تسمح لك غرينادا أيضًا بالحصول على الجنسية عن طريق دفع مبلغ 150.000 دولار أمريكي على سبيل التبرع إلى صندوق حكومي أو شراء عقار بقيمة 350.000 دولار أمريكي ويجب الاحتفاظ به لمدة 5 سنوات. \n ولكن ما هي قيمة الاستثمار في اتخاذ هذه الخطوة؟ \n معظم الدول التي تمنح الجنسية مقابل استثمار عقاري ، إما أن تكون الإجراءات معقدة للغاية والمبلغ ضخم ، مثل بعض الدول الأوروبية ، أو أنها دول تشتري فيها عقارًا ليس له قيمة استثمارية ، ولكن أنت تدفع هذا المبلغ من أجل الحصول على الجنسية. الأمر في تركيا هو جواز السفر ، ولكن بسبب انتعاش سوق العقارات في تركيا. بعد ثلاث سنوات من الحصول على الجنسية التركية ، يمكنك بيع عقارك بربح يصل إلى 50٪ على رأس المال. وبذلك تكون قد استثمرت أموالك بطريقة جيدة ومربحة ، وفي نفس الوقت حصلت على جميع مزايا أن تصبح مواطنًا تركيًا."
+    },
+
+    "title3-faq" : {
+        "en" : "+ Advantages of obtaining Turkish citizenship",
+        "ar" : "+ مميزات الحصول على الجنسية التركية"
+    },
+
+    "rep3-faq" : {
+        "en" : "The Turkish economic development in the past years has drawn the world's attention to it and placed it on the list of the most developed countries from the last ten years. \n This was one of the most important factors that attracted investors from all over the world and the desire of many people to obtain Turkish citizenship increased. Especially after the reduction of the minimum investment for obtaining citizenship in 2018 from $ 1,000,000 to $ 250,000, in addition to easing procedures related to obtaining citizenship. \n Certainly, there are many reasons why investors are investing in real estate in Turkey, and the most important of these reasons are: \n The Turkish passport is ranked 39th in the world, and its holder can enter more than 70 countries without a visa, and more than 40 other countries with a visa on arrival in the airport.",
+        "ar" : "لفتت التنمية الاقتصادية التركية في السنوات الماضية انتباه العالم إليها ووضعتها على قائمة الدول الأكثر تقدماً في السنوات العشر الماضية. \n كان هذا من أهم العوامل التي جذبت المستثمرين من جميع أنحاء العالم وزادت رغبة الكثير من الناس في الحصول على الجنسية التركية. خاصة بعد تخفيض الحد الأدنى للاستثمار للحصول على الجنسية عام 2018 من مليون دولار إلى 250 ألف دولار ، بالإضافة إلى تسهيل الإجراءات المتعلقة بالحصول على الجنسية. \n بالتأكيد ، هناك العديد من الأسباب التي تدفع المستثمرين للاستثمار في العقارات في تركيا ، ومن أهم هذه الأسباب: \n جواز السفر التركي يحتل المرتبة 39 في العالم ، ويمكن لحامله الدخول إلى أكثر من 70 دولة بدون فيزا ، وأكثر من 40 دولة أخرى بتأشيرة عند الوصول إلى المطار."
+    },
+
+    "title4-faq" : {
+        "en" : "+ Ease of procedures",
+        "ar" : "+ سهولة الإجراءات"
+    },
+
+    "rep4-faq" : {
+        "en" : "There are great facilities in the procedures related to obtaining citizenship by real estate investment. After purchasing the property, Citizenship can be obtained in a very short period and through uncomplicated procedures.",
+        "ar" : "هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الاستثمار العقاري. بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة."
+    },
+
+    "title5-faq" : {
+        "en" : "+ The investment values",
+        "ar" : "+ قيم الاستثمار"
+    },
+
+    "rep5-faq" : {
+        "en" : "Real estate investment in Turkey is a guaranteed way to increase capital due to the development of the real estate market in Turkey and what it is witnessing from the continuous increase in prices.",
+        "ar" : "الاستثمار العقاري في تركيا وسيلة مضمونة لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
+    },
+
+    "title6-faq" : {
+        "en" : "+ Dual nationality",
+        "ar" : "+ جنسية مزدوجة"
+    },
+
+    "rep6-faq" : {
+        "en" : "Turkey allows you to maintain your other nationality and does not require you to revoke it as some other countries do.",
+        "ar" : "تسمح لك تركيا بالاحتفاظ بجنسيتك الأخرى ولا تطلب منك إلغاؤها كما تفعل بعض الدول الأخرى."
+    },
+
+    "title7-faq" : {
+        "en" : "+ The length of Turkish passport validity",
+        "ar" : "+ مدة صلاحية جواز السفر التركي"
+    },
+
+    "rep7-faq" : {
+        "en" : "The validity period of the Turkish passport is 10 years after receiving it. It can be renewed",
+        "ar" : "مدة صلاحية جواز السفر التركي 10 سنوات بعد استلامه. يمكن تجديده"
+    },
+
+    "title8-faq" : {
+        "en" : "+ Concessions",
+        "ar" : "+ الامتيازات"
+    },
+
+    "rep8-faq" : {
+        "en" : "A Turkish citizen gets all the benefits of education, health and retirement just like any Turkish citizen, and has the right to vote in the elections.",
+        "ar" : "يحصل المواطن التركي على جميع مزايا التعليم والصحة والتقاعد تمامًا مثل أي مواطن تركي ، وله الحق في التصويت في الانتخابات."
+    },
+
+    "title9-faq" : {
+        "en" : "+ The strength of the Turkish economy",
+        "ar" : "+ قوة الاقتصاد التركي"
+    },
+
+    "rep9-faq" : {
+        "en" : "The Turkish economy is in continuous development and the Turkish government is carrying out continuous reforms to include Turkey in the top ten club",
+        "ar" : "الاقتصاد التركي في تطور مستمر وتقوم الحكومة التركية بإصلاحات مستمرة لإدراج تركيا في قائمة العشرة الأوائل"
+    },
+
+    "title10-faq" : {
+        "en" : "+ Facts about Turkish Citizenship",
+        "ar" : "+ حقائق عن الجنسية التركية"
+    },
+
+    "rep10-faq" : {
+        "en" : "Time limit for the property to be held is 3 years \n - You are allowed to sell your property after the 3 years’ time condition expires. \n -Applicant’s spouse, children under age of 18 and disabled children of any age are eligible to apply for citizenship under this scheme. \n - It is not necessary for the applicant to live in Turkey to obtain citizenship by this route. \n - Turkish citizenship will be life long and descendants will be also born as Turkish citizens \n - Turkey allows their citizens to hold multiple nationalities.",
+        "ar" : "المهلة الزمنية للعقار الذي سيتم الاحتفاظ به هي 3 سنوات \n - يُسمح لك ببيع الممتلكات الخاصة بك بعد انتهاء فترة 3 سنوات. \n -زوج مقدم الطلب والأطفال الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للتقدم بطلب للحصول على الجنسية بموجب هذا النظام. \n - ليس من الضروري أن يعيش المتقدم في تركيا للحصول على الجنسية عن طريق هذا الطريق. \n - ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك \n - تسمح تركيا لمواطنيها بحمل جنسيات متعددة."
+    },
+
+    "title-blogdetail" : {
+        "en" : "How to Make Money in Real Estate",
+        "ar" : "كيف تكسب المال في العقارات"
+    },
+
+    "desc1-blogdetail" : {
+        "en" : "Over the last decade, many places have encountered a rise in real estate projects and as a matter of fact, even due to the current economic and political uncertainty, real estate keeps attracting capital. \n The constant environment fluctuations, because of technological impact, social, pandemic & demographic changes and various upcoming trends have resulted in shaping new real estate opportunities and lead to the rise of alternative real estate investments. \n Some of those are related to an increase in student housing facilities, co-working building, and co-living properties, especially in cities due to the migration from the countryside. This trend is obviously not new but has been strong over the last decade resulting in high demand for these types of real estate properties and accommodations. \n This has lead many promoters across the globe to develop specific and dedicated projects in order to coop with clients’ expectations and demands, exiting the real estate cyclical aspect to move toward a fast-pace gearing.",
+        "ar" : "على مدى العقد الماضي ، شهدت العديد من الأماكن ارتفاعًا في المشاريع العقارية ، وفي واقع الأمر ، حتى بسبب عدم اليقين الاقتصادي والسياسي الحالي ، تستمر العقارات في جذب رأس المال. \n تقلبات البيئة المستمرة ، بسبب التأثير التكنولوجي والتغيرات الاجتماعية والوبائية والديموغرافية والاتجاهات المختلفة القادمة أدت إلى تشكيل فرص عقارية جديدة وأدت إلى ظهور استثمارات عقارية بديلة. \n يرتبط بعضها بزيادة في مرافق الإسكان الطلابي ، ومباني العمل المشترك ، والممتلكات المشتركة ، خاصة في المدن بسبب الهجرة من الريف. من الواضح أن هذا الاتجاه ليس جديدًا ولكنه كان قوياً خلال العقد الماضي مما أدى إلى ارتفاع الطلب على هذه الأنواع من العقارات وأماكن الإقامة. \n وقد أدى هذا إلى قيام العديد من المروجين في جميع أنحاء العالم بتطوير مشاريع محددة ومخصصة من أجل التعاون مع توقعات العملاء ومطالبهم ، والخروج من الجانب الدوري للعقارات للتحرك نحو تروس سريعة."
+    },
+
+    "desc2-blogdetail" : {
+        "en" : "Whether you're curious about the investment potential of real estate or you're simply sick of infomercials promising little-known ways to 'profit from your property,' it's worth learning, for real, how real estate creates wealth. \n The most common way real estate offers a profit: It appreciates—that is, it increases in value. This is achieved in different ways for different types of property, but it is only realized in one way: through selling. However, you can increase your return on investment on a property in several ways. One way—if you borrowed money to buy the property—is to refinance the loan at lower interest. This will lower your cost basis for the property, thus increasing the amount you clear from it. \n When considering appreciation, you have to factor in the economic impact of inflation. An annual inflation rate of 10% means that your dollar can only buy about 90% of the same goods the following year, and that includes property. If a piece of land was worth $100,000 in 1970 and it sat dormant and undeveloped for decades, it would still be worth many times more today. Because of runaway inflation throughout the 1970s and a steady pace since, it would likely take more than $500,000 to purchase that land now, assuming $100,000 was fair market value at the time. \n Depending on your rights to the land, companies may pay you royalties for any discoveries or regular payments for any structures they add. These include, for example, pump jacks, pipelines, gravel pits, access roads, and cell towers. Raw land can also be rented for production, usually agricultural production, and land tracts with trees may be valuable for the timber that can be periodically harvested.",
+        "ar" : "سواء كنت مهتمًا بالإمكانيات الاستثمارية للعقار أو كنت ببساطة قد سئمت من الإعلانات التجارية التي تعد بطرق غير معروفة 'للربح من ممتلكاتك' ، فإن الأمر يستحق التعلم ، على أرض الواقع ، كيف تخلق العقارات الثروة. \n الطريقة الأكثر شيوعًا لتقديم العقارات ربحًا: إنها تقدر - أي تزيد قيمتها. يتم تحقيق ذلك بطرق مختلفة لأنواع مختلفة من العقارات ، ولكن يتم تحقيقه بطريقة واحدة فقط: من خلال البيع. ومع ذلك ، يمكنك زيادة عائد الاستثمار على العقارات بعدة طرق. إحدى الطرق - إذا اقترضت المال لشراء العقار - هي إعادة تمويل القرض بفائدة أقل. سيؤدي ذلك إلى خفض أساس التكلفة الخاص بك للممتلكات ، وبالتالي زيادة المبلغ الذي تخلصه منه. \n عند التفكير في التقدير ، عليك أن تأخذ في الاعتبار التأثير الاقتصادي للتضخم. معدل التضخم السنوي 10٪ يعني أن الدولار يمكنه شراء حوالي 90٪ فقط من نفس السلع في العام التالي ، وهذا يشمل الممتلكات. إذا كانت قطعة الأرض تساوي 100000 دولار في عام 1970 وظلت نائمة وغير مطورة لعقود ، فستظل تساوي عدة مرات اليوم. بسبب التضخم الجامح طوال السبعينيات والوتيرة الثابتة منذ ذلك الحين ، من المحتمل أن يستغرق الأمر أكثر من 500000 دولار لشراء تلك الأرض الآن ، بافتراض أن 100000 دولار كانت قيمة سوقية عادلة في ذلك الوقت. \n اعتمادًا على حقوقك في الأرض ، قد تدفع لك الشركات إتاوات مقابل أي اكتشافات أو مدفوعات منتظمة لأي هياكل تضيفها. وتشمل هذه ، على سبيل المثال ، رافعات المضخات وخطوط الأنابيب وحفر الحصى وطرق الوصول وأبراج الخلايا. يمكن أيضًا استئجار الأراضي الخام للإنتاج ، عادةً للإنتاج الزراعي ، وقد تكون قطع الأراضي المزروعة بالأشجار ذات قيمة للأخشاب التي يمكن حصادها بشكل دوري."
+    },
+
+    "title-ways1" : {
+        "en" : "Bank Account",
+        "ar" : "حساب البنك"
+    },
+
+    "title-ways2" : {
+        "en" : "Business",
+        "ar" : "أعمال"
+    },
+
+    "title-ways3" : {
+        "en" : "Real Estate",
+        "ar" : "العقارات"
+    },
+
+    "desc-ways1" : {
+        "en" : "By depositing at least 500,000 USD in bank account and this amount must be held for three years, for more information",
+        "ar" : "عن طريق إيداع ما لا يقل عن 500000 دولار أمريكي في حساب مصرفي وهذا يجب الاحتفاظ بالمبلغ لمدة ثلاث سنوات ، لمزيد من المعلومات"
+    },
+
+    "desc-ways2" : {
+        "en" : "By establishing a business and recruiting at least 50 persons. For more information",
+        "ar" : "من خلال إنشاء شركة وتوظيف ما لا يقل عن 50 شخصًا. للمزيد من المعلومات"
+    },
+
+    "desc-ways3" : {
+        "en" : "By investing minimum of 250,000 USD in real estate, this property must be held for 3 years. For more information",
+        "ar" : "من خلال استثمار 250.000 دولار أمريكي كحد أدنى في العقارات ، يجب الاحتفاظ بهذا العقار لمدة 3 سنوات. للمزيد من المعلومات"
+    },
+
+    "button2-citzinship" : {
+        "en" : "Book a free consultation",
+        "ar" : "احجز استشارة مجانية"
+    },
+    "button3-citzinship" : {
+        "en" : "Citizenship offers",
+        "ar" : "عروض الجنسية"
+    },
+
+    "title-properties": {
+        "en" : "Recent Properties",
+        "ar" : "الخصائص الأخيرة"
+    },
+
+    "view_property": {
+        "en" : "View Property",
+        "ar" : "مشاهدة الممتلكات"
+    },
+
+    "featured": {
+        "ar": "متميز",
+        "en" : "Featured"
+    },
+
+    "send_msg": {
+        "en" : "Send Message",
+        "ar" : "ارسال رسالة"
+    },
+
+    "recent" : {
+        "en" : "Recent",
+        "ar" : "الأخيرة"
+    },
+
+    "title-testimonials" : {
+        "en" : "Client Testimonials",
+        "ar" : "تقييم العملاء"
+    },
+
+    "title-services" : {
+        "en" : "Company Services",
+        "ar" : "خدمات الشركة"
+    },
+
+    "heading-contact": {
+        "en" : "Looking for More?",
+        "ar": "تعرف على المزيد"
+    },
+
+    "contact-property": {
+        "en": "Browse Property",
+        "ar" : "تصفح العقارات"
+    },
+
+    "desc-contact" : {
+        "en" : "Looking to Buy a new property or Sell an existing one? \n  YourHome provides an awesome solution!",
+        "ar" : "تبحث لشراء عقار جديد أو بيع عقار موجود؟ يوفر منزلك حلاً رائعًا!"
+    },
+
+    "desc-contact2" : {
+        "en" : "Talk to our experts or Browse through more properties",
+        "ar" : "تحدث إلى خبرائنا أو تصفح المزيد من العقارات"
+    },
+
+    "title-contactus" : {
+        "en" : "Contact Us",
+        "ar" : "اتصل بنا"
+    },
+
+    "btn-contact" : {
+        "en" : "Get In Touch",
+        "ar" : "اتصل بنا"
+    },
+
+    "desc-partner": {
+        "en" : "We honoured to have these amazing partners.",
+        "ar" : "يشرفنا أن يكون لدينا هؤلاء الشركاء الرائعون."
+    },
+
+    "start-from": {
+        "en" : "Start from:",
+        "ar" : "يبدأ من:"
+    },
+
+    "title-team" : {
+        "en" : "Team Members",
+        "ar" : "أعضاء الفريق"
+    },
+
+    "title-latestblog" : {
+        "en" : "Latest Blog",
+        "ar" : "أحدث المقالات"
+    },
+
+    "title-partners" : {
+        "en" : "Our Partners",
+        "ar" : "عملائنا"
+    },
+
+    "link-home" : {
+        "en" : "Home",
+        "ar" : "الرئيسية"
+    },
+    "link-company" : {
+        "en" : "Our Company",
+        "ar" : "عن الشركة"
+    },
+    "link-properties" : {
+        "en" : "Properties",
+        "ar" : "العقارات"
+    },
+    "link-testimonails" : {
+        "en" : "Testimonials",
+        "ar" : "التقييمات"
+    },
+    "link-blog" : {
+        "en" : "Blog",
+        "ar" : "المقالات"
+    },
+    "link-contact" : {
+        "en" : "Contact",
+        "ar" : "الاتصال"
+    },
+    "lang-ar" : {
+        "en" : "Arabic",
+        "ar" : "العربية"
+    },
+    "lang-en" : {
+        "en" : "English",
+        "ar" : "الانجليزية"
+    },
+
+    "title-aboutfooter" : {
+        "en" : "About Your Home Istanbul",
+        "ar" : "عن منزلك اسطنبول"
+    },
+
+    "desc-aboutfooter" : {
+        "en" : "Together we the people achieve more we than any person could ever does snoopers alone..",
+        "ar" : "معًا نحقق نحن الناس أكثر مما يمكن لأي شخص أن يفعله المتلصصون بمفرده .."
+    },
+
+    "title-footer" : {
+        "en" : "Your Home Istanbul",
+        "ar" : "منزلك اسطنبول"
+    },
+
+    "link-aboutfooter" : {
+       "en" : "About",
+       "ar" : "عن الشركة" 
+    },
+
+    "link-volunteerfooter" : {
+        "en" : "Become A Volunteer",
+        "ar" : "كن متطوعًا"
+    },
+
+    "link-eventfooter" : {
+        "en" : "Event",
+        "ar" : "أنشط"
+    },
+
+    "link-galleryfooter" : {
+        "en" : "Gallery",
+        "ar" : "العروض"
+    },
+
+    "link-newsfooter" : {
+        "en" : "News",
+        "ar" : "الأخبار"
+    },
+
+    "link-legalfoter" : {
+        "en" : "Legal",
+        "ar" : "قانوني"
+    },
+
+    "link-policyfooter" : {
+        "en" : "Privacy Policy",
+        "ar" : "سياسة الخصوصية"
+    },
+
+    "link-termsfooter" : {
+        "en" : "User Terms",
+        "ar" : "شروط المستخدم"
+    },
+
+    "btn-sendfooter" : {
+        "en" : "Send",
+        "ar" : "ارسال"
+    },
+
+    "input-name" : {
+        "en" : "Name",
+        "ar" : "الاسم"
+    },
+
+    "input-fullname" : {
+        "en" : "Full Name",
+        "ar" : " الاسم الكامل"
+    },
+
+    "input-email" : {
+        "en" : "Email",
+        "ar" : "البريد الالكتروني"
+    },
+    "input-country" : {
+        "en" : "Country",
+        "ar" : "البلد"
+    },
+    "input-message" : {
+        "en" : "Your Message",
+        "ar" : "رسالتك"
+    },
+    "input-phone" : {
+        "en" : "Your Phone",
+        "ar" : "رقمك"
+    },
+
+    "facebook" : {
+        "en" : "Facebook",
+        "ar" : "فايسبوك"
+    },
+
+    "twitter" : {
+        "en" : "Twitter",
+        "ar" : "تويتر"
+    },
+
+    "linkedin" : {
+        "en" : "LinkedIn",
+        "ar" : "لينكيدين"
+    },
+
+    "copylink" : {
+        "en" : "Copy Link",
+        "ar" : "نسخ الرابط"
+    },
+
+    "desc-aboutcomany" : {
+        "en" : "We've been working for more than ten years in Turkish real estates market. Your Home Istanbul is not a conciliator between buyer and seller, but working entirly for buyer.therefore removing the conflict of interest. We offer buyers invetment strategy, guid investment process, after sale property management services and many more services. We have delivered hundereds of title deeds. and throughout this period attain 100% satisfication of all our customers. We only deal with reliable projects, and matter for us is not just handing over the key to an apartment and siging contracts, but we are always beside you. We have served more than 100's of customers from different nationalities, such as US, Canada, Holland, UK, ..etc",
+        "ar" : "نحن نعمل منذ أكثر من عشر سنوات في سوق العقارات التركي. منزلك اسطنبول ليس توفيقًا بين البائع والمشتري ، ولكنه يعمل بالكامل للمشتري. وبالتالي إزالة تضارب المصالح. نحن نقدم استراتيجية استثمار المشترين ، وعملية الاستثمار في الدليل ، وخدمات إدارة الممتلكات بعد البيع والعديد من الخدمات الأخرى. لقد قمنا بتسليم الكثير من سندات الملكية. وطوال هذه الفترة نحقق إرضاء جميع عملائنا بنسبة 100٪. نحن نتعامل فقط مع المشاريع الموثوقة ، والمهم بالنسبة لنا ليس فقط تسليم مفتاح الشقة وعقود التوقيع ، ولكننا دائمًا بجانبك. لقد خدمنا أكثر من 100 عميل من جنسيات مختلفة ، مثل الولايات المتحدة وكندا وهولندا والمملكة المتحدة .. إلخ"
+    },
+
+    "title-agent" : {
+        "en" : "Be An Agent",
+        "ar" : "كن وكيلا"
+    },
+
+    "desc-agent" : {
+        "en" : "Whether you are an individual or an organization and you like to work with us as an agent or marketer, we welcome you to join our team.",
+        "ar" : "سواء كنت فردًا أو مؤسسة وترغب في العمل معنا كوكيل أو مسوق ، نرحب بك للانضمام إلى فريقنا."
+    },
+
+    "title-aboutus" : {
+        "en" : "About Us",
+        "ar" : "معلومات عنا"
+    },
+
+    "feature1" : {
+        "en" : "Time Saving For investor",
+        "ar" : "توفير الوقت للمستثمر"
+    },
+
+    "feature2" : {
+        "en" : "Avoid Worries",
+        "ar" : "تجنب القلق"
+    },
+
+    "feature3" : {
+        "en" : "Finding the best options",
+        "ar" : "البحث عن أفضل الخيارات"
+    },
+
+    "feature4" : {
+        "en" : "Hassle Free Products for buyers",
+        "ar" : "منتجات خالية من المتاعب للمشترين"
+    },
+
+
+    "Area" : {
+        "en" : "Aria",
+        "ar" : "المنطقة"
+    },
+
+    "Code" : {
+        "en" : "Code",
+        "ar" : "الرمز"
+    },
+
+    "nearby" : {
+        "en" : "Project Nearby",
+        "ar" : "مشروع قريب"
+    },
+
+    "questproj" : {
+        "en" : "Why This Project?",
+        "ar" : "لماذا هذا المشروع؟"
+    },
+
+    "aboutproj" : {
+        "en" : "About This Project",
+        "ar" : "حول هذا المشروع"
+    },
+
+    "videoproj" : {
+        "en" : "Video For This Project",
+        "ar" : "فيديو لهذا المشروع"
+    },
+
+    "sharproj" : {
+        "en" : "Share Via",
+        "ar" : "شارك عبر"
+    },
+
+    "similairproj" : {
+        "en" : "Similar Projects",
+        "ar" : "مشاريع مماثلة"
+    }
+
+}
+
+
+
+

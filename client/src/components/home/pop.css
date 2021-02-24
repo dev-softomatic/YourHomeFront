@@ -1,0 +1,73 @@
+#modal .modal-body {
+    background-image: url('../citizenship/icons/circle_dots.png');
+    background-position: -6px -293px;
+    background-repeat: no-repeat;
+}
+
+
+#modal .modal-dialog.modal-lg {
+    width: 575px !important;
+    margin: auto;
+}
+
+@media(max-width: 767px) {
+    #modal .modal-dialog.modal-lg {
+        width: 80% !important;
+        margin: auto;
+    }
+}
+
+#modal .react-calendar {
+    width: 280px !important;
+}
+
+#modal .react-calendar__tile:disabled {
+    background-color: transparent;
+}
+
+
+.modal-body img {
+    width: 39%;
+    margin: auto;
+    display: block;
+}
+
+.modal-body .react-calendar {
+    border-radius: 9px;
+    box-shadow: -1px 3px 5px #ccc;
+    border: 1px solid #fff !important;
+}
+
+.modal-body .react-calendar__navigation {
+    margin-bottom: 0 !important;
+}
+
+.modal-body .react-calendar button {
+    padding: 6px;
+    text-align: center !important;
+}
+
+.modal-body .react-calendar button.react-calendar__tile--active {
+    background: #ffcf0a !important;
+    border-radius: 50% !important;
+    padding: 10px !important;
+}
+
+
+#modal form input{
+   border: none;
+   box-shadow: -1px 3px 5px #ccc;
+   border-radius: 7px;
+}
+
+#modal form input::placeholder {
+    color: #074252;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.modal-footer {
+    border: 0 !important;
+    padding: 10px !important;
+}
+
