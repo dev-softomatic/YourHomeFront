@@ -91,10 +91,10 @@ const Navbar = ({language: {lang, locale}, setLanguage, getCategories, category:
         <Link className="nav-link text-dark" to="/contact" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={e => setActive('/contact')}>{getStr('contact')}</Link>
       </li>
       <li className="nav-item ml-2 d-flex">
-        <p className="nav-link nav-number text-dark m-0 d-flex" dir="ltr">
+        <a href="tel:+90-553-224-32-34" className="nav-link nav-number text-dark m-0 d-flex" dir="ltr">
           <i className="fa fa-phone"></i>
           +905532243234
-        </p>
+        </a>
       </li>
       <li className="nav-item ml-2">
           {

@@ -47,8 +47,8 @@ const Citzinship = ({language}) => {
               <p className="paragBorder" style={{padding: lang === "ar" ? '10px 10px 20px 5px' : '10px 10px 20px 5px', lineHeight: 1.7, margin: lang === "ar" ? "0px 8px 0px 0px" : "0px 0px 0px 8px", border: '5px #ccc', borderStyle: lang === "ar" ? "none solid none none" : "none none none solid" , backgroundColor: '#fff'}}> read
                 {language === 'en' ? data.section2_en : data.section2_ar}
               </p>
-              <Link to="/citizenship" className={`btn btn-outline-dark btn-lg ${lang === 'ar' ? "ml-1 mr-1" : "mr-1 ml-1"} mt-3`}>{getStr('read_more')}</Link>
-              <button className={`btn btn-outline-dark btn-lg ${lang === 'ar' ? "ml-3 mr-2" : "mr-1 ml-1"} mt-3`} type="button" data-toggle="modal" data-target="#modal">{getStr('book_free_consultation')}</button>
+              <Link to="/citizenship" className={`btn btn-outline-dark btn-read btn-lg ${lang === 'ar' ? "ml-1 mr-1" : "mr-1 ml-1"} mt-3`}>{getStr('read_more')}</Link>
+              <button className={`btn btn-outline-light border-dark btn-dark btn-lg btn-book ${lang === 'ar' ? "ml-3 mr-2" : "mr-1 ml-1"} mt-3`} type="button" data-toggle="modal" data-target="#modal">{getStr('book_free_consultation')}</button>
             </div>
           </div>
         </div>

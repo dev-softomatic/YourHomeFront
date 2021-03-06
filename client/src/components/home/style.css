@@ -8,6 +8,10 @@
   opacity: 0.25;
 }
 
+#myCarousel {
+  margin-top: 96px !important;
+}
+
 #myCarousel .carousel-item {
   height: 550px;
 }

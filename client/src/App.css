@@ -18,25 +18,49 @@ html:lang(en) * {
 html:lang(en) .currency {
 	position: fixed;
     top: 330px;
-    right: 0;
+    right: -51px;
     z-index: 99999999;
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+    
 }
 
 html:lang(en) .select-currency {
-	margin-bottom: 3px;
     position: relative;
-    right: calc(100% - 81px);
-    -webkit-transition: .5s all ease-in-out;
-    transition: .5s all ease-in-out;
-    direction: ltr;
-    font-size: 30px;
-    padding: 1px 10px;
-    background-color: #ffcf0a;
-	color: #000000;
+    padding: 8px 7px 10px;
+    background-color: #343a40;
+	color: #f7f7f7;
+    border-radius: 0 !important;
+    border-color: #343a40;
 }
 
-html:lang(en) .select-currency:hover,
-html:lang(en) .select-currency:focus {
+.select-currency:focus {
+    background-color: #f7f7f7 !important;
+}
+
+.currency .dropdown-menu {
+    transform: translate3d(0px, 44px, 0px) !important;
+    min-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.currency .dropdown-menu .select-currency {
+    background-color: #fff;
+    color: #343a40;
+}
+
+html:lang(en) .currency .currency-name {
+    margin-left: 5px;
+}
+
+.select-currency img {
+    width: 40px;
+}
+
+html:lang(en) .currency:hover,
+html:lang(en) .currency:focus {
     right: 0;
     -webkit-transition: .2s all ease-in-out;
 	transition: .2s all ease-in-out;
@@ -46,21 +70,19 @@ html:lang(en) .select-currency:focus {
 html:lang(ar) .currency {
 	position: fixed;
     top: 330px;
-    left: 0;
+    left: -45px;
     z-index: 99999999;
+    -webkit-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
 }
 
 html:lang(ar) .select-currency {
-	margin-bottom: 3px;
-    position: relative;
-    left: calc(100% - 73px);
-    -webkit-transition: .5s all ease-in-out;
-    transition: .5s all ease-in-out;
-    direction: rtl;
-    font-size: 30px;
-    padding: 1px 10px;
-    background-color: #ffcf0a;
-	color: #000000;
+	position: relative;
+    padding: 8px 7px 10px;
+    background-color: #343a40;
+	color: #f7f7f7;
+    border-radius: 0 !important;
+    border-color: #343a40;
 }
 
 html:lang(ar) .select-currency:hover,
@@ -69,6 +91,10 @@ html:lang(ar) .select-currency:focus {
     -webkit-transition: .2s all ease-in-out;
 	transition: .2s all ease-in-out;
 	box-shadow: none;
+}
+
+html:lang(ar) .currency .currency-name {
+    margin-right: 5px;
 }
 
 button,

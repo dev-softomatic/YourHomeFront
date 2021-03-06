@@ -59,6 +59,8 @@
 .navbar {
     background-color: #fff;
     z-index: 999999999999;
+    position: fixed !important;
+    width: 100%;
 }
 
 .navbar .nav-item {

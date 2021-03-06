@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import PropTypes from 'prop-types';
 import axios from 'axios'
 import {setCurrency} from '../../actions/language'
-
+import ar_flag from './ar-flag.jpg'
 
 function getCurrencies(){
     return axios.get('/api/currency-rates')
@@ -28,15 +28,27 @@ function Currency({setCurrency}) {
     }, [])
 
     return (
-        <div className="currency">
-          <select className='border-0 select-currency' onChange={onChangeCurrency}>
-            {
-              currencies.map(cur => (
-                <option value={cur.currency} key={cur._id}>{cur.currency}</option>
-              ))
-            }
-          </select>
+      <div class="dropdown currency">
+        <div class="btn btn-secondary dropdown-toggle select-currency" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src={ar_flag} alt="yourHome" />
+          <span className="currency-name">TRK</span>
         </div>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style={{transform:"translate3d(0px, 44px, 0px) !important"}}>
+          <div class="dropdown-item select-currency">
+            <img src={ar_flag} alt="yourHome" />
+            <span className="currency-name">USD</span>
+          </div>
+          <div class="dropdown-item select-currency">
+            <img src={ar_flag} alt="yourHome" />
+            <span className="currency-name">EURO</span>
+          </div>
+          <div class="dropdown-item select-currency">
+            <img src={ar_flag} alt="yourHome" />
+            <span className="currency-name">TRK</span>
+          </div>
+        </div>
+      </div>
     )
 }
 
