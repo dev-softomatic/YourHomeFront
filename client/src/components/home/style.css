@@ -177,8 +177,8 @@ html:lang(ar)  .slick-next::before {
 .content img {
   height: 100%;
   width: 100%;
-  -ms-transform: scaleY(1.5); /* IE 9 */
-  transform: scaleY(2);
+  -ms-transform: scaleY(1.7); /* IE 9 */
+  transform: scaleY(1.7);
   margin-top: 0;
 }
 
@@ -1147,6 +1147,27 @@ button:focus, a:focus {
   .carousel-control-next-icon {
     width: 10px !important;
     height: 12px !important;
+  }
+
+}
+
+@media(max-width: 767px) {
+  #myCarousel .carousel-control-next, #myCarousel .carousel-control-prev {
+    width: 4.8% !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 12px !important;
+    height: 12px !important;
+  }
+
+  .content img {
+    height: 90%;
+    width: 100%;
+    -ms-transform: scaleY(1.7); /* IE 9 */
+    transform: scaleY(1.7);
+    margin-top: 0;
   }
 
 }

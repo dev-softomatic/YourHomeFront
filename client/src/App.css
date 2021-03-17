@@ -72,10 +72,15 @@ html:lang(en) .currency:focus {
 html:lang(ar) .currency {
 	position: fixed;
     top: 330px;
-    left: -45px;
+    right: -49px;
     z-index: 99999999;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+}
+
+html:lang(ar) .currency:hover,
+html:lang(ar) .currency:focus {
+    right: 0;
 }
 
 html:lang(ar) .select-currency {
@@ -93,11 +98,15 @@ html:lang(ar) .select-currency {
 
 html:lang(ar) .select-currency:hover,
 html:lang(ar) .select-currency:focus {
-    left: 44px;
+    right: 0;
     -webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 	box-shadow: none;
 }
+
+
+
+
 
 html:lang(ar) .currency .currency-name {
     margin-right: 5px;
