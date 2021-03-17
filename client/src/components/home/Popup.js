@@ -29,7 +29,7 @@ const Popup = () => {
      axios.post('/api/appointments', formData, {headers: {'Content-Type': 'application/json'}})
      .then(res => {
        setAlert({msg: 'sent_successfully', type: 'success'})
-       setTimeout(()=> setAlert({msg: '', type: ''}), 4000)
+       setTimeout(()=> setAlert({msg: '', type: ''}), 2000)
      }).catch(err => {
        setAlert({msg: err.response.data.errors[0].msg, type: 'danger'})
        setTimeout(()=> setAlert({msg: '', type: ''}), 3000)
@@ -73,7 +73,7 @@ const Popup = () => {
               >
                 Close
               </button>
-              <button data-dismiss={`${alert.type === "success" ? "modal" : ""}`} onClick={e => submitRef.current.click()} type="button" className="btn" style={{backgroundColor: '#074252', color: '#fff'}}>
+              <button onClick={e => submitRef.current.click()} type="button" className="btn" style={{backgroundColor: '#074252', color: '#fff'}}>
                 Send
               </button>
             </div>
