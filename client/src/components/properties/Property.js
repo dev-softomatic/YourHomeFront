@@ -18,7 +18,7 @@ const Property = ({ getProperty, property: { property, loading, properties }, ma
     getProperty(match.params.id);
   }, [getProperty, match.params.id]);
   return (
-    <section className="p-3">
+    <section className="p-3" style={{backgroundColor:"#e8e8e8"}}>
       {loading || !property ? (
         <Spinner />
       ) : (
@@ -79,7 +79,7 @@ const Property = ({ getProperty, property: { property, loading, properties }, ma
             </div>
           </div>
           <div className="overview">
-            <h3>{getStr('overview')}</h3>
+            <h3> {getStr('overview')}</h3>
 
             {new Array(property.overview_en.length / 2).fill(0).map((ov, i) => (
               <Fragment key={property.overview_en[i]._id + "area"}>
@@ -218,7 +218,9 @@ const Property = ({ getProperty, property: { property, loading, properties }, ma
             <div className="map mt-3">
                 <h3>{getStr('location')}</h3>
                 <div className="google-map" style={{height: "500px", position:"relative", width:"90%", margin: "auto"}}>
-                  <GoogleMap location={{longitude: property.longitude, altitude: property.altitude}}/>
+                  {/*<GoogleMap location={{longitude: property.longitude, altitude: property.altitude}}/>*/}
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.772028832759!2d28.623205915684665!3d41.008362679300724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0d609422c3%3A0x9613a91de3358a3e!2sYour%20Home%20Istanbul!5e0!3m2!1sen!2str!4v1615456838519!5m2!1sen!2str" height="450" style={{border:"0", width:"100%"}} allowfullscreen="" loading="lazy"></iframe>
+                      
                 </div>
             </div>
             <hr />

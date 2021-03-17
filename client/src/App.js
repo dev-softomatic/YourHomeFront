@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react'
-
 import './App.css'
-import {BrowserRouter as Router , Switch, Route, Link} from 'react-router-dom'
+import ReactDOM from "react-dom";
+import {BrowserRouter as Router , Switch, useLocation, Route, Link} from 'react-router-dom'
 import {Provider} from 'react-redux'
 import store from './store'
 import axios from 'axios'
@@ -31,12 +31,20 @@ function getAboutData() {
 function App() {
 
   const [aboutData, setAboutData] = useState(null)
-
+  
   document.documentElement.lang = store.getState().language.lang;
+
   useEffect(() => {
+    //History.scrollRestoration = 'manual'
     document.documentElement.lang = store.getState().language.lang;
     getAboutData().then(res => setAboutData(res.data))
+    
   }, [])
+
+  
+
+ 
+  
 
   return (
     <Provider store={store}>
@@ -44,10 +52,10 @@ function App() {
         <Currency />
         <Popup/>
         <Router>
-          <a href="https://bit.ly/2qSdXYq" target="_blank" title="whatsapp-yourhome" className="icon-whatsapp">
+          <a href="https://wa.me/905324301470" target="_blank" title="whatsapp-yourhome" className="icon-whatsapp">
             <i className="fa fa-whatsapp fa-lg"></i>
           </a>
-          <Navbar/>
+          {aboutData && <Navbar aboutData={aboutData}/>}
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/properties' component={Catalog}/>

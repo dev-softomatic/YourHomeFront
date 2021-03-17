@@ -80,6 +80,17 @@ html:lang(ar) #myCarousel .carousel-item > .carousel-text {
   font-size: 30px;
 }
 
+.column-icon-svg {
+  margin: -24px 20px 0 0;
+}
+
+.icon-slider.icon-svg {
+  width: 35px;
+    filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(198deg) brightness(126%) contrast(112%);
+    margin: auto;
+    display: block;
+}
+
 .carousel-text small {
   color: #fff;
   font-size: 30px; 
@@ -137,7 +148,7 @@ button.search-btn img{
 }
 
 html:lang(ar) .slick-prev {
-  right: 41% !important;
+  right: 48% !important;
 }
 
 html:lang(ar) .slick-prev::before {
@@ -185,7 +196,6 @@ html:lang(ar)  .slick-next::before {
   overflow: hidden;
   width: 100%;
   margin-bottom: 10px;
-  font-family: 'Rubik', sans-serif;
 
 }
 
@@ -381,7 +391,7 @@ html:lang(ar)  .slick-next::before {
 /* contact section */
 
 #contact {
- background-image: url('./icons/bg-contact.jpg');
+ background-image: url('./icons/bg1.jpg');
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -443,7 +453,6 @@ html:lang(ar)  .slick-next::before {
 
 #contact h1, #contact2 h1 {
   margin: 4% 0% 0 0;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 36px;
   line-height: 1.5;
   font-weight: 400;
@@ -473,8 +482,7 @@ html:lang(ar)  .slick-next::before {
 
 .btn-contact:hover, .btn-contact:active,
 .btn-contact:hover a {
-  background-color: #000 !important;
-  color: #fdde62 !important;
+
   text-decoration: none;
 }
 
@@ -549,7 +557,6 @@ html:lang(ar) #members {
   background-color: #f7f7f7;
   padding-bottom: 20px;
   text-decoration: none;
-  font-family: 'Rubik', sans-serif;
   -webkit-box-shadow: -6px 7px 19px 2px rgb(231 230 230 / 77%);
   -moz-box-shadow: -6px 7px 19px 2px rgb(231 230 230 / 77%);
   -o-box-shadow: -6px 7px 19px 2px rgb(231 230 230 / 77%);
@@ -571,7 +578,6 @@ html:lang(ar) #members {
   font-size: 20px;
   font-weight: 600; 
   margin-top: 10px;
-  font-family: 'Rubik', sans-serif
 }
 
 #blog-row .blog-card .parag-card {
@@ -758,8 +764,12 @@ html:lang(ar) #members {
     padding-bottom: 5px;
   }
 
-  #contact h1, #contact button {
-    font-size: 2em;
+  #contact h1 {
+    font-size: 1.5em;
+  }
+
+  #contact button a, #contact2 button a {
+    font-size: .8rem;
   }
   
   #members img {
@@ -1122,9 +1132,23 @@ button:focus, a:focus {
 
 #myCarousel .carousel-control-next, #myCarousel .carousel-control-prev {
   width: 3.8% !important;
-  height: 8% !important;
+  height: 7% !important;
   margin: auto;
   border-radius: 50% !important;
+}
+
+@media(min-width: 1500px) {
+  #myCarousel .carousel-control-next, #myCarousel .carousel-control-prev {
+    width: 2.5% !important;
+    height: 4.5% !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 10px !important;
+    height: 12px !important;
+  }
+
 }
 
 .coverflow__figure__3bk_C {

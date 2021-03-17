@@ -1,8 +1,8 @@
 import React from 'react'
-import magicbox from './icons/winner.svg'
-import hasslefree from './icons/snap.svg'
-import headache from './icons/Layer 31.svg'
-import alarm from './icons/Group 45.svg'
+import magicbox from './icons/icon-01.svg'
+import hasslefree from './icons/icon-02.svg'
+import headache from './icons/icon-03.svg'
+import alarm from './icons/icon-04.svg'
 import {getStr} from '../../actions/language'
 
 

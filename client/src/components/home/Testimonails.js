@@ -5,6 +5,7 @@ import {getTestimonails} from '../../actions/testimonails'
 import Spinner from '../layout/Spinner'
 import {getStr} from '../../actions/language'
 import CoverFlow from 'coverflow-react';
+import Img from "../layout/home.png"
 
 const Testimonails = ({testimonail: {loading, testimonails}, getTestimonails, language: {lang}}) => {
 
@@ -15,7 +16,7 @@ const Testimonails = ({testimonail: {loading, testimonails}, getTestimonails, la
         getTestimonails()        
     }, [getTestimonails])
 
-    useEffect(() => {
+    /* useEffect(() => {
       window.addEventListener('resize', ()=>{
         setWidth(document.body.offsetWidth)
         if(width === 500) {
@@ -24,19 +25,20 @@ const Testimonails = ({testimonail: {loading, testimonails}, getTestimonails, la
       });
 
       
-    }, [])
+    }, []) */
+
+    
     return (
       <section id="testimonails" className="">
         {!testimonails || loading ? (
           <Spinner />
         ) : (
           <div
-            id="reviewCarousel"
-            className="carousel slide testimonail"
-            data-ride="carousel"
+            id=""
+            className="testimonail"
           >
-            <div className="carousel-inner">
-              <span className="span-title">{getStr('citizenship')}</span>
+            <div>
+              <span className="span-title">{getStr('spanTestimonial')}</span>
               <h2 className='test-title mb-2 mt-2 text-center title-section'>{getStr('client_testimonails')}</h2>
               <CoverFlow 
                 imagesArr={testimonails.map((t, i) => (t.image))} 

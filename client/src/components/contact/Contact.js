@@ -85,11 +85,11 @@ const Contact = () => {
                         <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-1'>
                             <div className='row justify-content-center address mt-5 pl-3 mb-3'>
                                 <div className='col-1 mr-1'><img src={addressIcon} alt="" /></div>
-                                <div className='col-8'><p>{aboutData.address}</p></div>
+                                <div className='col-8'><a target="_blank" className="text-dark d-block mt-2" href="https://www.google.com.tr/maps/place/Your+Home+Istanbul/@41.0083627,28.6232059,17z/data=!3m1!4b1!4m5!3m4!1s0x14b55f0d609422c3:0x9613a91de3358a3e!8m2!3d41.0083627!4d28.6253946?hl=en&authuser=0">{aboutData.address}</a></div>
                             </div>
                             <div className='row justify-content-center phone pl-3 mb-4'>
                                 <div className='col-1 mr-1'><img src={phoneIcon} alt="" /></div>
-                                <div className='col-8'><p>{aboutData.phone}</p></div>
+                                <div className='col-8'><a className="text-dark" href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></div>
                             </div>
                             {/* <div className='row justify-content-center phone pl-3 mb-4'>
                                 <div className='col-1 mr-1'><img src={phoneIcon} alt="" /></div>
@@ -97,12 +97,14 @@ const Contact = () => {
                             </div> */}
                             <div className='row  justify-content-center address pl-3'>
                                 <div className='col-1 mr-1'><img src={emailIcon} alt="" /></div>
-                                <div className='col-8'><p>{aboutData.support_email}</p></div>
+                                <div className='col-8'><a className="text-dark d-block mt-2" href={`mailto:${aboutData.support_email}`}>{aboutData.support_email}</a></div>
                             </div>
                         </div>
                     </div>
                     <div className="google-map mb-3" style={{height: "500px", position:"relative", marginTop: "50px"}}>
-                        <GoogleMap location={aboutData.location}/>
+                        {/*<GoogleMap location={aboutData.location}/>*/}
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.772028832759!2d28.623205915684665!3d41.008362679300724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f0d609422c3%3A0x9613a91de3358a3e!2sYour%20Home%20Istanbul!5e0!3m2!1sen!2str!4v1615456838519!5m2!1sen!2str" height="450" style={{border:"0", width:"100%"}} allowfullscreen="" loading="lazy"></iframe>
+
                     </div>
                 
                 </div>

@@ -9,7 +9,7 @@ import {getProperties} from '../../actions/properties'
 import PropertiesGrid from './PropertiesGrid'
 import Pagination from '../layout/Pagination'
 import {getStr} from '../../actions/language'
-import BgPanner from "./icons/bg-panner.jpg";
+import BgPanner from "./icons/prop.jpg";
 
 const getQueryParams = (search) => 
     search.replace('?', '').split('&').reduce((r,e) => (r[e.split('=')[0]] = decodeURIComponent(e.split('=')[1]), r), {});

@@ -6,7 +6,7 @@ import axios from 'axios'
 import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import { Link } from 'react-router-dom'
-
+import SelectorImg from './icons/selection.svg'
 
 
 const itemStyle = {
@@ -60,7 +60,8 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
                 <h3 className="title-slider wow fadeInUp">{lang === 'en' ? item.title_en : item.title_ar}</h3> 
                 <h1 className="wow fadeInUp">{lang === 'en' ? item.description_en :  item.description_ar}</h1>
                 <div className='d-flex wow fadeInUp' style={{opacity:"1"}}>
-                  <div>
+                  {item.bedroom !== null ? 
+                    <div>
                     <span className='row'>
                       <div className='col-1 icon'>
                         <div style={{left: 3, right: 3}} className='bed-upper-white'></div>
@@ -69,22 +70,27 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
                       <small className='col-1'>{item.bedrooms}</small>
                     </span>
                   </div>
-                  <div>
-                    <span className='row justify-space-evenly'>
-                      <div className='col-1 icon'>
-                        <i className="fa fa-map-marker fa-lg icon-slider"></i>
-                      </div>
-                      <small className='col-1 pl-0'>{item.bathrooms}</small>
-                    </span>
-                  </div>
-                  <div>
-                    <span className='row justify-space-evenly'>
-                      <div className='col-1 icon'>
-                        <i class="fa fa-square-o fa-lg icon-slider" aria-hidden="true"></i>
-                      </div>
-                      <small className='col-1 pl-0'>{item.area}</small>
-                    </span>
-                  </div>
+                  : ""}
+                  {item.bathrooms !== null ? 
+                    <div>
+                      <span className='row justify-space-evenly'>
+                        <div className='col-1 icon'>
+                          <i className="fa fa-map-marker fa-lg icon-slider"></i>
+                        </div>
+                        <small className='col-1 pl-0'>{item.bathrooms}</small>
+                      </span>
+                    </div>
+                  : ""}
+                  {item.area !== null ?
+                    <div>
+                      <span className='row justify-space-evenly'>
+                        <div className='col-1 icon column-icon-svg'>
+                          <img src={SelectorImg} alt="" className="icon-slider icon-svg" />
+                        </div>
+                        <small className='col-1 pl-0'>{item.area}</small>
+                      </span>
+                    </div>
+                   : "" }
                 </div>
                 <h2 className='mt-3 price-slider wow fadeInUp'>{calculatePrice(item.price).toLocaleString('de-DE')} {currency}</h2>
               </div>
@@ -94,14 +100,7 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
         </div>
         <div className='carousel-form mt-2'>
           <form className='row' onSubmit={e => onSubmit(e)}>
-            <select className='col-md-2 col-sm-6' name='area' onChange={e => onChange(e)}>
-              <option value="" key="area">{getStr('area')}</option>
-              {
-                cities.map(ar => (
-                  <option value={ar._id} key={ar._id}>{lang === 'en' ? ar.name_en : ar.name_ar}</option>
-                ))
-              }
-            </select>
+            <h4 className="m-auto" style={{fontWeight:"900", color:"#ffcf0a"}}>{getStr('istanbul-name')}</h4>
             <select className='col-md-3 col-sm-6' name='type' onChange={e => onChange(e)}>
               <option value="" key="type">{getStr('type')}</option>
               {

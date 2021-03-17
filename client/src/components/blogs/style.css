@@ -21,7 +21,6 @@
     background-color: #ffffff;
     padding-bottom: 20px;
     text-decoration: none;
-    font-family: 'Rubik', sans-serif;
     -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
     -o-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.05);
@@ -43,7 +42,6 @@
     font-size: 20px;
     font-weight: 600; 
     margin-top: 10px;
-    font-family: 'Rubik', sans-serif
   }
   
   #blogGrid .blog-card .parag-card {
@@ -121,14 +119,14 @@
 #blogPage {
     background-color: #E8E8E8;
     width: 70%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
     color: #074252;
     padding: 0 !important;
     margin-bottom: 30px;
+    margin-top: 96px;
 }
 
 #blogPage h2 {
@@ -148,8 +146,8 @@
 
 #blogPage img.cover {
     width: 100%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
     object-fit: cover;
 }
 
@@ -166,6 +164,16 @@
 
 #blogPage p {
     font-size: 20px;
+}
+
+#blogPage .share {
+    margin-top: 30px;
+}
+
+#blogPage .share img {
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
 }
 
 

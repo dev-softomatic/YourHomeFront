@@ -21,10 +21,10 @@ const Partners = ({getPartners, partner:{loading, partners}}) => {
     const settings = {
         arrows: false,
         infinite: true,
-        speed: 100,
         autoplay: true,
         slidesToShow: 4,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
+        speed: 10,
         responsive: [
             {
               breakpoint: 320,

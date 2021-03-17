@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import istanbulNight from './icons/istanbul-night.jpg'
-import Passport from '../home/icons/passport.png'
-import passport_vertical from './icons/passport-verticle.jpg'
+import istanbulNight from './icons/istanbul-bg.jpg'
+import Passport from './icons//pass.png'
+import passport_vertical from './icons/pass-vert.png'
 import map from './icons/map.png'
 import './style.css'
 import {getStr} from '../../actions/language'
@@ -112,25 +112,25 @@ const Citizenship = props => {
               <span className="number">01</span>
               <h4>{getStr('bank_account')}</h4>
               <p>
-              {getStr('bank_account_text')}
+              {getStr('bank_account_text').slice(0, 80)}
               </p>
-              <a href="">{getStr('read_more')}</a>
+              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
             <div className="col-sm-12 col-lg-4 col-md-6 col-xl-3 service-card ">
               <span className="number">02</span>
               <h4>{getStr('business')}</h4>
               <p>
-              {getStr('business_text')}
+              {getStr('business_text').slice(0, 80)}
               </p>
-              <a href="">{getStr('read_more')}</a>
+              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
             <div className="service-card col-sm-12 col-lg-4 col-md-6 col-xl-3">
               <span className="number">03</span>
               <h4>{getStr('real_estate')}</h4>
               <p>
-                {getStr('real_estate_text')}
+                {getStr('real_estate_text').slice(0, 80)}
               </p>
-              <a href="">{getStr('read_more')}</a>
+              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
           </div>
         </div>

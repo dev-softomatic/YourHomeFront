@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
-import logo from './logo yhfor motion-01.svg'
+import logo from './logo-footer.svg'
+import youtube from './youtube-symbol.png'
 import home from './home.png'
 import phone from './phone.png'
 import {Link, useHistory} from 'react-router-dom'
@@ -88,7 +89,9 @@ const Footer = ({aboutData, language: {lang, locale}, setLanguage}) => {
                         </li>
                         <li>
                             <a href="https://www.youtube.com/channel/UCcTWeWXYY6yNVLDN3n4KxmQ" target="_blank" title="YourHome">
-                                <i className="fa fa-youtube"></i>
+                                
+                                <img src={youtube} alt=""  className="icon-youtube"/>
+                                
                             </a>
                         </li>
                         <li>
@@ -106,11 +109,11 @@ const Footer = ({aboutData, language: {lang, locale}, setLanguage}) => {
                     </small>
                     <span className='d-flex'>
                         <img src={home} alt="" style={{height: 15, width: 15, marginTop: 5}} />
-                        <small className='m-2'>{aboutData.address}</small>
+                        <small className='m-2'><a target="_blank" className="text-white d-block mt-2" href="https://www.google.com.tr/maps/place/Your+Home+Istanbul/@41.0083627,28.6232059,17z/data=!3m1!4b1!4m5!3m4!1s0x14b55f0d609422c3:0x9613a91de3358a3e!8m2!3d41.0083627!4d28.6253946?hl=en&authuser=0">{aboutData.address}</a></small>
                     </span>
                     <span className='d-flex'>
                         <img src={phone} alt="" style={{height: 15, width: 15, marginTop: 5}} />
-                        <small className='m-2'><a className='footer-link' href="tel:+90-553-224-32-34">{aboutData.phone}</a></small>
+                        <small className='m-2'><a className='footer-link' href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></small>
                     </span>
                 </div>
                 <div className='col-lg-2 m-auto col'>

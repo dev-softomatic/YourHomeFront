@@ -2,6 +2,7 @@
     padding-top: 5%;
     background-color: #f7f7f7;
     padding-bottom: 40px;
+    margin-top: 96px;
 }
 
 #contactPage .contact-box {
@@ -25,7 +26,7 @@
 
 #contactPage .contact-box .form-contact .form-group input {
     padding: 1.45rem .75rem !important;
-    border-radius: 0 !important;
+    border-radius: 5px !important;
 }
 
 #contactPage .contact-box .form-contact .btn-contact {
@@ -33,7 +34,7 @@
     background-color: #fdde62;
     border-color: #fdde62;
     color: #444;
-    border-radius: 0 !important;
+    border-radius: 5px !important;
     font-size: 18px;
     font-weight: 400;
 }

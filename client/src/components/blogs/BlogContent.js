@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Editor, EditorState, convertFromRaw, CompositeDecorator} from 'draft-js'
-
+import Share from '../properties/Share'
 
 function findImageEntities(contentBlock, callback, contentState) {
     contentBlock.findEntityRanges(
@@ -37,8 +37,10 @@ const decorator = new CompositeDecorator([
 const BlogContent = ({content}) => {
     const contentState = convertFromRaw(content);
     const [editorState] = useState(EditorState.createWithContent(contentState, decorator))
-    return (
+    return (<>
        <Editor editorState={editorState} readOnly={true}/>
+       <Share />
+       </>
     )
 }
 

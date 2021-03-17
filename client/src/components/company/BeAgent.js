@@ -32,7 +32,7 @@ const BeAgent = () => {
     return (
         <div className='be-agent'>
             <div className='row justify-content-center'>
-                <h3 className='col title-company text-uppercase'>{getStr('be_agent')}</h3>
+                <h3 className='col title-company text-uppercase'>{getStr('be_agent')} <br/> {getStr('be_agent2')}</h3>
             </div>
             <div className='row justify-content-center'>
                 <div className='col-lg-6 col-md-6 col-sm-12'>

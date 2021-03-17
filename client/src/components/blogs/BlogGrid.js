@@ -12,7 +12,7 @@ import {list} from '../../actions/blog'
 import {connect} from 'react-redux'
 import Spinner from '../layout/Spinner'
 import {getStr} from '../../actions/language'
-import BgPanner from "./icons/bg-panner.jpg";
+import BgPanner from "./icons/blogs.jpg";
 
 
 const style = {

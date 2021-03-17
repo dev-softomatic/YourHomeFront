@@ -3,7 +3,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Rubik', sans-serif;
+	
 }
 
 html:lang(ar) * {
@@ -13,15 +13,17 @@ html:lang(ar) * {
 
 html:lang(en) * {
     text-align: left;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
+
 
 html:lang(en) .currency {
 	position: fixed;
     top: 330px;
     right: -51px;
     z-index: 99999999;
-    -webkit-transition: .5s all ease-in-out;
-    transition: .5s all ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     
 }
 
@@ -62,8 +64,8 @@ html:lang(en) .currency .currency-name {
 html:lang(en) .currency:hover,
 html:lang(en) .currency:focus {
     right: 0;
-    -webkit-transition: .2s all ease-in-out;
-	transition: .2s all ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 	box-shadow: none;
 }
 
@@ -72,8 +74,8 @@ html:lang(ar) .currency {
     top: 330px;
     left: -45px;
     z-index: 99999999;
-    -webkit-transition: .5s all ease-in-out;
-    transition: .5s all ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 html:lang(ar) .select-currency {
@@ -83,13 +85,17 @@ html:lang(ar) .select-currency {
 	color: #f7f7f7;
     border-radius: 0 !important;
     border-color: #343a40;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 html:lang(ar) .select-currency:hover,
 html:lang(ar) .select-currency:focus {
-    left: 0;
-    -webkit-transition: .2s all ease-in-out;
-	transition: .2s all ease-in-out;
+    left: 44px;
+    -webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 	box-shadow: none;
 }
 

@@ -41,15 +41,8 @@ const Panner = ({ categories, settings, formData, setFormData, onSubmit, title, 
   return (
     <div className="jumbotron panner" style={style.container}>
       <h1> {title ? title : ""} </h1>
-      <form onSubmit={e => onSubmit(e)} className="carousel-form">
-        <select name="area" value={formData.area} onChange={onChange}>
-          <option value="">{getStr('area')}</option>
-          {cities.map((ar) => (
-            <option value={ar._id} key={ar._id}>
-              {lang === 'en' ? ar.name_en : ar.name_ar}
-            </option>
-          ))}
-        </select>
+      <form onSubmit={e => onSubmit(e)} className="carousel-form row">
+        <h4 className="mt-auto mb-auto" style={{fontWeight:"900", color:"#ffcf0a"}}>{getStr('istanbul-name')}</h4>
         <select name="type" onChange={onChange} value={formData.type}>
           <option value="">{getStr('type')}</option>
           {categories.length > 0 &&

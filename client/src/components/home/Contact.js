@@ -16,10 +16,10 @@ const Contact = () => {
         </div>
         <div className="box-btn-contat d-flex">
           <button className="btn btn-warning btn-lg d-block btn-contact" style={{fontSize:"18px", fontWeight:"500", background:"#FFCF0A", margin:"0 10px 80px auto"}}>
-            <Link to="/contact"> {getStr('contact')} </Link>
+            <Link to="/contact"> {getStr('contactUs')} </Link>
           </button>
           <button className="btn btn-white btn-lg d-block btn-contact" style={{fontSize:"18px", fontWeight:"500", background:"#fff", margin:"0 auto 80px 0"}}>
-            <Link to="/contact"> {getStr('contact-property')} </Link>
+            <Link to="/properties"> {getStr('contact-property')} </Link>
           </button>
         </div>
         <img src={left_effect} alt="" style={{color: '#fff', marginBottom: '-1px', width: '100%'}} />

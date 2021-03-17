@@ -7,7 +7,6 @@ import axios from 'axios'
 
 
 
-
 const borderStyle = {
     borderRadius: 3
 }

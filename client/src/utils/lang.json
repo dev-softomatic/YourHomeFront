@@ -25,18 +25,22 @@
     },
     "company_services": {
         "en": "Company Services",
-        "ar": "خدمات الشركة"
+        "ar": "ما نقدمه لكم"
     },
     "team_members": {
         "en": "Team Members",
         "ar": "أعضاء الفريق"
     },
+    "istanbul-name": {
+        "en" : "ISTANBUL",
+        "ar" : "اسطنبول"
+    },
     "client_testimonails": {
-        "en": "Client Testimonails",
+        "en": "Testimonials",
         "ar": "أراء االعملاء"
     },
     "testimonails": {
-        "en": "Testimonails",
+        "en": "Testimonials",
         "ar": "أراء االعملاء"
     },
     "looking_to_buy_new_prop": {
@@ -44,28 +48,28 @@
         "ar": "تبحث لشراء عقار جديد أو بيع عقار موجود؟ YourHome يوفر لك حلاً رائعًا!"
     },
     "latest_blog": {
-        "en": "Latest Blog",
-        "ar": "أحدث المقالات"
+        "en": "Our latest Blogs",
+        "ar": "أحدث الأخبار والمقالات"
     },
     "our_partners": {
-        "en": "Our Parners",
-        "ar": "شركائنا"
+        "en": "Our partners",
+        "ar": " "
     },
     "partners" : {
         "en" : "Partner",
-        "ar": "شريك"
+        "ar": "شركائنا"
     },
     "blogSpan": {
-        "en" : "Blog",
-        "ar" : "مقالة"
+        "en" : "Blogs",
+        "ar" : "المدونات"
     },
     "team": {
-        "en" : "Team",
-        "ar" : "فريق"
+        "en" : "Our Team",
+        "ar" : "فريقنا"
     },
     "service": {
-        "en" : "Service",
-        "ar" : "خدمة"
+        "en" : "Services",
+        "ar" : "خدماتنا"
     },
     "name": {
         "en": "Name",
@@ -128,16 +132,16 @@
         "ar": "الجنسية التركية"
     },
     "citizenship": {
-        "en": "Citizenship",
-        "ar": "الجنسية"
+        "en": "Acquisition of",
+        "ar": "الحصول على"
     },
     "citizenship_offers": {
         "en": "Citizenship Offers",
         "ar": "عروض الجنسية"
     },
     "read_more": {
-        "en": "Read More",
-        "ar": "قراءة المزيد"
+        "en": "Read More...",
+        "ar": "إقرأ المزيد..."
     },
     "book_free_consultation": {
         "en": "Book a free consultation",
@@ -149,6 +153,10 @@
     },
     "contact": {
         "en": "Contact",
+        "ar": "تواصل معنا"
+    },
+    "contactUs": {
+        "en": "Contact Us",
         "ar": "تواصل معنا"
     },
     "home": {
@@ -168,28 +176,33 @@
         "ar": "من نحن"
     },
     "hassle_free_products_for_buyers": {
-        "en": "Hassle Free Products For Buyers",
+        "en": "Client value creation",
         "ar": "منتجات خالية من المتاعب للمشترين"
     },
     "avoid_worries": {
-        "en": "Avoid Worries",
+        "en": "Professional Consultancy",
         "ar": "تجنب القلق"
     },
     "finding_the_best_options": {
-        "en": "Finding The best options",
+        "en": "Trustable communication",
         "ar": "إيجاد الخيار الأفضل"
     },
     "time_saving_for_investor": {
-        "en": "Time saving for investor",
+        "en": "Legal Services",
         "ar": "توفير الوقت للمستثمر"
     },
     "about_us_text": {
         "en": "We've been working for more than ten years in Turkish real estates market. Your Home Istanbul is not a conciliator between buyer and seller, but working entirly for buyer.therefore removing the conflict of interest. We offer buyers invetment strategy, guid investment process, after sale property management services and many more services. We have delivered hundereds of title deeds. and throughout this period attain 100% satisfication of all our customers. We only deal with reliable projects, and matter for us is not just handing over the key to an apartment and siging contracts, but we are always beside you. We have served more than 100's of customers from different nationalities, such as US, Canada, Holland, UK, ..etc",
-        "ar": "نحن نعمل منذ أكثر من عشر سنوات في سوق العقارات التركي. إن Your Home Istanbul ليس توفيقًا بين المشتري والبائع ، ولكنه يعمل بالكامل للمشتري ، وبالتالي إزالة تضارب المصالح. نحن نقدم استراتيجية استثمار المشترين ، وعملية الاستثمار في الدليل ، وخدمات إدارة الممتلكات بعد البيع والعديد من الخدمات الأخرى. لقد قمنا بتسليم الكثير من سندات الملكية. وطوال هذه الفترة نحقق إرضاء جميع عملائنا بنسبة 100٪. نحن نتعامل فقط مع المشاريع الموثوقة ، والمهم بالنسبة لنا ليس فقط تسليم مفتاح الشقة وعقود التوقيع ، ولكننا دائمًا بجانبك. لقد خدمنا أكثر من 100 عميل من جنسيات مختلفة ، مثل الولايات المتحدة وكندا وهولندا والمملكة المتحدة .. إلخ"
+        "ar": "شركة تركية تعمل منذ أكثر من عشر سنوات في سوق العقارات التركي قمنا بتسليم مئات سندات الملكية , وطوال هذه المدة ننال رضا عملائنا جميعا بنسبة 100% فنحن لا نتعامل الا مع المشروعات الموثوقة , علاقتنا بعملائنا لا تنتهي  بمجرد توقيع العقد بل نحن بجانبك دائما بخدمات ما بعد البيع التي تكون بشكل مجاني ومدى الحياة . نتميز بإختيارنا لأفضل المشاريع ضمن أفخم وأرقى أحياء إسطنبول بأسعار مناسبة لكافة الميزانيات بتصاميم مبتكرة وإطلالات خلابة  محاطة بالخدمات التعليمية والمدارس الدولية والمولات التجارية وكل ما تحتاجه لك ولأسرتك ."
     },
     "be_agent": {
         "en": "Be An Agent",
-        "ar": "كن وكيلاً"
+        "ar": "كن وكيلا"
+    },
+
+    "be_agent2": {
+        "en": " ",
+        "ar": "تريد أن تكون وكيلا لنا ؟ "
     },
     "send": {
         "en": "Send",
@@ -197,7 +210,7 @@
     },
     "be_agent_text": {
         "en": "Wether you are an individual or an organization and you like to work with us as an agent or marketer, we welcome you to join our team.",
-        "ar": "سواء كنت فردًا أو مؤسسة وترغب في العمل معنا كوكيل أو مسوق ، نرحب بك للانضمام إلى فريقنا."
+        "ar": "لا تتردد لديك فرصة لتحقيق ربح من بيع العقارات في إسطنبول وأنت في بلدك تواصل معنا لتكون شريكا لنا في نجاحاتنا  "
     },
     "sent_successfully": {
         "en": "Sent Successfully",
@@ -212,64 +225,64 @@
         "ar": "عن طريق الاستثمار؟"
     },
     "bank_account": {
-        "en": "Bank Account",
-        "ar": "حساب بنكي"
+        "en": "Bank deposit",
+        "ar": "وديعة بنكية"
     },
     "bank_account_text": {
-        "en": "By depositing at least 500,000 USD in bank account and this amount must be held for three years, for more information",
-        "ar": "عن طريق إيداع ما لا يقل عن 500000 دولار أمريكي في حساب مصرفي ويجب الاحتفاظ بهذا المبلغ لمدة ثلاث سنوات ، لمزيد من المعلومات"
+        "en": "Foreign investors in Turkey can obtain Turkish citizenship through Deposit of $500,000 for three years in a Turkish bank",
+        "ar": "إيداع مبلغ لا يقل عن 500.000 دولار لمدة ثلاث سنوات في أحد البنوك التركية"
     },
     "business": {
-        "en": "Business",
-        "ar": "العمل"
+        "en": "Employment of Turks",
+        "ar": "توظيف أتراك"
     },
     "business_text": {
-        "en": "By establishing a business and recruiting at least 50 persons. For more information",
-        "ar": "من خلال إنشاء شركة وتوظيف ما لا يقل عن 50 شخصًا. للمزيد من المعلومات"
+        "en": "And it is done by establishing a company in Turkey and employing no less than 50 Turks After that, the employer can apply for Turkish citizenship, according to the laws And the Turkish regulations?",
+        "ar": "إنشاء شركة وتوظيف ما لا يقل عن 50 شخص تركي"
     },
     "real_estate": {
-        "en": "Real Estate",
-        "ar": "العقار"
+        "en": "Real estate investment",
+        "ar": "الاستثمار العقاري"
     },
     "real_estate_text": {
-        "en": "By investing minimum of 250,000 USD in real estate, this property must be held for 3 years. For more information",
-        "ar": "من خلال استثمار 250.000 دولار أمريكي كحد أدنى في العقارات ، يجب الاحتفاظ بهذا العقار لمدة 3 سنوات. للمزيد من المعلومات"
+        "en": "After the amendments made to the Turkish Citizenship Law in September 2018 Investors can now Real estate agents obtain Turkish citizenship by buying a property with a price of at least 250,000 US dollars, and this is the easiest way to obtain Turkish citizenship through Investment, where a Turkish passport can be obtained after 90 days of purchasing the property And extract the title deed Many have accepted to obtain Turkish citizenship through real estate investment",
+        "ar": "من خلال شراء عقارت بمبلغ 250.000 دولار  حصل الكثيرون على الجنسية التركية"
     },
     "visa_free_countries": {
         "en": "Visa Free Countries",
-        "ar": "البلدان الخالية من التأشيرات"
+        "ar": "قوة جواز السفر التركي"
     },
     "visa_free_countries_1": {
-        "en": "Turkey passport is ranked 39. There are 72 countries that doesn't require visa from Turkish citizens to enter. Such as Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and more.",
+        "en": "Turkey passport is ranked 53 in the world (According to Henley Passport Index). More than 65 countries don’t require visa from Turkish passport holders to enter their country, such as: Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and many other countries.",
         "ar": "يحتل جواز السفر التركي المرتبة 39. هناك 72 دولة لا تتطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها."
     },
     "visa_free_countries_2": {
-        "en": "More than 42 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebenon, and more. More than 7 countries allow Turkish citizen to apply for online visa, including: Australia, Oman and more. ",
-        "ar": "تصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبينون وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما."
+        "en": "More than 40 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebanon, and several more. Turkish Citizens are eligible to apply for online visa for more than 7 major countries; including: Australia, Oman and more.",
+        "ar": "تصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبينون وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما.."
     },
     "benefits_of_turkish_citizenship": {
         "en": "Benefits of Turkish Citizenship",
         "ar": "فوائد الجنسية التركية"
     },
     "benefits_1": {
-        "en": "Permenent Right of living in Turkey.",
-        "ar": "حق دائم في العيش في تركيا."
+        "en": "- Permenent Right of living in Turkey.",
+        "ar": " - حق دائم في العيش في تركيا"
     },
     "benefits_2": {
-        "en": "Entire family (Spouse, Children under 18 and disablechildren of any age).",
-        "ar": "الأسرة بأكملها (الزوج / الزوجة ، الأطفال دون سن 18 عامًا والمعاقين الأطفال في أي عمر)."
+        "en": "- Entire family (Spouse, Children under 18 and disablechildren of any age).",
+        "ar": "-  سيكون لك الحق في العمل دون الحاجة لإذن عمل"
     },
     "benefits_3": {
         "en": " You will have right to work.",
-        "ar": "سيكون لك الحق في العمل."
+        "ar": "-  السفر بدون تأشيرة إلى أكثر من 72 دولة."
     },
     "benefits_4": {
         "en": "- Visa free travel to more than 72 countries",
-        "ar": "السفر بدون تأشيرة إلى أكثر من 72 دولة"
+        "ar": "- الحصول بسهولة على تأشيرات للعديد من دول العالم "
     },
     "benefits_5": {
         "en": "Easy visa application evaluation to all countries.",
-        "ar": "تقييم سهل لطلب التأشيرة لجميع البلدان."
+        "ar": "- كل ما يحصل عليه المواطن التركي من مميزات صحية وتعليمية"
     },
     "benefits_6": {
         "en": "All rights granted to you same as any other Turkish citizen.",
@@ -337,15 +350,15 @@
     },
     "ease_text": {
         "en": " There are great facilities in the procedures related to obtaining citizenship by real estate investment. After purchasing the property, Citizenship can be obtained in a very short period and through uncomplicated procedures.",
-        "ar": "هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الاستثمار العقاري. بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة."
+        "ar": "- هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الاستثمار العقاري بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة"
     },
     "the_investment_values": {
         "en": "The investment values",
-        "ar": "قيم الاستثمار"
+        "ar": "القيمة الاستثمارية"
     },
     "values_text": {
         "en": "Real estate investment in Turkey is a guaranteed way to increase capital due to the development of the real estate market in Turkey and what it is witnessing from the continuous increase in prices.",
-        "ar": "الاستثمار العقاري في تركيا طريقة مضمونة لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
+        "ar": "- الاستثمار العقاري في تركيا طريقة مضمونة لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
     },
     "dual_nationality": {
         "en": "Dual nationality",
@@ -385,35 +398,35 @@
     },
    "facts_1": {
        "en": "Time limit for the property to be held is 3 years",
-       "ar": "المهلة الزمنية للعقار المزمع عقده هي 3 سنوات"
+       "ar": " جواز السفر التركي  لا يتم تجديده إلا كل عشر سنوات"
    },
    "facts_2": {
        "en": "You are allowed to sell your property after the 3 years’ time condition expires.",
-       "ar": "يُسمح لك ببيع الممتلكات الخاصة بك بعد انتهاء شرط 3 سنوات."
+       "ar": " يُسمح لك ببيع الممتلكات الخاصة بك بعد انتهاء شرط 3 سنوات."
    },
    "facts_3": {
     "en": "Applicant’s spouse, children under age of 18 and disabled children of any age are eligible to apply for citizenship under this scheme. ",
-    "ar": "زوج مقدم الطلب والأطفال الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للتقدم بطلب للحصول على الجنسية بموجب هذا النظام."
+    "ar": " زوج المستثمر وأولاده الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للحصول على الجنسية"
    },
    "facts_4": {
     "en": "It is not necessary for the applicant to live in Turkey to obtain citizenship by this route.",
-    "ar": "ليس من الضروري أن يعيش مقدم الطلب في تركيا للحصول على الجنسية عن طريق هذا الطريق"
+    "ar": " ليس من الضروري أن يعيش مقدم الطلب في تركيا للحصول على الجنسية  ."
     },
     "facts_5": {
         "en": "Turkish citizenship will be life long and descendants will be also born as Turkish citizens",
-        "ar": "ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك"
+        "ar": "ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك ."
     },
     "facts_6": {
         "en": "Turkey allows their citizens to hold multiple nationalities.",
-        "ar": "تسمح تركيا لمواطنيها بحمل جنسيات متعددة"
+        "ar": "تسمح تركيا لمواطنيها بحمل جنسيات متعددة ."
     },
     "about_your_home": {
         "en": "About Your Home Istanbul",
-        "ar": "حول YourHome اسطنبول"
+        "ar": "حول YOUR HOME İSTANBUL"
     },
     "footer_text_1": {
-        "en": "Together we the people achieve more we than any person could ever does snoopers alone..",
-        "ar": "معًا نحقق نحن الناس أكثر مما يمكن لأي شخص أن يفعله بمفرده .."
+        "en": "We, as a Turkish company, have more than 10 years of experience in real estate market of Turkey. With our experience, we guide you to grab the best opportunity available in the market. ",
+        "ar": "نحن كشركة تركية لدينا أكثر من 10 سنوات في مجال العقارات في تركيا نضع خبراتنا بين أيديكم لنساعدكم في الحصول على الأفضل"
     },
     "location" : {
         "en" : "Location",
@@ -617,8 +630,13 @@
     },
 
     "title-properties": {
-        "en" : "Recent Properties",
-        "ar" : "الخصائص الأخيرة"
+        "en" : "Our Latest Projects",
+        "ar" : "المشاريع المميزة"
+    },
+
+    "spanTestimonial": {
+        "en" : "Our Clients",
+        "ar" : "قالو عنا"
     },
 
     "view_property": {
@@ -637,8 +655,8 @@
     },
 
     "recent" : {
-        "en" : "Recent",
-        "ar" : "الأخيرة"
+        "en" : "Check out",
+        "ar" : "إستعرض"
     },
 
     "title-testimonials" : {
@@ -657,17 +675,17 @@
     },
 
     "contact-property": {
-        "en": "Browse Property",
+        "en": "Browse our Projects",
         "ar" : "تصفح العقارات"
     },
 
     "desc-contact" : {
-        "en" : "Looking to Buy a new property or Sell an existing one? \n  YourHome provides an awesome solution!",
-        "ar" : "تبحث لشراء عقار جديد أو بيع عقار موجود؟ يوفر منزلك حلاً رائعًا!"
+        "en" : "Looking to buy a property or sell an existing one? \n  Your Home Istanbul offers an awesome solution",
+        "ar" : "هل ترغب في بيع عقارك أو شراء عقار جديد Your Home Istanbul  \n توفر لكم أفضل الحلول"
     },
 
     "desc-contact2" : {
-        "en" : "Talk to our experts or Browse through more properties",
+        "en" : "Talk to our Experts or Check out our Projects",
         "ar" : "تحدث إلى خبرائنا أو تصفح المزيد من العقارات"
     },
 
@@ -682,8 +700,8 @@
     },
 
     "desc-partner": {
-        "en" : "We honoured to have these amazing partners.",
-        "ar" : "يشرفنا أن يكون لدينا هؤلاء الشركاء الرائعون."
+        "en" : "We are honored to have these amazing partners",
+        "ar" : "نتعاون مع أكبر شركات الإنشاءات  في تركيا"
     },
 
     "start-from": {

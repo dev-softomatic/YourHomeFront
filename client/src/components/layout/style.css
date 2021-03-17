@@ -71,11 +71,17 @@
     transition: all .4s ease-in;
     text-align: center;
     padding: 0.25rem !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.navbra .nav-item .menu-prop {
+
+
+.navbar .nav-item .menu-prop {
     border: 0;
-    
+    margin: 0 !important;
 }
 
 .navbar .nav-item .menu-prop a:focus {
@@ -155,6 +161,40 @@ footer .btn-lang-footer:focus {
     padding: 0 4px 0 2px;
 }
 
+@media(max-width: 767px) {
+    footer {
+        padding: 20px 0;
+    }
+    footer small, footer .col {
+        text-align: center !important;
+    }
+
+    footer hr {
+        margin: auto;
+    }
+
+    footer .d-flex {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.icon-youtube {
+    width: 21px;
+    height: 21px;
+    -webkit-filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(198deg) brightness(116%) contrast(106%);
+    filter: invert(100%) sepia(0%) saturate(7443%) hue-rotate(198deg) brightness(116%) contrast(106%);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.icon-youtube:hover {
+    -webkit-filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+    filter: invert(40%) grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(1.5);
+}
+
 .footer-link:hover, .footer-link:active {
     color: #efefef;
 }
@@ -164,13 +204,15 @@ footer .btn-lang-footer:focus {
 footer form {
     background-color: #ffffff3f;
     padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 50px;
 }
 
 footer form input,
 footer form textarea {
     background-color: #b1b1b1 !important;
     border: 0 !important;
-    border-radius: 0 !important;
+    border-radius: 8px !important;
     margin: 10px 0 !important;
 }
 
@@ -235,13 +277,39 @@ html:lang(ar) nav .logo img {
 }
 
 .list-social li a {
-    color: #666;
+    color: #e9ecef;
     -webkit-transition: all .4s ease-in;
     -moz-transition: all .4s ease-in;
     -o-transition: all .4s ease-in;
     transition: all .4s ease-in;
 }
 
-.list-social li:hover a {
-    color: #f7f7f7;
+.list-social li:hover a .fa-facebook{
+    color: #3b5999;
+}
+
+.list-social li:hover a .fa-twitter{
+    color: #55acee;
+}
+
+.list-social li:hover a .fa-instagram{
+    color: #e4405f;
+}
+
+.list-social li:hover a .fa-youtube{
+    color: #cd201f;
+}
+
+.list-social li:hover a .fa-telegram{
+    color: #2CA5E0;
+}
+
+.dropdown-menu {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item:hover .dropdown-menu {
+    display: block !important;
 }

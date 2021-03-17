@@ -1,12 +1,12 @@
-import React, {Fragment, useEffect} from 'react'
+import React, {Fragment, useEffect, useState} from 'react'
 import PropTypes from 'prop-types'
 import Jumbotron from './Jumbotron'
 import Citzinship from './Citzinship'
 import RecentProperties from './RecentProperties'
-import Testimonails from './Testimonails'
 import Services from './Services'
 import Contact from './Contact'
 import TeamMembers from './TeamMembers'
+import Testimonails from './Testimonails'
 import Partners from './Partners'
 import {getCities, getFilterSettings} from '../../actions/filterSettings'
 import Spinner from '../layout/Spinner'
@@ -26,7 +26,9 @@ const Home = ({filterSettings: {settings, loading, cities}, getFilterSettings, c
         getCategories()
         getRecentProperties()
         getCities()
-    }, [getFilterSettings, getCategories, getRecentProperties, getCities])
+        
+    }, [])
+    
     return (
       <Fragment>
         {loading || !settings || !categories || categoriesLoading ? (
@@ -44,7 +46,8 @@ const Home = ({filterSettings: {settings, loading, cities}, getFilterSettings, c
           )
         }
         <img src={left_effect} style={{marginBottom: 0, width: '100%'}} alt="" />
-        <Testimonails />
+          <Testimonails />
+        
         <img src={right_effect} style={{color: '#f7f7f7', width: '100%'}} alt="" />
         <Services />
         <Contact />

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
 import './style.css'
 import { getStr, calculatePrice } from '../../actions/language'
+import SelectorImg from '../home/icons/selection.svg'
 
 const PropertyCard = ({property: {featuredImage, _id, title_en, title_ar, shortDescription_en, shortDescription_ar, minPrice, plans, featured}, language: {lang, currency}}) => {
     const title = lang === 'en' ? title_en : title_ar
@@ -56,7 +57,7 @@ const PropertyCard = ({property: {featuredImage, _id, title_en, title_ar, shortD
                 <small className="text-dark">{getStr('area')}</small>
                 <div className="row justify-content-start">
                   <div className='col-1'>
-                    <div className="area-icon"></div>
+                    <img src={SelectorImg} alt="" className="icon-slider icon-svg-prop" />
                   </div>
                   <small className='col text-dark'>{plans[0].area}</small>
                 </div>

@@ -143,12 +143,20 @@
     width: 0;
     height: 0;
     position: absolute;
-    right: -8.5px;
     top: 0;
     border: 0 solid transparent;
     border-bottom-width: 13px;
     border-top-width: 13px;
+}
+
+html:lang(en) .card-img-top .title-feature .span-feature {
+    right: -8.5px;
     border-left: 9px solid #ffcf0a;
+}
+
+html:lang(ar) .card-img-top .title-feature .span-feature {
+    left: -8.5px;
+    border-right: 9px solid #ffcf0a;
 }
 
 
@@ -172,7 +180,6 @@
 span.price {
     color:  #ffcf0a;
     opacity: 1;
-    font-family: "Rubik", sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 26px;
@@ -193,12 +200,10 @@ span.price {
 .card-body .title-propertyCard {
     line-height: 15px;
     font-size: 19px;
-    font-family: "Roboto", Sans-serif;
     font-weight: 600;
 }
 
 .card-body .text-muted {
-    font-family: "Roboto", Sans-serif;
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -247,6 +252,10 @@ span.price {
 
 .panner.jumbotron {
     height: 370px;
+    margin-top: 96px !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .panner .carousel-form {
@@ -261,6 +270,10 @@ span.price {
 
 .panner .carousel-form select {
     width: 21%;
+}
+
+.panner .carousel-form h4 {
+    width: 17%;
 }
 
 
@@ -338,15 +351,21 @@ span.price {
 
 /* Property Page */
 #propertyPage {
-    background-color: #E8E8E8;
+    background-color: #fff;
     width: 70%;
     margin: auto;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
     margin-bottom: 30px;
     padding: 0;
+    margin-top: 96px;
 }
+
+.icon-slider.icon-svg-prop {
+    width: 22px;
+    margin: auto;
+    display: block;
+  }
 
 #galleryCarousel {
     margin-bottom: 20px;
@@ -363,8 +382,8 @@ span.price {
 
 #galleryCarousel .carousel-inner,
 #galleryCarousel .carousel-inner .carousel-item img {
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
 
 #galleryCarousel .carousel-inner .carousel-item img {
@@ -379,13 +398,51 @@ span.price {
 
 }
 
-
 #propertyPage .overview h3 {
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 30px;
+    position: relative;
+    background-color: #ddd;
+    padding: 6px 10px;
+    color: #000;
 }
 
+#propertyPage .overview h3:last-child {
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: transparent;
+    padding: 0;
+    color: #000;
+}
+
+html:lang(ar) #propertyPage .overview h3:last-child:before {
+    content: "";
+    font: normal;
+    margin-left: 0;
+    color: transparent;
+}
+
+html:lang(en) #propertyPage .overview h3:last-child:before {
+    content: "";
+    font: normal;
+    margin-left: 0;
+    color: transparent;
+}
+
+html:lang(ar) #propertyPage .overview h3::before {
+    content: "\f0d9";
+    font: normal normal normal 32px/1 FontAwesome;
+    margin-left: 5px;
+    color: #ffcf0a;
+}
+
+html:lang(en) #propertyPage .overview h3::before {
+    content: "\f0da";
+    font: normal normal normal 32px/1 FontAwesome;
+    margin-right: 5px;
+    color: #ffcf0a;
+}
 
 
 
@@ -417,7 +474,6 @@ ul.overview-list li span {
     border-radius: 5px;
     box-shadow: 2px 2px 5px #ccc;
     font-size: 18px;
-    font-family: 'Rubik';
 }
 
 
@@ -427,7 +483,6 @@ ul.overview-list li span {
     padding: 10px 20px;
     box-shadow: 2px 2px 5px #ccc;
     font-size: 18px;
-    font-family: 'Rubik', sans-serif;
     margin: 0px 3px;
     text-align: center;
 }
