@@ -248,6 +248,12 @@ html:lang(ar)  .slick-next::before {
   margin: auto;
 }
 
+.testimonail li.BrainhubCarouselItem {
+  padding: 30px;
+}
+
+.testimonail li.BrainhubCarouselItem.BrainhubCarouselItem--active {padding: 0;}
+
 .big-quote {
   font-size: 2em;
 }
