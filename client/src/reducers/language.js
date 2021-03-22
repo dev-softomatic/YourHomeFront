@@ -5,7 +5,7 @@ const initialState = {
     locale: localStorage.getItem('locale') ? localStorage.getItem('locale') : 'en-GB',
     currency: localStorage.getItem('currency') ? localStorage.getItem('currency') : '₺',
     rate: localStorage.getItem('rate') ? localStorage.getItem('rate') : 1,
-    currencyIcon: localStorage.getItem('currencyIcon') ? localStorage.getItem('currencyIcon') : ''
+    currencyIcon: localStorage.getItem('currencyIcon') ? localStorage.getItem('currencyIcon') : 'https://yourhome.fra1.digitaloceanspaces.com/1616420430465.png'
 }
 
 
