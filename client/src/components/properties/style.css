@@ -728,26 +728,31 @@ html:lang(ar) .marginLeftLangEng {
     display: flex;
 }
 
-.share button, .share a {
+.share button, .share a, .share span {
     color: #fff;
     font-weight: 500;
     height: 30px;
-    margin-right: -7px;
+    /* margin-right: -7px; */
     font-size: 12px;
 }
 
+.share .btn img {
+    height: 20px; 
+    width: 20px;
+    /* margin: 5px; */
+}
 
 
-button.facebook {
-    background-color: #33528f;
+span.facebook {
+    background-color: #35579b;
    
 }
 
-button.twitter {
+span.twitter {
     background-color: #03a5e6;
 }
 
-button.linkedin {
+span.linkedin {
     background-color: #0e76a8;
 }
 

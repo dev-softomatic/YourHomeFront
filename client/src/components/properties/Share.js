@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import fb from './icons/fb-icon.png'
-import twitter from './icons/twitter.png'
-import linkedIn from './icons/linkedin.png'
-import copy from './icons/copy.jpg'
+import copy from './icons/copy-icon.png'
+import {FacebookShareButton, TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon} from 'react-share'
 import axios from 'axios'
 
 
@@ -20,32 +19,36 @@ const Share = () => {
     const [about, setAbout] = useState(null)
     useEffect(()=> {
         getAbout().then(res => setAbout(res.data)).catch(err => console.log(err))
+        console.log(window.location.href)
     }, [])
 
-    const onClick = (link)=> {
-     window.location = link
-    }
 
     const copyURL = () => navigator.clipboard.writeText(window.location.href)
 
     return (
         <div className='d-flex justify-content-center share'>
           
-            <div className='mr-2 box-social'>
-                <button onClick={e => onClick(about.facebook)} className='btn facebook'>Facebook</button>
-                <img src={fb} alt="" />
+         
+            <div className='mx-2 box-social'>
+                <FacebookShareButton url={window.location.href}>
+                    <span className='btn facebook'>facebook <img style={borderStyle} src={fb} alt="" /></span>
+                </FacebookShareButton>
             </div>
-            <div className='mr-2 box-social'>
-                <button className='btn twitter' onClick={e => onClick(about.twitter)}>Twitter</button>
-                <img style={borderStyle} src={twitter} alt="" />
+            <div className='mx-2 box-social'>
+                <LinkedinShareButton url={window.location.href}>
+                    <span className='btn linkedin'>linkedin <LinkedinIcon size={20}/></span>
+                </LinkedinShareButton>
             </div>
-            <div className='mr-2 box-social'>
-                <button className='btn linkedin' onClick={e => onClick(about.linkedin)}>LinkedIn</button>
-                <img style={borderStyle} src={linkedIn} alt="" />
+           
+             <div className='mx-2 box-social'>
+                <TwitterShareButton url={window.location.href}>
+                    <span className='btn twitter'>twitter <TwitterIcon size={20}/></span>
+                </TwitterShareButton>
             </div>
-            <div className='mr-2 box-social'>
-                <button onClick={()=> copyURL()} className='btn btn-dark copylink'>Copy Link</button>
-                <img src={copy} alt="" style={borderStyle} />
+           
+            <div className='mx-2 box-social'>
+                <button onClick={()=> copyURL()} className='btn btn-dark copylink'>Copy Link <img src={copy} alt="" style={borderStyle} /></button>
+                
             </div>
         </div>
     )

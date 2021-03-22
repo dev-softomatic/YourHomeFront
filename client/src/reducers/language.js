@@ -4,7 +4,8 @@ const initialState = {
     lang: localStorage.getItem('lang') ? localStorage.getItem('lang') : 'en',
     locale: localStorage.getItem('locale') ? localStorage.getItem('locale') : 'en-GB',
     currency: localStorage.getItem('currency') ? localStorage.getItem('currency') : '₺',
-    rate: localStorage.getItem('rate') ? localStorage.getItem('rate') : 1
+    rate: localStorage.getItem('rate') ? localStorage.getItem('rate') : 1,
+    currencyIcon: localStorage.getItem('currencyIcon') ? localStorage.getItem('currencyIcon') : ''
 }
 
 
@@ -22,7 +23,8 @@ export default function language(state = initialState, action){
             return {
                 ...state,
                 rate: payload.rate,
-                currency: payload.currency
+                currency: payload.currency,
+                currencyIcon: payload.icon
             }
         default:
             return state;

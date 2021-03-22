@@ -21,6 +21,7 @@ export const setLanguage = (lang, locale) => dispatch =>{
 export const setCurrency = (currency) => dispatch => {
     localStorage.setItem('currency', currency.currency)
     localStorage.setItem('rate', currency.rate)
+    localStorage.setItem('currencyIcon', currency.icon)
 
     dispatch({
         type: CURRENCY_CHANGED,

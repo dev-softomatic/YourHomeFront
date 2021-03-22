@@ -943,6 +943,10 @@
     "similairproj" : {
         "en" : "Similar Projects",
         "ar" : "مشاريع مماثلة"
+    },
+    "booked_successfully": {
+        "en": "You've booked the appointment successfully",
+        "ar": "تم حجز موعدك بنجاح"
     }
 
 }

@@ -48,9 +48,9 @@ function App() {
 
   return (
     <Provider store={store}>
+      <Popup/>
       <div className="App" style={{overflow: 'hidden'}}>
         <Currency />
-        <Popup/>
         <Router>
           <a href="https://wa.me/905324301470" target="_blank" title="whatsapp-yourhome" className="icon-whatsapp">
             <i className="fa fa-whatsapp fa-lg"></i>
