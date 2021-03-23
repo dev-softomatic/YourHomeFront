@@ -31,7 +31,7 @@ const Citzinship = ({language}) => {
       <div className="content">
         <div className="row">
           <div className="col-md-6 col-imgCitizenship">
-            <div className="img-passport" style={{height:"400px"}}>
+            <div className="img-passport" style={{height:"100%", marginTop: "-30px"}}>
               <img src={data.image} alt="passport" className={`wow ${lang === 'ar' ? "bounceInRight" : "bounceInLeft"}`} data-wow-duration="1s"/>
             </div>
           </div>
