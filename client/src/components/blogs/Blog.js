@@ -12,7 +12,7 @@ import Share from '../properties/Share'
 const Blog = ({get, article: {article, loading}, match, language: {lang}}) => {
     useEffect(()=>{
         get(match.params.id)
-    }, [match.params.id, get])
+    }, [match.params.id, get, lang])
     return (
         <section className='p-3'>
             {!article || loading ? <Spinner/> : 
