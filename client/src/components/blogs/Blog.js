@@ -5,6 +5,7 @@ import {get} from '../../actions/blog'
 import {connect} from 'react-redux'
 import Spinner from '../layout/Spinner'
 import PropTypes from 'prop-types'
+import Share from '../properties/Share'
 
 
 
@@ -15,13 +16,14 @@ const Blog = ({get, article: {article, loading}, match, language: {lang}}) => {
     return (
         <section className='p-3'>
             {!article || loading ? <Spinner/> : 
-            <div id="blogPage" className="container">
+            <div id="blogPage" className='container'>
                <img className='cover' src={article.coverImage} alt="" style={{height: 500}} />
                <div className='blog-content'>
                    <h1 className='mb-5'>{lang === 'en' ? article.title_en : article.title_ar}</h1>
                   <BlogContent content={lang === 'en' ? article.content_en : article.content_ar}/>
                </div>
-            </div>}
+            </div>
+            }
         </section>
     )
 }

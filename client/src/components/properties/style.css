@@ -734,7 +734,12 @@ html:lang(ar) .marginLeftLangEng {
     height: 30px;
     /* margin-right: -7px; */
     font-size: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
+
+
 
 .share .btn img {
     height: 20px; 
@@ -755,6 +760,8 @@ span.twitter {
 span.linkedin {
     background-color: #0e76a8;
 }
+
+
 
 
 .video-box {
@@ -834,7 +841,7 @@ span.linkedin {
     .share button {
         width: 90%;
     }
-    .share img, .share button {
+    .share img, .share span {
         margin-bottom: 10px;
     }
 
@@ -852,7 +859,7 @@ span.linkedin {
 
 @media(max-width: 500px) {
     .share {
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 
@@ -860,6 +867,7 @@ span.linkedin {
         display: flex;
         flex-wrap: nowrap;
         flex-basis: 47%;
+        margin-top: 5px;
     }
 }
 

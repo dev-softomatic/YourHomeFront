@@ -1,13 +1,14 @@
 import React, {useEffect, useState} from 'react'
-import fb from './icons/fb-icon.png'
 import copy from './icons/copy-icon.png'
-import {FacebookShareButton, TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon} from 'react-share'
+import {FacebookShareButton, TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon, FacebookIcon} from 'react-share'
 import axios from 'axios'
 
 
 
 const borderStyle = {
-    borderRadius: 3
+    borderRadius: 3,
+    width: 20,
+    height: 20
 }
 
 function getAbout(){
@@ -27,11 +28,9 @@ const Share = () => {
 
     return (
         <div className='d-flex justify-content-center share'>
-          
-         
             <div className='mx-2 box-social'>
                 <FacebookShareButton url={window.location.href}>
-                    <span className='btn facebook'>facebook <img style={borderStyle} src={fb} alt="" /></span>
+                    <span className='btn facebook'>facebook <FacebookIcon size={20}/></span>
                 </FacebookShareButton>
             </div>
             <div className='mx-2 box-social'>
@@ -47,8 +46,9 @@ const Share = () => {
             </div>
            
             <div className='mx-2 box-social'>
-                <button onClick={copyURL} type='button' className='btn btn-dark copylink'>Copy Link <img src={copy} alt="" style={borderStyle} /></button>
-                
+                <button onClick={copyURL} type='button' className='btn btn-dark'>
+                    Copy <img src={copy} alt="" style={borderStyle} />
+                </button>
             </div>
         </div>
     )
