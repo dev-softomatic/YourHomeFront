@@ -47,7 +47,7 @@ const Share = () => {
             </div>
            
             <div className='mx-2 box-social'>
-                <button onClick={()=> copyURL()} className='btn btn-dark copylink'>Copy Link <img src={copy} alt="" style={borderStyle} /></button>
+                <button onClick={copyURL} type='button' className='btn btn-dark copylink'>Copy Link <img src={copy} alt="" style={borderStyle} /></button>
                 
             </div>
         </div>
