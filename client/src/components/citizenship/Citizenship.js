@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import istanbulNight from './icons/istanbul-bg.jpg'
+import istanbulNight from './icons/1.jpg'
 import Passport from './icons//pass.png'
 import passport_vertical from './icons/pass-vert.png'
 import map from './icons/map.png'

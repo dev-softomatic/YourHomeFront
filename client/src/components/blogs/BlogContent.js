@@ -1,6 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {Editor, EditorState, convertFromRaw, CompositeDecorator} from 'draft-js'
 import Share from '../properties/Share'
+import {connect} from 'react-redux'
+
 
 function findImageEntities(contentBlock, callback, contentState) {
     contentBlock.findEntityRanges(
@@ -34,9 +36,11 @@ const decorator = new CompositeDecorator([
     }
   ]);
 
-const BlogContent = ({content}) => {
+const BlogContent = ({contentAr, contentEn, lang}) => {
+    const [content, setContent] = useState(lang === 'en' ? contentEn : contentAr)
     const contentState = convertFromRaw(content);
     const [editorState] = useState(EditorState.createWithContent(contentState, decorator))
+   
     return (<>
        <Editor editorState={editorState} readOnly={true}/>
        <Share />
@@ -44,4 +48,11 @@ const BlogContent = ({content}) => {
     )
 }
 
-export default BlogContent
+const mapStateToProps = (state, ownProps) => {
+  return {
+    lang: state.language.lang
+  }
+}
+
+
+export default connect(mapStateToProps, {})(BlogContent)

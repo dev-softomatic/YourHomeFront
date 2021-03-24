@@ -35,6 +35,7 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
       document.documentElement.dir = 'ltr';
       document.documentElement.lang = "en";
     }
+    
     history.push(pathname);
     
   }

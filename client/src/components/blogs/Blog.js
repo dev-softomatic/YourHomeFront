@@ -13,6 +13,7 @@ const Blog = ({get, article: {article, loading}, match, language: {lang}}) => {
     useEffect(()=>{
         get(match.params.id)
     }, [match.params.id, get, lang])
+
     return (
         <section className='p-3'>
             {!article || loading ? <Spinner/> : 
@@ -20,7 +21,7 @@ const Blog = ({get, article: {article, loading}, match, language: {lang}}) => {
                <img className='cover' src={article.coverImage} alt="" style={{height: 500}} />
                <div className='blog-content'>
                    <h1 className='mb-5'>{lang === 'en' ? article.title_en : article.title_ar}</h1>
-                  <BlogContent content={lang === 'en' ? article.content_en : article.content_ar}/>
+                  <BlogContent lang contentAr={article.content_ar} contentEn={article.content_en} />
                </div>
             </div>
             }
