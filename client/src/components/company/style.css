@@ -103,8 +103,8 @@ html:lang(ar) #company .about-company img {
 
 
 .be-agent img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 280px;
     margin: auto;
     display: block;
 }
@@ -193,5 +193,19 @@ html:lang(ar) .be-agent form {
     #company .about-company p {
         max-width: 90%;
         padding: 0 5% 5% 0;
+    }
+}
+
+@media(min-width: 991px) and (max-width: 1199px) {
+    #company .about-company img {
+        height: 79%;
+        width: 78%;
+        top: -402px;
+        right: -18px;
+    }
+    
+    #company .square {
+        width: 80%;
+        height: 82%;
     }
 }
