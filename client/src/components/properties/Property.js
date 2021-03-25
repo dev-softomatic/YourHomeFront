@@ -12,7 +12,7 @@ import {calculatePrice, getStr} from '../../actions/language'
 import GoogleMap from '../contact/GoogleMap';
 
 
-const Property = ({ getProperty, property: { property, loading, properties }, match, lang, location, currency }) => {
+const Property = ({ getProperty, property: { property, loading }, match, lang, location, currency }) => {
   useEffect(() => {
     console.log(location)
     getProperty(match.params.id);

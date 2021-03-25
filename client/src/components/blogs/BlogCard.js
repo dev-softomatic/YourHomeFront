@@ -1,10 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {getStr} from '../../actions/language'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 
 
 
-const BlogCard = ({blog: {title_en, title_ar, createdAt, content_en, content_ar, coverImage, _id}, lang}) => {
+
+const BlogCard = ({blog: {title_en, title_ar, content_en, content_ar, coverImage, _id}, language: {lang}}) => {
     const content = lang === 'en' ? content_en : content_ar
     return (
         <Link to={`/blog/${_id}`} className='blog-card'>
@@ -18,4 +21,15 @@ const BlogCard = ({blog: {title_en, title_ar, createdAt, content_en, content_ar,
     )
 }
 
-export default BlogCard
+BlogCard.propTypes = {
+    language: PropTypes.object.isRequired,
+}
+
+const mapStateToProps = (state, ownProps) => {
+    return {
+        language: state.language
+    }
+}
+
+
+export default connect(mapStateToProps, {})(BlogCard)

@@ -1,4 +1,4 @@
-import React, {Fragment, useEffect} from 'react'
+import React, { useEffect} from 'react'
 import PropTypes from 'prop-types'
 import {getProperties} from '../../actions/properties'
 import {calculatePrice} from '../../actions/language'
@@ -8,8 +8,8 @@ import {Link} from 'react-router-dom'
 
 const SimilarProjects = ({property: {properties, loading}, type, getProperties, language: {currency}}) => {
     useEffect(()=> {
-        getProperties(1, type, 0, 0, 0, 0)
-    }, [getProperties])
+        getProperties(1, type)
+    }, [getProperties, type])
     return (
       <div className="row justify-content-center mt-3"> 
         {loading || !properties ? (

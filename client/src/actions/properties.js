@@ -5,7 +5,6 @@ import {
 } from './types'
 
 import axios from 'axios'
-import BASE_URL from './tempBaseURL'
 
 
 export const getRecentProperties = () => async dispatch =>{
@@ -22,14 +21,14 @@ export const getRecentProperties = () => async dispatch =>{
 } 
 
 
-export const getProperties = (page = 1, type='', area = 0, bedrooms = 0, price_high = 0, price_low = 0) => async dispatch =>{
+export const getProperties = (page = 1, type='', area = '', bedrooms = 0, price_high = 0, price_low = 0) => async dispatch =>{
     try {
         let url = `/api/estates?page=${page}`
 
         if(type !== ''){
             url += `&type=${type}`
         }
-        if(area !== ''){
+        if(area !== '' && area !== 0){
             url += `&area=${area}`
         }
 
@@ -43,14 +42,10 @@ export const getProperties = (page = 1, type='', area = 0, bedrooms = 0, price_h
             url += `&price_high=${price_high}&price_low=${price_low}`
         }
 
-        console.log(url)
+        console.log(url, 'area:', area)
 
         const res = await axios.get(url)
         dispatch({
-
-
-
-
             type: PROPERTIES_LOADED,
             payload: res.data
         })
