@@ -54,22 +54,21 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
 
   let path = location.pathname;
 
-  useEffect(() => {
+  const scrollTop = () => {
     window.scrollTo(0, 0);
-
-  }, [path])
+  }
  
   return (
   <nav className="navbar navbar-expand-lg navbar-light" style={{backgroundColor: '#fff'}}>
   <Link className="logo" to="/" onClick={e => setActive('/')}>
-      <img src={logo} alt="Logo" className='ml-5 logo'/>
+      <img src={logo} alt="Logo" className='ml-5 logo' onClick={() => scrollTop()}/>
   </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav mx-auto">
-      <li className={`nav-item nav-item-menu p-1 ml-2 ${active === '/' && path === "/" ? 'activeLink' : ''}`}>
+      <li className={`nav-item nav-item-menu p-1 ml-2 ${active === '/' && path === "/" ? 'activeLink' : ''}`} onClick={() => scrollTop()}>
         <Link className="nav-link text-dark" to='/' data-toggle="collapse" data-target=".navbar-collapse.show"  onClick={e => setActive('/')}>{getStr('home')}</Link>
       </li>
       <li className={`nav-item nav-item-menu ml-2 ${active === '/company' || path === "/company" ? 'activeLink' : ''}`}>

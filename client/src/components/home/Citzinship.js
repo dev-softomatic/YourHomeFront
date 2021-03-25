@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import passport from "./icons/passport.png";
+import passport from "./icons/natio.png";
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 import {connect} from 'react-redux'
@@ -32,7 +32,7 @@ const Citzinship = ({language}) => {
         <div className="row">
           <div className="col-md-6 col-imgCitizenship">
             <div className="img-passport" >
-              <img src={data.image} alt="passport" className={`wow ${lang === 'ar' ? "bounceInRight" : "bounceInLeft"}`} data-wow-duration="1s"/>
+              <img src={passport} alt="passport" className={`wow ${lang === 'ar' ? "bounceInRight" : "bounceInLeft"}`} data-wow-duration="1s"/>
             </div>
           </div>
           <div className="col-md-6">

@@ -70,6 +70,7 @@ html:lang(en) .currency:focus {
 }
 
 html:lang(ar) .currency {
+    direction: ltr;
 	position: fixed;
     top: 330px;
     right: -49px;
@@ -94,6 +95,7 @@ html:lang(ar) .select-currency {
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
+    text-align: left !important;
 }
 
 html:lang(ar) .select-currency:hover,
@@ -109,7 +111,7 @@ html:lang(ar) .select-currency:focus {
 
 
 html:lang(ar) .currency .currency-name {
-    margin-right: 5px;
+    margin-left: 5px;
 }
 
 button,

@@ -149,13 +149,14 @@ button.search-btn img{
 
 #citizenship .content .col-imgCitizenship .img-passport {
   height: 100%;
-  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media(min-width: 1400px) {
   #citizenship .content .col-imgCitizenship .img-passport {
     height: 100%;
-    margin-top: -120px;
   }
 }
 
@@ -190,14 +191,11 @@ html:lang(ar)  .slick-next::before {
 }
 
 .content img {
-  height: 100%;
-  width: 100%;
   margin-top: 0;
 }
 
 @media (min-width: 1400px) and (max-width: 2500px) {
   .content img {
-    margin-top: 95px;
   }
 }
 
@@ -1156,14 +1154,14 @@ button:focus, a:focus {
 
 @media(min-width: 1500px) {
   #myCarousel .carousel-control-next, #myCarousel .carousel-control-prev {
-    width: 2.5% !important;
-    height: 4.5% !important;
+    width: 1.9% !important;
+    height: 4.8% !important;
   }
 
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    width: 10px !important;
-    height: 12px !important;
+    width: 14px !important;
+    height: 19px !important;
   }
 
 }
