@@ -10,7 +10,7 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://207.154.229.90:5000'
+axios.defaults.baseURL = 'https://panel.yourhomeistanbul.com'
 
 ReactDOM.render(
   <React.StrictMode>
