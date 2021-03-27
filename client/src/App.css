@@ -51,6 +51,7 @@ html:lang(en) .select-currency {
 .currency .dropdown-menu .select-currency {
     background-color: #fff;
     color: #343a40;
+    cursor: pointer;
 }
 
 html:lang(en) .currency .currency-name {
