@@ -4,12 +4,11 @@ import { connect } from "react-redux";
 import { getProperty } from "../../actions/properties";
 import Spinner from '../layout/Spinner'
 import arrow_icon from './icons/arrow-down.png'
-import check from './icons/check.png'
 import ReactPlayer from 'react-player';
 import SimilarProjects from './SimilarProjects'
 import Share from './Share'
 import {calculatePrice, getStr} from '../../actions/language'
-import GoogleMap from '../contact/GoogleMap';
+// import GoogleMap from '../contact/GoogleMap';
 
 
 const Property = ({ getProperty, property: { property, loading }, match, lang, location, currency }) => {
@@ -17,6 +16,7 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
     console.log(location)
     getProperty(match.params.id);
   }, [getProperty, match.params.id]);
+
   return (
     <section className="p-3" style={{backgroundColor:"#e8e8e8"}}>
       {loading || !property ? (

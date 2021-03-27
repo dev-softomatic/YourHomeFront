@@ -6,7 +6,7 @@ import {connect} from 'react-redux'
 import Spinner from '../layout/Spinner'
 import {Link} from 'react-router-dom'
 
-const SimilarProjects = ({property: {properties, loading}, type, getProperties, language: {currency}}) => {
+const SimilarProjects = ({property: {properties, loading}, type, getProperties, language: {currency, lang}}) => {
     useEffect(()=> {
         getProperties(1, type)
     }, [getProperties, type])
@@ -17,6 +17,7 @@ const SimilarProjects = ({property: {properties, loading}, type, getProperties, 
         ) : (
           properties.slice(0, 3).map((p) => (
             <Link
+              onClick={e => window.location = `/properties/${p._id}`}
               to={`/properties/${p._id}`}
               className="similar col-lg-4 col-sm-12  mb-3 col-md-4"
               key={p._id + "-similar"}
@@ -27,7 +28,7 @@ const SimilarProjects = ({property: {properties, loading}, type, getProperties, 
               />
 
               <div className="similar-text">
-                <span className="title">{p.title_en}</span>
+                <span className="title">{lang === 'en' ? p.title_en : p.title_ar}</span>
                 <span className='price'>{calculatePrice(p.minPrice).toLocaleString()} {currency}</span>
               </div>
             </Link>
