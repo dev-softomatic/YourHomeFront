@@ -76,7 +76,7 @@ const mapStateToProps = state => {
         categories: state.category.categories,
         categoriesLoading: state.category.loading,
         properties: state.property.properties,
-        propertiesLoading: state.property.loading
+        propertiesLoading: state.property.loading,
     }
 }
 

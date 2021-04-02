@@ -13,10 +13,10 @@ import {getStr} from '../../actions/language'
 
 
 
-const Partners = ({getPartners, partner:{loading, partners}}) => {
+const Partners = ({getPartners, partner:{loading, partners}, lang}) => {
     useEffect(()=> {
         getPartners()
-    }, [getPartners])
+    }, [getPartners, lang])
 
     const settings = {
         arrows: false,
@@ -79,12 +79,13 @@ const Partners = ({getPartners, partner:{loading, partners}}) => {
 }
 
 Partners.propTypes = {
-
+ lang: PropTypes.string.isRequired,
 }
 
 const mapStateToProps = state => {
     return {
-        partner: state.partner
+        partner: state.partner,
+        lang: state.language.lang
     }
 }
 

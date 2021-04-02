@@ -21,7 +21,7 @@ const Blog = ({get, article: {article, loading}, match, language: {lang}}) => {
                <img className='cover' src={article.coverImage} alt="" style={{height: 500}} />
                <div className='blog-content'>
                    <h1 className='mb-5'>{lang === 'en' ? article.title_en : article.title_ar}</h1>
-                  <BlogContent lang contentAr={article.content_ar} contentEn={article.content_en} />
+                  <BlogContent contentAr={article.content_ar} contentEn={article.content_en} />
                </div>
             </div>
             }

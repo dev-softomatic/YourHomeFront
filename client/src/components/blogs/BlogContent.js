@@ -37,9 +37,20 @@ const decorator = new CompositeDecorator([
   ]);
 
 const BlogContent = ({contentAr, contentEn, lang}) => {
+
+  useEffect(()=> {
+    let cs;
+     if(lang === 'en'){
+       cs = convertFromRaw(contentEn)
+     }else{
+       cs = convertFromRaw(contentAr)
+     }
+     setEditorState(EditorState.createWithContent(cs, decorator))
+  }, [lang])
+
     const [content, setContent] = useState(lang === 'en' ? contentEn : contentAr)
     const contentState = convertFromRaw(content);
-    const [editorState] = useState(EditorState.createWithContent(contentState, decorator))
+    const [editorState, setEditorState] = useState(EditorState.createWithContent(contentState, decorator))
    
     return (<>
        <Editor editorState={editorState} readOnly={true}/>

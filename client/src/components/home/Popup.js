@@ -10,6 +10,7 @@ import axios from 'axios'
 const Popup = () => {
 
   const submitRef = useRef(null)
+  const closeRef = useRef(null)
 
   const [formData, setForm] = useState({
     firstName: '',
@@ -30,6 +31,7 @@ const Popup = () => {
      axios.post('/api/appointments', formData, {headers: {'Content-Type': 'application/json'}})
      .then(res => {
        setAlert({msg: getStr('booked_successfully'), type: 'success'})
+       closeRef.current.click()
        setTimeout(()=> setAlert({msg: '', type: ''}), 2000)
      }).catch(err => {
        setAlert({msg: err.response.data.errors[0].msg, type: 'danger'})
@@ -40,7 +42,7 @@ const Popup = () => {
 
     return (
       <div 
-        className="modal fade"
+        className="modal fade mt-4"
         id="modal"
         tabindex="-1"
         role="dialog"
@@ -54,8 +56,8 @@ const Popup = () => {
               {alert.msg && <div className={`alert alert-${alert.type}`}>{alert.msg}</div>}
               <form className="container" onSubmit={onSend}>
                 <div className='mb-2 row justify-content-center'>
-                  <input type="text" placeholder={getStr('firstname')} className='form-control col-5' name='firstName' value={formData.firstName} onChange={onChange} required="required"/>
-                  <input type="text" placeholder={getStr('lastname')} className='form-control col-5' name='lastName' value={formData.lastName} onChange={onChange} required/>
+                  <input type="text" placeholder={getStr('firstname')} className='form-control col-5' name='firstName' value={formData.firstName} onChange={onChange} required/>
+                  <input type="text" placeholder={getStr('lastname')} className='form-control col-5' name='lastName' value={formData.lastName} onChange={onChange} />
                 </div>
                 <div className='row justify-content-center mb-2'>
                     <input type="email" className='form-control col-10 mb-2' placeholder={getStr('email_popup')} name='email' value={formData.email} onChange={onChange} required/>
@@ -72,6 +74,7 @@ const Popup = () => {
                 type="button"
                 className="btn btn-secondary"
                 data-dismiss="modal"
+                ref={closeRef}
               >
                 {getStr('close')}
               </button>
