@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import agent from './icons/be-agent.png'
+import agent from './icons/about-us-2.png'
 import {getStr} from '../../actions/language'
 import axios from 'axios'
 

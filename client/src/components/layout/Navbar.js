@@ -105,7 +105,7 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
       </li>
       <li className="nav-item ml-2">
           {
-            lang === 'en' ? <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" to={pathname} onClick={e => onChangeLanguge('ar')}><img src={ar_flag} alt="ar" /> Arabic</Link>
+            lang === 'en' ? <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" style={{fontFamily:'Cairo, sans-serif'}} to={pathname} onClick={e => onChangeLanguge('ar')}><img src={ar_flag} alt="ar"  /> العربية</Link>
             : <Link className="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" to={pathname} onClick={e => onChangeLanguge('en')}><img src={en_flag} style={flagStyle} alt="en" /> English</Link>
 
           }

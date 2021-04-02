@@ -136,13 +136,13 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
             <div className="whyThisProject">
               <h3>{getStr('why_this_project')}</h3>
               {lang === 'en' &&
-              <ul className="marginLeftLangEng">
+              <ul className="marginLeftLangEng features-list">
                 {property.whyThisProject_en.map((wtp, i) => (
                   <li key={`wtp-${i}`}>{wtp}</li>
                 ))}
               </ul>}
               {lang === 'ar' &&
-              <ul>
+              <ul className="features-list">
                 {property.whyThisProject_ar.map((wtp, i) => (
                   <li key={`wtp-${i}`}>{wtp}</li>
                 ))}
@@ -193,8 +193,8 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                   <div id={`planExp${pln._id}`} className="plan-details">
                     <img src={pln.image} alt="" />
                     <div>
-                      <p>{lang === 'en' ? pln.description_en : pln.description_ar}</p>
-                      <div className="details">
+                      <p style={{fontWeight: "700"}}>{lang === 'en' ? pln.description_en : pln.description_ar}</p>
+                      <div className="details" style={{fontWeight: "700"}}>
                         <span>{pln.area} &#13217;</span>
                         <span>{calculatePrice(pln.price)} {currency}</span>
                       </div>

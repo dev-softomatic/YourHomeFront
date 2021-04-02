@@ -54,12 +54,12 @@ const Popup = () => {
               {alert.msg && <div className={`alert alert-${alert.type}`}>{alert.msg}</div>}
               <form className="container" onSubmit={onSend}>
                 <div className='mb-2 row justify-content-center'>
-                  <input type="text" placeholder="First Name" className='form-control col-5' name='firstName' value={formData.firstName} onChange={onChange} required="required"/>
-                  <input type="text" placeholder="Last Name" className='form-control col-5' name='lastName' value={formData.lastName} onChange={onChange} required/>
+                  <input type="text" placeholder={getStr('firstname')} className='form-control col-5' name='firstName' value={formData.firstName} onChange={onChange} required="required"/>
+                  <input type="text" placeholder={getStr('lastname')} className='form-control col-5' name='lastName' value={formData.lastName} onChange={onChange} required/>
                 </div>
                 <div className='row justify-content-center mb-2'>
-                    <input type="email" className='form-control col-10 mb-2' placeholder="Email" name='email' value={formData.email} onChange={onChange} required/>
-                    <input className='form-control col-10' type="text" placeholder="Phone" name='phone' value={formData.phone} onChange={onChange} required/>
+                    <input type="email" className='form-control col-10 mb-2' placeholder={getStr('email_popup')} name='email' value={formData.email} onChange={onChange} required/>
+                    <input className='form-control col-10' type="text" placeholder={getStr('phone_popup')} name='phone' value={formData.phone} onChange={onChange} required/>
                 </div>
                 <div className='row justify-content-center mt-3'>
                   <Calendar value={date} onChange={setDate} tileDisabled={({date}) => date.getDay() === 0 || date.getDay() === 6} required/>
@@ -73,10 +73,10 @@ const Popup = () => {
                 className="btn btn-secondary"
                 data-dismiss="modal"
               >
-                Close
+                {getStr('close')}
               </button>
               <button onClick={e => submitRef.current.click()} type='submit' className="btn" style={{backgroundColor: '#074252', color: '#fff'}}>
-                Send
+                {getStr('send_popup')}
               </button>
             </div>
           </div>

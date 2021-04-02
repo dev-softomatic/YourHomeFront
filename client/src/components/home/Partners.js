@@ -50,7 +50,7 @@ const Partners = ({getPartners, partner:{loading, partners}}) => {
     return (
         <section id="partners" style={{backgroundColor: "#f7f7f7", marginTop: "-1px"}}>
             <span className="span-title">{getStr('partners')}</span>
-            <h2 className='test-title mb-3 text-center title-section'>{getStr('our_partners')}</h2>
+            {/* <h2 className='test-title mb-3 text-center title-section'>{getStr('partners')}</h2> */}
             <p className="desc text-center"> {getStr('desc-partner')} </p>
             <div className="container">
                 <div className='row m-auto pl-5' style={{overflowX: 'hidden'}}>

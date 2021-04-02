@@ -1,5 +1,5 @@
 import React from 'react'
-import istanbul from './icons/about.jpg'
+import istanbul from './icons/about-us-1.png'
 import {getStr} from '../../actions/language'
 
 

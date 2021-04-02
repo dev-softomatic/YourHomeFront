@@ -89,7 +89,7 @@ const Contact = () => {
                             </div>
                             <div className='row justify-content-center phone pl-3 mb-4'>
                                 <div className='col-1 mr-1'><img src={phoneIcon} alt="" /></div>
-                                <div className='col-8'><a className="text-dark" href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></div>
+                                <div className='col-8' style={{direction:'ltr'}}><a className="text-dark" href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></div>
                             </div>
                             {/* <div className='row justify-content-center phone pl-3 mb-4'>
                                 <div className='col-1 mr-1'><img src={phoneIcon} alt="" /></div>

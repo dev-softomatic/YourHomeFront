@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import istanbulNight from './icons/1.jpg'
-import Passport from './icons//pass.png'
+import istanbulNight from './icons/nationality-photo.jpg'
+import Passport from './icons//natio.png'
 import passport_vertical from './icons/pass-vert.png'
 import map from './icons/map.png'
 import './style.css'
@@ -171,12 +171,12 @@ const Citizenship = props => {
                 id="cbenefits"
                 className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"
               >
-                <li>- {getStr('benefits_1')}</li>
+                <li> {getStr('benefits_1')}</li>
                 <li>
-                  - {getStr('benefits_2')}
+                   {getStr('benefits_2')}
                 </li>
                 <li>- {getStr('benefits_3')}</li>
-                <li>- {getStr('benefits_4')}</li>
+                <li> {getStr('benefits_4')}</li>
                 <li>- {getStr('benefits_5')}</li>
                 <li>
                   - {getStr('benefits_6')}

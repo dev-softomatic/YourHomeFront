@@ -37,11 +37,11 @@
     },
     "client_testimonails": {
         "en": "Testimonials",
-        "ar": "أراء االعملاء"
+        "ar": "آراء االعملاء"
     },
     "testimonails": {
         "en": "Testimonials",
-        "ar": "أراء االعملاء"
+        "ar": "آراء االعملاء"
     },
     "looking_to_buy_new_prop": {
         "en": "Looking to Buy a new property or Sell an existing one? YourHome provides you an awesome solution!",
@@ -105,7 +105,7 @@
     },
     "why_this_project": {
         "en": "Why This Project?",
-        "ar": "لماذا هذا المشروع؟"
+        "ar": "مميزات المشروع "
     },
     "about_this_project": {
         "en": "About this project",
@@ -125,7 +125,7 @@
     },
     "overview": {
         "en": "Oveview",
-        "ar": "نبذة عن المشروع"
+        "ar": "معلومات عن المشروع "
     },
     "turkish_citizenship": {
         "en": "Turkish Citizenship",
@@ -177,19 +177,19 @@
     },
     "hassle_free_products_for_buyers": {
         "en": "Client value creation",
-        "ar": "منتجات خالية من المتاعب للمشترين"
+        "ar": "خدمات قانونية"
     },
     "avoid_worries": {
         "en": "Professional Consultancy",
-        "ar": "تجنب القلق"
+        "ar": "تعاقدات موثوقة"
     },
     "finding_the_best_options": {
         "en": "Trustable communication",
-        "ar": "إيجاد الخيار الأفضل"
+        "ar": "إستشارات إحترافية "
     },
     "time_saving_for_investor": {
         "en": "Legal Services",
-        "ar": "توفير الوقت للمستثمر"
+        "ar": "توفير وقت ومجهود المستثمر"
     },
     "about_us_text": {
         "en": "We've been working for more than ten years in Turkish real estates market. Your Home Istanbul is not a conciliator between buyer and seller, but working entirly for buyer.therefore removing the conflict of interest. We offer buyers invetment strategy, guid investment process, after sale property management services and many more services. We have delivered hundereds of title deeds. and throughout this period attain 100% satisfication of all our customers. We only deal with reliable projects, and matter for us is not just handing over the key to an apartment and siging contracts, but we are always beside you. We have served more than 100's of customers from different nationalities, such as US, Canada, Holland, UK, ..etc",
@@ -210,7 +210,7 @@
     },
     "be_agent_text": {
         "en": "Wether you are an individual or an organization and you like to work with us as an agent or marketer, we welcome you to join our team.",
-        "ar": "لا تتردد لديك فرصة لتحقيق ربح من بيع العقارات في إسطنبول وأنت في بلدك تواصل معنا لتكون شريكا لنا في نجاحاتنا  "
+        "ar": " لديك فرصة لتحقيق ربح من بيع العقارات في إسطنبول وأنت في بلدك تواصل معنا لتكون شريكا لنا في نجاحاتنا  "
     },
     "sent_successfully": {
         "en": "Sent Successfully",
@@ -253,8 +253,8 @@
         "ar": "قوة جواز السفر التركي"
     },
     "visa_free_countries_1": {
-        "en": "Turkey passport is ranked 53 in the world (According to Henley Passport Index). More than 65 countries don’t require visa from Turkish passport holders to enter their country, such as: Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and many other countries.",
-        "ar": "يحتل جواز السفر التركي المرتبة 39. هناك 72 دولة لا تتطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها."
+        "en": "Turkey's passport is ranked 53 in the world (According to Henley Passport Index). More than 65 countries don’t require visa from Turkish passport holders to enter their country, such as: Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and many other countries.",
+        "ar": "يحتل جواز السفر التركي المرتبة 53 عالميا وهناك 72 دولة لا تطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها.  تٌصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبنان وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما."
     },
     "visa_free_countries_2": {
         "en": "More than 40 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebanon, and several more. Turkish Citizens are eligible to apply for online visa for more than 7 major countries; including: Australia, Oman and more.",
@@ -947,6 +947,31 @@
     "booked_successfully": {
         "en": "You've booked the appointment successfully",
         "ar": "تم حجز موعدك بنجاح"
+    },
+
+    "firstname": {
+        "en": "First Name",
+        "ar": "الاسم"
+    },
+    "lastname": {
+        "en": "Last Name",
+        "ar": "اللقب"
+    },
+    "email_popup": {
+        "en": "Email",
+        "ar": "البريد الالكتروني"
+    },
+    "phone_popup": {
+        "en": "Phone",
+        "ar": "رقم الهاتف"
+    },
+    "close": {
+        "en": "Close",
+        "ar": "غلق"
+    },
+    "send_popup": {
+        "en": "Send",
+        "ar": "ارسال"
     }
 
 }

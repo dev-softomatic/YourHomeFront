@@ -159,6 +159,14 @@ html:lang(ar) .card-img-top .title-feature .span-feature {
     border-right: 9px solid #ffcf0a;
 }
 
+html:lang(en) .features-list {
+    margin-left: 55px;
+}
+
+html:lang(ar) .features-list {
+    margin-right: 55px;
+}
+
 
 .bed-up {
     background-image: url('./icons/bed-up.png');

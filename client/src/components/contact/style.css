@@ -69,7 +69,11 @@ html:lang(ar) #contactPage .form-contact {
      margin-right: 5%;
  }
 
-
+@media(max-width: 767px) {
+    #contactPage .contact-box .google-map {
+        height: 100% !important;
+    }        
+}
 
 
  @media only screen and (max-width: 578px){
@@ -92,10 +96,11 @@ html:lang(ar) #contactPage .form-contact {
 
       html:lang(ar) #contactPage form {
         padding-left: 10%;
+        padding-right: 5%;
       }
 
       html:lang(en) #contactPage form {
-        padding-right: 10%;
+        padding-left: 10%;
       }
 
       #contactPage h1 {

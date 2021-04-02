@@ -113,7 +113,7 @@ const Footer = ({aboutData, language: {lang, locale}, setLanguage}) => {
                     </span>
                     <span className='d-flex'>
                         <img src={phone} alt="" style={{height: 15, width: 15, marginTop: 5}} />
-                        <small className='m-2'><a className='footer-link' href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></small>
+                        <small className='m-2' style={{direction: 'ltr'}}><a className='footer-link' href={`tel:${aboutData.phone}`}>{aboutData.phone}</a></small>
                     </span>
                 </div>
                 <div className='col-lg-2 m-auto col'>
