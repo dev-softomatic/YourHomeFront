@@ -11,7 +11,6 @@ const About = () => {
             <div className="container">
                 <div className='row pt-4 ml-2 mr-2'>
                     <div className={`col-lg-6 col-md-6 col-sm-12 column  wow ${lang === 'ar' ? "bounceInRight" : "bounceInLeft"}`} data-wow-duration="3s">
-                        <div className='square'></div>
                         <img src={istanbul} alt="" />
                     </div>
                     <div className={`col-lg-6 col-md-6 col-sm-12 wow ${lang === 'ar' ? "bounceInLeft" : "bounceInRight"}`} data-wow-duration="3s">

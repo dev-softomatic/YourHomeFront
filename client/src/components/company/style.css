@@ -58,21 +58,24 @@
 
 #company .column {
     margin-bottom: 0px;
+    position: relative;
+    margin: auto;
+    padding: 0;
 }
 
 #company .about-company img {
     height: 100%;
-    width: 100%;
     position: relative;
-    top: -399px;
-    right: -18px;
     margin: auto;
     display: block;
 }
 
-html:lang(ar) #company .about-company img {
-    top: -333px;
+@media(min-width: 768px) and (max-width: 1024px) {
+    #company .about-company img {
+        width: 100%;
+    }
 }
+
 
 #company .square {
     width: 80%;
@@ -179,8 +182,6 @@ html:lang(ar) .be-agent form {
         height: 221px;
         width: 100%;
         position: relative;
-        top: -208px;
-        right: -10px;
     }
     
     #company .square {
@@ -198,8 +199,7 @@ html:lang(ar) .be-agent form {
     #company .about-company img {
         height: 79%;
         width: 100%;
-        top: -402px;
-        right: -18px;
+
     }
     
     #company .square {

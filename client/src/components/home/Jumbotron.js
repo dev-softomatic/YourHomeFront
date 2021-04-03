@@ -50,7 +50,7 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
   const onChange= e => setFormData({...formData, [e.target.name]: e.target.value})
 
     return (
-        <div id="myCarousel" className="carousel slide carousel-fade" data-ride="carousel" data-interval="4000">
+        <div id="myCarousel" className="carousel slide carousel-fade">
         <div className="carousel-inner">
           {
           offers.map((item, i) =>

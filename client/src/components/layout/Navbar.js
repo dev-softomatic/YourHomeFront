@@ -40,7 +40,7 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
     
   }
 
-
+ 
   useEffect(() => {
     getCategories()
     if(lang === "ar") {
@@ -54,7 +54,8 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
   }, [getCategories])
 
   let path = location.pathname;
-
+  console.log("active = " + active);
+  console.log("path = " + window.location.hash);
   const scrollTop = () => {
     window.scrollTo(0, 0);
   }
@@ -69,7 +70,7 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav mx-auto">
-      <li className={`nav-item nav-item-menu p-1 ml-2 ${active === '/' && path === "/" ? 'activeLink' : ''}`} onClick={() => scrollTop()}>
+      <li className={`nav-item nav-item-menu p-1 ml-2 ${active === '/' && path === "/" && window.location.hash !== "#testimonails" ? 'activeLink' : ''}`} onClick={() => scrollTop()}>
         <Link className="nav-link text-dark" to='/' data-toggle="collapse" data-target=".navbar-collapse.show"  onClick={e => setActive('/')}>{getStr('home')}</Link>
       </li>
       <li className={`nav-item nav-item-menu ml-2 ${active === '/company' || path === "/company" ? 'activeLink' : ''}`}>
@@ -88,8 +89,8 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
            }
         </div>
       </li>
-      <li className={`nav-item nav-item-menu ml-2`}>
-        <a className="nav-link text-dark"  href="/#testimonails">{getStr('testimonails')}</a>
+      <li className={`nav-item nav-item-menu ml-2 ${active === '/#testimonails' || window.location.hash === "#testimonails" ? 'activeLink' : ''}`}>
+        <a className="nav-link text-dark" onClick={e => setActive('/#testimonails')}  href="/#testimonails">{getStr('testimonails')}</a>
       </li>
       <li className={`nav-item nav-item-menu ml-2 ${active === '/blog' || path === "/blog" ? 'activeLink' : ''}`}>
         <Link className="nav-link text-dark" to="/blog" data-toggle="collapse" data-target=".navbar-collapse.show" onClick={e => setActive('/blog')}>{getStr('blog')}</Link>

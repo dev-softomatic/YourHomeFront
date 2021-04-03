@@ -167,10 +167,41 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                 ))}
               </ul>}
             </div>
-            <div className="plans">
+            <div class="accordion plans" id="accordionExample">
               {property.plans.map((pln) => (
                 <Fragment key={pln + "-plans*"}>
-                  <button
+                  <div class="card">
+                    <div class="card-header" id={`heading${pln._id}`}>
+                      <h2 class="mb-0">
+                      <button class="btn btn-link plan-toggle mb-2" type="button" data-toggle="collapse" data-target={`#collapse${pln._id}`} aria-expanded="true" aria-controls={`collapse${pln._id}`}>
+                        <span className="float-left">{pln.label}</span>
+                        <img
+                          src={arrow_icon}
+                          alt=""
+                          style={{
+                            height: 10,
+                            width: 20,
+                            float: "right",
+                            marginTop: 10,
+                          }}
+                        />
+                      </button>
+                      </h2>
+                    </div>
+                    <div id={`collapse${pln._id}`} class="collapse" aria-labelledby={`heading${pln._id}`}>
+                        <div class="card-body plan-details">
+                          <img src={pln.image} alt="" />
+                          <div className="details-collapse">
+                            <p style={{fontWeight: "700"}}>{lang === 'en' ? pln.description_en : pln.description_ar}</p>
+                            <div className="details" style={{fontWeight: "700"}}>
+                              <span>{pln.area} &#13217;</span>
+                              <span>{calculatePrice(pln.price)} {currency}</span>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                  {/* <button
                     className="plan-toggle mb-2"
                     type="button"
                     data-toggle="collapse"
@@ -189,8 +220,8 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                         marginTop: 10,
                       }}
                     />
-                  </button>
-                  <div id={`planExp${pln._id}`} className="plan-details">
+                  </button> */}
+                  {/* <div id={`planExp${pln._id}`} className="plan-details">
                     <img src={pln.image} alt="" />
                     <div>
                       <p style={{fontWeight: "700"}}>{lang === 'en' ? pln.description_en : pln.description_ar}</p>
@@ -199,7 +230,7 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                         <span>{calculatePrice(pln.price)} {currency}</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </Fragment>
               ))}
             </div>

@@ -28,7 +28,7 @@ const TeamMembers = ({getMembers, member: {members, loading}, language: {lang}})
                             <h4 className="name-team">{lang === 'en' ? m.name_en : m.name_ar}</h4>
                             <p className="title-job">{lang === 'en' ? m.position_en : m.position_ar}</p>
                             <p className="email-team">{m.email}</p>
-                            <a href="https://wa.link/15orj1" className="phone-team">{m.phone}</a>
+                            <a href={`tel:${m.phone}`} className="phone-team">{m.phone}</a>
                         </div>
                     ))
                 )

@@ -37,11 +37,11 @@
     },
     "client_testimonails": {
         "en": "Testimonials",
-        "ar": "آراء االعملاء"
+        "ar": "آراء العملاء"
     },
     "testimonails": {
         "en": "Testimonials",
-        "ar": "آراء االعملاء"
+        "ar": "آراء العملاء"
     },
     "looking_to_buy_new_prop": {
         "en": "Looking to Buy a new property or Sell an existing one? YourHome provides you an awesome solution!",
@@ -265,7 +265,7 @@
         "ar": "فوائد الجنسية التركية"
     },
     "benefits_1": {
-        "en": "- Permenent Right of living in Turkey.",
+        "en": "- Permanent Right of living in Turkey.",
         "ar": " - حق دائم في العيش في تركيا"
     },
     "benefits_2": {
@@ -273,19 +273,19 @@
         "ar": "-  سيكون لك الحق في العمل دون الحاجة لإذن عمل"
     },
     "benefits_3": {
-        "en": " You will have right to work.",
-        "ar": "-  السفر بدون تأشيرة إلى أكثر من 72 دولة."
+        "en": " You will have the right to work.",
+        "ar": " السفر بدون تأشيرة إلى أكثر من 72 دولة."
     },
     "benefits_4": {
-        "en": "- Visa free travel to more than 72 countries",
+        "en": "- Visa free travel to more than 72 countries.",
         "ar": "- الحصول بسهولة على تأشيرات للعديد من دول العالم "
     },
     "benefits_5": {
-        "en": "Easy visa application evaluation to all countries.",
+        "en": "- Easy visa application evaluation to all countries.",
         "ar": "- كل ما يحصل عليه المواطن التركي من مميزات صحية وتعليمية"
     },
     "benefits_6": {
-        "en": "All rights granted to you same as any other Turkish citizen.",
+        "en": "- All rights granted to you are the same as any other Turkish citizen.",
         "ar": "جميع الحقوق الممنوحة لك مثل أي مواطن تركي آخر."
     },
     "benefits_7": {
@@ -350,7 +350,7 @@
     },
     "ease_text": {
         "en": " There are great facilities in the procedures related to obtaining citizenship by real estate investment. After purchasing the property, Citizenship can be obtained in a very short period and through uncomplicated procedures.",
-        "ar": "- هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الاستثمار العقاري بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة"
+        "ar": "-هناك تسهيلات كبيرة في الإجراءات المتعلقة بالحصول على الجنسية عن طريق الإستثمار العقاري بعد شراء العقار ، يمكن الحصول على الجنسية في فترة قصيرة جدًا ومن خلال إجراءات غير معقدة ."
     },
     "the_investment_values": {
         "en": "The investment values",
@@ -358,7 +358,7 @@
     },
     "values_text": {
         "en": "Real estate investment in Turkey is a guaranteed way to increase capital due to the development of the real estate market in Turkey and what it is witnessing from the continuous increase in prices.",
-        "ar": "- الاستثمار العقاري في تركيا طريقة مضمونة لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
+        "ar": "- الاستثمار العقاري في تركيا هو طريق مضمون لزيادة رأس المال نتيجة تطور سوق العقارات في تركيا وما يشهده من ارتفاع مستمر في الأسعار."
     },
     "dual_nationality": {
         "en": "Dual nationality",
@@ -397,28 +397,28 @@
         "ar": "حقائق عن الجنسية التركية"
     },
    "facts_1": {
-       "en": "Time limit for the property to be held is 3 years",
-       "ar": " جواز السفر التركي  لا يتم تجديده إلا كل عشر سنوات"
+       "en": "- Time limit for the property to be held is 3 years.",
+       "ar": "- يُسمح للمستثمر ببيع الممتلكات الخاصة به بعد مرور ثلاث سنوات على الشراء."
    },
    "facts_2": {
-       "en": "You are allowed to sell your property after the 3 years’ time condition expires.",
-       "ar": " يُسمح لك ببيع الممتلكات الخاصة بك بعد انتهاء شرط 3 سنوات."
+       "en": "- You are allowed to sell your property after the 3 years’ time condition expires",
+       "ar": "- زوج المستثمر وأولاده الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للحصول على الجنسية."
    },
    "facts_3": {
-    "en": "Applicant’s spouse, children under age of 18 and disabled children of any age are eligible to apply for citizenship under this scheme. ",
-    "ar": " زوج المستثمر وأولاده الذين تقل أعمارهم عن 18 عامًا والأطفال المعاقين في أي عمر مؤهلون للحصول على الجنسية"
+    "en": "- Applicant’s spouse, children under age of 18 and disabled children of any age are eligible to apply for citizenship under this scheme.",
+    "ar": " - ليس من الضروري أن يعيش مقدم الطلب في تركيا للحصول على الجنسية."
    },
    "facts_4": {
-    "en": "It is not necessary for the applicant to live in Turkey to obtain citizenship by this route.",
-    "ar": " ليس من الضروري أن يعيش مقدم الطلب في تركيا للحصول على الجنسية  ."
+    "en": "- It is not necessary for the applicant to live in Turkey to obtain citizenship by this route.",
+    "ar": " - ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك. ."
     },
     "facts_5": {
-        "en": "Turkish citizenship will be life long and descendants will be also born as Turkish citizens",
-        "ar": "ستكون الجنسية التركية مدى الحياة وسيولد الأحفاد أيضًا كمواطنين أتراك ."
+        "en": "- Turkish citizenship will be lifelong and descendants will be also born as Turkish citizens.",
+        "ar": "- تسمح تركيا لمواطنيها بحمل جنسيات متعددة."
     },
     "facts_6": {
-        "en": "Turkey allows their citizens to hold multiple nationalities.",
-        "ar": "تسمح تركيا لمواطنيها بحمل جنسيات متعددة ."
+        "en": "- Turkey allows their citizens to hold multiple nationalities.",
+        "ar": "- جواز السفر التركي  لا يتم تجديده إلا كل عشر سنوات."
     },
     "about_your_home": {
         "en": "About Your Home Istanbul",

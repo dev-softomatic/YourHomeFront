@@ -114,7 +114,7 @@ const Citizenship = props => {
               <p>
               {getStr('bank_account_text').slice(0, 80)}
               </p>
-              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
+              <a href="https://yourhomeistanbul.com/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
             <div className="col-sm-12 col-lg-4 col-md-6 col-xl-3 service-card ">
               <span className="number">02</span>
@@ -122,7 +122,7 @@ const Citizenship = props => {
               <p>
               {getStr('business_text').slice(0, 80)}
               </p>
-              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
+              <a href="https://yourhomeistanbul.com/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
             <div className="service-card col-sm-12 col-lg-4 col-md-6 col-xl-3">
               <span className="number">03</span>
@@ -130,7 +130,7 @@ const Citizenship = props => {
               <p>
                 {getStr('real_estate_text').slice(0, 80)}
               </p>
-              <a href="http://207.154.229.90:8080/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
+              <a href="https://yourhomeistanbul.com/blog/6040f721ab279b3de9bf5ebd">{getStr('read_more')}</a>
             </div>
           </div>
         </div>
@@ -177,9 +177,9 @@ const Citizenship = props => {
                 </li>
                 <li>- {getStr('benefits_3')}</li>
                 <li> {getStr('benefits_4')}</li>
-                <li>- {getStr('benefits_5')}</li>
+                <li> {getStr('benefits_5')}</li>
                 <li>
-                  - {getStr('benefits_6')}
+                   {getStr('benefits_6')}
                 </li>
                 <li>- {getStr('benefits_7')}</li>
               </ul>
@@ -310,12 +310,12 @@ const Citizenship = props => {
               </h5>
               <div id="facts" className='collapse' aria-labelledby="headingNine" data-parent="#accordionExample">
                   <ul style={{listStyleType: 'none'}}>
-                      <li> - {getStr('facts_1')}</li>
-                      <li> - {getStr('facts_2')}</li>
-                      <li> - {getStr('facts_3')}</li>
-                      <li> - {getStr('facts_4')}</li>
-                      <li> - {getStr('facts_5')}</li>
-                      <li> - {getStr('facts_6')}</li>
+                      <li>  {getStr('facts_1')}</li>
+                      <li>  {getStr('facts_2')}</li>
+                      <li>  {getStr('facts_3')}</li>
+                      <li> {getStr('facts_4')}</li>
+                      <li> {getStr('facts_5')}</li>
+                      <li> {getStr('facts_6')}</li>
                   </ul>
               </div>
             </div>

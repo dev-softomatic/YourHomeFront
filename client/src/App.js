@@ -6,7 +6,8 @@ import {Provider} from 'react-redux'
 import store from './store'
 import axios from 'axios'
 
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
 //layout
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
@@ -22,6 +23,7 @@ import BlogGrid from './components/blogs/BlogGrid'
 import Popup from './components/home/Popup'
 import Contact from './components/contact/Contact'
 import Blog from './components/blogs/Blog'
+import ScrollToTop from './components/ScrollTop';
 
 function getAboutData() {
   return axios.get('/api/about')
@@ -52,6 +54,7 @@ function App() {
       <div className="App" style={{overflow: 'hidden'}}>
         <Currency />
         <Router>
+        <ScrollToTop />
           <a href="https://wa.me/905324301470" target="_blank" title="whatsapp-yourhome" className="icon-whatsapp">
             <i className="fa fa-whatsapp fa-lg"></i>
           </a>
