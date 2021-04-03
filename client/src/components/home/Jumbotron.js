@@ -77,7 +77,7 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
                         <div className='col-1 icon'>
                           <i className="fa fa-map-marker fa-lg icon-slider"></i>
                         </div>
-                        <small className='col-1 pl-0'>{lang === 'en' ? item.area_name_en : area_name_ar}</small>
+                        <small className='col-1 pl-0'>{lang === 'en' ? item.area_name_en : item.area_name_ar}</small>
                       </span>
                     </div>
                   : ""}
