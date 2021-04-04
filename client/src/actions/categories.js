@@ -5,11 +5,10 @@ import {
     CATEGORY_ERR
 } from './types'
 
-import BASE_URL from './tempBaseURL'
 
 export const getCategories = () => async dispatch => {
     try {
-        const res = await axios.get(BASE_URL+'/api/categories');
+        const res = await axios.get('/api/categories');
 
         dispatch({
             type: CATEGORIES_LOADED,

@@ -6,7 +6,6 @@ import {
     TESTIMONAIL_ERR
 } from './types'
 
-import BASE_URL from './tempBaseURL'
 
 
 export const getTestimonails = () => async dispatch =>{

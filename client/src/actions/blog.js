@@ -6,7 +6,6 @@ import {
 
 import axios from 'axios'
 
-//const baseURL = 'http://localhost:5000'
 
 export const list = (keyword = '', page = 1) => async dispatch => {
     try {
