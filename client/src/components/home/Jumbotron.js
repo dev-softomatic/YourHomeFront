@@ -105,7 +105,7 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
               <option value="" key="type">{getStr('type')}</option>
               {
                 categories.map(cat => (
-                  <option value={cat._id} key={cat._id}>{cat.name_en}</option>
+                  <option value={cat._id} key={cat._id}>{lang === 'en' ? cat.name_en : cat.name_ar}</option>
                 ))
               }
             </select>

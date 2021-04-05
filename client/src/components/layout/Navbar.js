@@ -54,8 +54,7 @@ const Navbar = ({aboutData, language: {lang, locale}, setLanguage, getCategories
   }, [getCategories])
 
   let path = location.pathname;
-  console.log("active = " + active);
-  console.log("path = " + window.location.hash);
+
   const scrollTop = () => {
     window.scrollTo(0, 0);
   }

@@ -96,7 +96,7 @@ const Citizenship = props => {
                   onChange={onChange}
                   required
                 ></textarea>
-                <button type="submit" className="btn btn-light btn-small">{getStr('message')}</button>
+                <button type="submit" className="btn btn-light btn-small">{getStr('message_send')}</button>
               </form>
             </div>
           </div>
@@ -161,80 +161,6 @@ const Citizenship = props => {
             <div className="col-lg-6 col-md-12 col-sm-12" id="accordionExample">
               <h5>
                 <a
-                  data-toggle="collapse" data-target="#cbenefits" aria-expanded="true" aria-controls="cbenefits" type="button"
-                >
-                  + {getStr('benefits_of_turkish_citizenship')}
-                </a>
-              </h5>
-              <ul
-                style={{ listStyleType: "none" }}
-                id="cbenefits"
-                className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"
-              >
-                <li> {getStr('benefits_1')}</li>
-                <li>
-                   {getStr('benefits_2')}
-                </li>
-                <li>- {getStr('benefits_3')}</li>
-                <li> {getStr('benefits_4')}</li>
-                <li> {getStr('benefits_5')}</li>
-                <li>
-                   {getStr('benefits_6')}
-                </li>
-                <li>- {getStr('benefits_7')}</li>
-              </ul>
-              <h5>
-                <a
-                  type="button" data-toggle="collapse" data-target="#aspireFuture" aria-expanded="false" aria-controls="aspireFuture"
-                >
-                  + {getStr('who_among_us_doesnt_aspire_better_future')}
-                </a>
-              </h5>
-                
-              <div id="aspireFuture" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample" >
-                <p>
-                  {getStr('aspire_text_1')}
-                </p>
-                <p>
-                  {getStr('aspire_text_2')}
-                </p>
-                <p>
-                  {getStr('aspire_text_3')}
-                </p>
-                <p>
-                  {getStr('aspire_text_4')}
-                </p>
-                <p>
-                 {getStr('aspire_text_5')}
-                </p>
-                <p>{getStr('aspire_text_6')}</p>
-                <p>
-                 {getStr('aspire_text_7')}
-                </p>
-              </div>
-              <h5>
-                <a
-                  type="button" data-toggle="collapse" data-target="#advantages" aria-expanded="false" aria-controls="advantages"
-                >
-                 + {getStr('advantages')}
-                </a>
-              </h5>
-              <div id="advantages" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <p>
-                  {getStr('advantages_1')}
-                </p>
-                <p>
-                  {getStr('advantages_2')}
-                </p>
-                <p>
-                 {getStr('advantages_3')}
-                </p>
-                <p>
-                 {getStr('advantages_4')}
-                </p>
-              </div>
-              <h5>
-                <a
                   type="button" data-toggle="collapse" data-target="#easeofprocedures" aria-expanded="false" aria-controls="easeofprocedures"
                 >
                   + {getStr('ease_of_procedures')}
@@ -258,38 +184,6 @@ const Citizenship = props => {
                   </p>
               </div>
               <h5>
-                <a
-                  type="button" data-toggle="collapse" data-target="#dualnat" aria-expanded="false" aria-controls="dualnat"
-                >
-                  + {getStr('dual_nationality')}
-                </a>
-              </h5>
-              <div id="dualnat" className='collapse' aria-labelledby="headingFive" data-parent="#accordionExample">
-                  <p>{getStr('dual_text')}</p>
-              </div>
-              <h5>
-                <a
-                  type="button" data-toggle="collapse" data-target="#validity" aria-expanded="false" aria-controls="validity"
-                >
-                  + {getStr('validity')}
-                </a>
-              </h5>
-              <div id="validity" className='collapse' aria-labelledby="headingSix" data-parent="#accordionExample">
-                  <p>{getStr('validity_text')}</p>
-              </div>
-              <h5>
-                <a
-                  type="button" data-toggle="collapse" data-target="#concessions" aria-expanded="false" aria-controls="concessions"
-                >
-                  + {getStr('concessions')}
-                </a>
-              </h5>
-              <div id="concessions" className='collapse' aria-labelledby="headingSeven" data-parent="#accordionExample">
-                  <p>
-                  {getStr('concessions_text')}
-                  </p>
-              </div>
-              <h5>
                 <a 
                   type="button" data-toggle="collapse" data-target="#economy" aria-expanded="false" aria-controls="economy"
                 >
@@ -301,6 +195,30 @@ const Citizenship = props => {
                    {getStr('strength_text')}                  
                   </p>
               </div>
+              <h5>
+                <a
+                  data-toggle="collapse" data-target="#cbenefits" aria-expanded="true" aria-controls="cbenefits" type="button"
+                >
+                  + {getStr('benefits_of_turkish_citizenship')}
+                </a>
+              </h5>
+              <ul
+                style={{ listStyleType: "none" }}
+                id="cbenefits"
+                className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample"
+              >
+                <li> {getStr('benefits_1')}</li>
+                <li>
+                   {getStr('benefits_2')}
+                </li>
+                <li>- {getStr('benefits_3')}</li>
+                <li> {getStr('benefits_4')}</li>
+                <li> {getStr('benefits_5')}</li>
+                <li>
+                   {getStr('benefits_6')}
+                </li>
+                <li>- {getStr('benefits_7')}</li>
+              </ul>
               <h5>
                 <a 
                   type="button" data-toggle="collapse" data-target="#facts" aria-expanded="false" aria-controls="facts"
@@ -318,6 +236,7 @@ const Citizenship = props => {
                       <li> {getStr('facts_6')}</li>
                   </ul>
               </div>
+              
             </div>
           </div>
         </div>

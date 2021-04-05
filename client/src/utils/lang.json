@@ -91,6 +91,10 @@
         "en":"Message",
         "ar": " رسالة"
     },
+    "message_send": {
+        "en":"Send",
+        "ar": " إرسل"
+    },
     "date": {
         "en":"Date",
         "ar": " التاريخ "
@@ -254,7 +258,7 @@
     },
     "visa_free_countries_1": {
         "en": "Turkey's passport is ranked 53 in the world (According to Henley Passport Index). More than 65 countries don’t require visa from Turkish passport holders to enter their country, such as: Qatar, Tunisia, Jordan, Iraq, Morocco, Japan, South Korea, Malaysia, Singapore, Hong Kong, Indonesia, Brazil, Argentina, South Africa, Thailand, Ukraine, and many other countries.",
-        "ar": "يحتل جواز السفر التركي المرتبة 53 عالميا وهناك 72 دولة لا تطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها.  تٌصدر أكثر من 42 دولة تأشيرة عند الوصول للمواطنين الأتراك ، مثل: الكويت والبحرين ولبنان وغيرها. تسمح أكثر من 7 دول للمواطنين الأتراك بالتقدم للحصول على تأشيرة عبر الإنترنت ، بما في ذلك: أستراليا وعمان وغيرهما."
+        "ar": "يحتل جواز السفر التركي المرتبة 53 عالميا وهناك 72 دولة لا تطلب تأشيرة دخول من المواطنين الأتراك. مثل قطر وتونس والأردن والعراق والمغرب واليابان وكوريا الجنوبية وماليزيا وسنغافورة وهونغ كونغ وإندونيسيا والبرازيل والأرجنتين وجنوب إفريقيا وتايلاند وأوكرانيا وغيرها. ."
     },
     "visa_free_countries_2": {
         "en": "More than 40 countries issue visa on arrival to Turkish citizens, such as: Kuwait, Bahrain, Lebanon, and several more. Turkish Citizens are eligible to apply for online visa for more than 7 major countries; including: Australia, Oman and more.",
