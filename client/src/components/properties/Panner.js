@@ -3,7 +3,7 @@ import img from "./icons/panner-bg2.jpg";
 import searchIcon from "../home/icons/search.png";
 import {formatPrice} from '../helpers/functions'
 import {calculatePrice, getStr} from '../../actions/language'
-
+import PropTypes from 'prop-types'
 
 
 
@@ -48,7 +48,7 @@ const Panner = ({ categories, settings, formData, setFormData, onSubmit, title, 
           {categories.length > 0 &&
             categories.map((cat) => (
               <option value={cat._id} key={cat._id}>
-                {cat.name_en}
+                {lang === 'en' ? cat.name_en : cat.name_ar}
               </option>
             ))}
         </select>
@@ -76,6 +76,9 @@ const Panner = ({ categories, settings, formData, setFormData, onSubmit, title, 
 };
 
 
+// Panner.propTypes = {
+//   lang: PropTypes.string.isRequired,
+// }
 
 
 export default Panner;
