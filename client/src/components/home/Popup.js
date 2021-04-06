@@ -1,14 +1,17 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import passport from '../citizenship/icons/passport.png'
 import './pop.css'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import {getStr} from '../../actions/language'
 import axios from 'axios'
+import {connect} from 'react-redux'
+import PropTypes from 'prop-types'
 
 
-const Popup = () => {
 
+const Popup = ({lang}) => {
+  useEffect(()=> {}, [lang])
   const submitRef = useRef(null)
   const closeRef = useRef(null)
 
@@ -88,4 +91,14 @@ const Popup = () => {
     );
 }
 
-export default Popup
+Popup.propTypes = {
+  lang: PropTypes.string.isRequired,
+}
+
+const mapStateToProps = (state, ownProps) => {
+  return {
+    lang: state.language.lang
+  }
+}
+
+export default connect(mapStateToProps, {})(Popup)

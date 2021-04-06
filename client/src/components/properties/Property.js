@@ -8,6 +8,7 @@ import ReactPlayer from 'react-player';
 import SimilarProjects from './SimilarProjects'
 import Share from './Share'
 import {calculatePrice, getStr} from '../../actions/language'
+import properties from "../../reducers/properties";
 // import GoogleMap from '../contact/GoogleMap';
 
 
@@ -80,29 +81,28 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
           </div>
           <div className="overview">
             <h3> {getStr('overview')}</h3>
-
-            {new Array(property.overview_en.length / 2).fill(0).map((ov, i) => (
+            {new Array((property.overview_en.length / 2)).fill(0).map((ov, i) => (
               <Fragment key={property.overview_en[i]._id + "area"}>
                 <div className="row mb-2 marginLeftLangEng row-area">
                   <div className="col-md-2 col-sm-4 key-val key-val-parent">
                     {lang === "en"
-                      ? property.overview_en[i].key
-                      : property.overview_ar[i].key}
+                      ? property.overview_en[i + i].key
+                      : property.overview_ar[i + i]?.key}
                   </div>
                   <div className="col-md-4 col-sm-4 key-val key-val-child">
-                    {lang === "ar"
-                      ? property.overview_en[i].value
-                      : property.overview_ar[i].value}
+                    {lang === "en"
+                      ? property.overview_en[i + i].value
+                      : property.overview_ar[i + i]?.value}
                   </div>
                   <div className="col-md-2 col-sm-4 key-val key-val-parent">
                     {lang === "en"
-                      ? property.overview_en[i].key
-                      : property.overview_ar[i].key}
+                      ? property.overview_en[i+(i + 1)].key
+                      :( property.overview_ar[i+(i+1)]?.key || '')}
                   </div>
                   <div className="col-md-4 col-sm-4 key-val key-val-child">
-                    {lang === "ar"
-                      ? property.overview_en[i].value
-                      : property.overview_ar[i].value}
+                    {lang === "en"
+                      ? property.overview_en[i + (i+1)].value
+                      : (property.overview_ar[i + (i+1)]?.value || '')}
                   </div>
                 </div>
               </Fragment>
