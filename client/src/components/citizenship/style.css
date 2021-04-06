@@ -74,9 +74,33 @@ h2.question, #citizenshipPage #benefits h2 {
 
 #citizenshipPage #benefits {
     background-image: url('./icons/circle_dots.png');
-    background-position: 126% -198%;
+    background-position: 134% -198%;
     background-repeat: no-repeat;
-    padding:20px;
+    padding:40px 20px 0 20px;
+}
+
+#citizenshipPage #benefits img {
+    position: relative;
+    top: -20%;
+}
+
+@media(max-width: 767px) {
+    #citizenshipPage #benefits {
+        background-position: 6% -198%;
+        padding:40px 20px 30px 20px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px)  {
+    #citizenshipPage #benefits {
+        background-position: 255% -63px;
+        padding: 40px 20px 20px 20px;
+    }
+
+    #citizenshipPage #benefits img {
+        position: relative;
+        top: 0%;
+    }
 }
 
 #citizenshipPage #benefits a{
