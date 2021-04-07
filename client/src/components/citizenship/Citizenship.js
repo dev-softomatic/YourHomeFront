@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import istanbulNight from './icons/nationality-photo.jpg'
 import Passport from './icons//natio.png'
-import passport_vertical from './icons/pass-vert.png'
+import passport_vertical from './icons/natio-final.png'
 import map from './icons/map.png'
 import './style.css'
 import {getStr} from '../../actions/language'
@@ -139,7 +139,7 @@ const Citizenship = props => {
             <h2 className='title-citizenship'>{getStr('visa_free_countries')}</h2>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-5 col-sm-12 col-md-5 pt-3 pl-5">
+            <div className="col-lg-5 col-sm-12 col-md-12 col-lg-12 pt-3 pl-5">
               <p className="prg-map">
                 {getStr('visa_free_countries_1')}
               </p>
@@ -147,16 +147,16 @@ const Citizenship = props => {
                 {getStr('visa_free_countries_2')}
               </p>
             </div>
-            <div className="col-lg-6 col-sm-12 col-md-6 pr-0 pl-5">
+            <div className="col-lg-6 col-sm-12 col-md-12 col-lg-6 pr-0 pl-5">
               <img src={map} alt="" />
             </div>
           </div>
         </div>
         <div id="benefits" className="">
           <h2 className="text-center mb-5 mt-4">{getStr('turkish_citizenship')}</h2>
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-sm-12 p-0">
-              <img src={passport_vertical} alt="" width={"100%F"} />
+          <div className="row" style={{marginTop: "100px"}}>
+            <div className="col-lg-6 col-md-12 col-sm-12 p-0" style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+              <img src={passport_vertical} alt="" width={"490px"} />
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12" id="accordionExample">
               <h5>

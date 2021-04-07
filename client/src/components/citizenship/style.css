@@ -61,6 +61,13 @@ h2.question, #citizenshipPage #benefits h2 {
     margin: 20px 0 30px 0;
 }
 
+@media(max-width:767px) {
+    #mapSection .title-citizenship {
+        text-align: center;
+        margin: 20px 0 10px 0;
+    }
+}
+
 #mapSection .prg-map {
     line-height: 1.9;
     font-size: 18px;
@@ -74,14 +81,21 @@ h2.question, #citizenshipPage #benefits h2 {
 
 #citizenshipPage #benefits {
     background-image: url('./icons/circle_dots.png');
-    background-position: 134% -198%;
+    background-position: 137% -56px;
     background-repeat: no-repeat;
     padding:40px 20px 0 20px;
 }
 
 #citizenshipPage #benefits img {
     position: relative;
-    top: -20%;
+    top: -18%;
+}
+
+@media(min-width: 1500px) {
+    #citizenshipPage #benefits {
+        background-position: 126% -4px;
+        padding:40px 20px 30px 20px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -106,6 +120,9 @@ h2.question, #citizenshipPage #benefits h2 {
 #citizenshipPage #benefits a{
   color: #074252;
   font-weight: 600;
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 
@@ -127,7 +144,7 @@ h2.question, #citizenshipPage #benefits h2 {
    }
 
    #citizenshipPage #benefits img {
-       height: 200px;
+       height: auto;
        width: 100%;
    }
 }
