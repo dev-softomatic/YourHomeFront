@@ -81,7 +81,7 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
           </div>
           <div className="overview">
             <h3> {getStr('overview')}</h3>
-            {new Array((property.overview_en.length / 2)).fill(0).map((ov, i) => (
+            {new Array(Math.ceil(property.overview_en.length / 2)).fill(0).map((ov, i) => (
               <Fragment key={property.overview_en[i]._id + "area"}>
                 <div className="row mb-2 marginLeftLangEng row-area">
                   <div className="col-md-2 col-sm-4 key-val key-val-parent">
@@ -94,16 +94,18 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                       ? property.overview_en[i + i].value
                       : property.overview_ar[i + i]?.value}
                   </div>
-                  <div className="col-md-2 col-sm-4 key-val key-val-parent">
+                 {property.overview_en[i+ (i+1)] &&<div className="col-md-2 col-sm-4 key-val key-val-parent">
                     {lang === "en"
-                      ? property.overview_en[i+(i + 1)].key
+                      ? property.overview_en[i+(i + 1)]?.key
                       :( property.overview_ar[i+(i+1)]?.key || '')}
                   </div>
+                  }
+                  {property.overview_en[i+(i+1)] &&
                   <div className="col-md-4 col-sm-4 key-val key-val-child">
                     {lang === "en"
-                      ? property.overview_en[i + (i+1)].value
+                      ? property.overview_en[i + (i+1)]?.value
                       : (property.overview_ar[i + (i+1)]?.value || '')}
-                  </div>
+                  </div>}
                 </div>
               </Fragment>
             ))}
