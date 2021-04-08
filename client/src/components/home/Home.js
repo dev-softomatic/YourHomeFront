@@ -40,7 +40,7 @@ const Home = ({filterSettings: {settings, loading, cities}, getFilterSettings, c
         <img src={right_effect} style={{color: '#f7f7f7', width: '100%'}} alt="" />
         {
           !properties || propertiesLoading  ? <Spinner /> : (
-            properties.length > 3 ?
+            properties.length > 0 ?
             <RecentProperties properties={properties}/>
             : <div className='text-center'><span>No Data yet</span></div>
           )

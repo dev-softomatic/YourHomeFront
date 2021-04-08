@@ -13,7 +13,7 @@ const RecentProperties = ({properties}) => {
     
     const [page, setPage] = useState(1)
 
-    const [visibleProps, setVisibleProps] = useState([properties[0], properties[1], properties[2]])
+    const [visibleProps, setVisibleProps] = useState([...properties])
 
     const onPage = (e, p) => {
        setPage(p);
