@@ -27,11 +27,11 @@ const PropertyCard = ({property: {featuredImage, _id, title_en, title_ar, shortD
           </div>
           <div className="card-body">
             <b className="card-title title-propertyCard text-dark mb-2">
-              {title.substr(0, 20) + "..."}
+              {title.substr(0, 40) + "..."}
             </b>
             <br />
             <p className="card-text text-muted" >
-              {desc.substr(0, 100) + "..."}
+              {desc.substr(0, 50) + "..."}
             </p>
             <div className="row justify-content-start mt-3">
               <div className="col">
