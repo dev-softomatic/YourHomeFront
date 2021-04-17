@@ -12,7 +12,7 @@ import axios from 'axios'
 
  axios.defaults.baseURL = 'https://panel.yourhomeistanbul.com'
 
-ReactDOM.render(
+ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
