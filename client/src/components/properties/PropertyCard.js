@@ -27,7 +27,7 @@ const PropertyCard = ({property: {featuredImage, _id, title_en, title_ar, shortD
           </div>
           <div className="card-body">
             <b className="card-title title-propertyCard text-dark mb-2">
-              {title.substr(0, 40) + "..."}
+              {title.substr(0, 70) + "..."}
             </b>
             <br />
             <p className="card-text text-muted" >

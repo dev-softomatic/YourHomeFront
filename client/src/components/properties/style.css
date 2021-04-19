@@ -167,6 +167,10 @@ html:lang(ar) .features-list {
     margin-right: 55px;
 }
 
+.features-list li {
+    font-size: 20px;
+}
+
 
 .bed-up {
     background-image: url('./icons/bed-up.png');
@@ -511,9 +515,9 @@ ul.overview-list li span {
     padding: 0px 0px 15px 0;
 }
 
-#propertyPage .services ul li:nth-child(even) {
+/* #propertyPage .services ul li:nth-child(even) {
     text-align: center !important;
-}
+} */
 
 #propertyPage .nearby {
     margin-top: 40px;
@@ -530,7 +534,7 @@ ul.overview-list li span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
 
 .nearby-item img, .nearby-item svg {
@@ -565,13 +569,34 @@ ul.overview-list li span {
     position: relative;
 }
 
+.plans .card .card-body .details-collapse .details .plan,
+.plans .card .card-body .details-collapse .details .price {
+    display: flex;
+}
+
+html:lang(en) .plans .card .card-body .details-collapse .details .plan .span-plan2 {
+    margin: 0 15px 0 0px;
+}
+
+html:lang(ar) .plans .card .card-body .details-collapse .details .plan .span-plan2 {
+    margin: 0 0px 0 15px;
+}
+
+html:lang(en) .plans .card .card-body .details-collapse .details .price .span-plan2 {
+    margin: 0 15px 0 2px;
+}
+
+html:lang(ar) .plans .card .card-body .details-collapse .details .price .span-plan2 {
+    margin: 0 2px 0 15px;
+}
+
 .plans .card .card-body .details-collapse .details {
     position: absolute;
     bottom: 0;
 }
 
 .plans .card .card-body .details-collapse .details span {
-    margin: 0 15px;
+    margin: 0 15 0 0px;
 }
 
 .plans .card-header {
@@ -740,12 +765,15 @@ html:lang(ar) .similar .similar-text {
 
 .similar-text .price {
     background-color: #ffcf0a;
-    color: #fff;
+    color: #000;
     padding: 1px 2px;
 }
 
 .similar-text span.title {
     font-weight: 500;
+    background-color: #0000005c;
+    padding: 3px;
+    width: 69%;
 }
 
 #propertyPage hr {
