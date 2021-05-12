@@ -248,16 +248,20 @@ footer form button:focus {
     }
 }
 
-html:lang(ar) nav .logo {
-    margin-right: 110px;
-    margin-left: 0;
+@media(min-width: 1100px) {
+    html:lang(ar) nav .logo {
+        margin-right: 110px;
+        margin-left: 0;
+    }
+
+    html:lang(ar) nav .logo img {
+        right: 36px;
+        margin-right: 3rem !important;
+    }
 }
 
 
-html:lang(ar) nav .logo img {
-    right: 36px;
-    margin-right: 3rem !important;
-}
+
 
 .list-social {
     list-style: none;

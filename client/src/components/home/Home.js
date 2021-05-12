@@ -1,6 +1,6 @@
 import React, {Fragment, useEffect, useState} from 'react'
 import PropTypes from 'prop-types'
-import Jumbotron from './Jumbotron'
+import Jumbotron from './Carousel'
 import Citzinship from './Citzinship'
 import RecentProperties from './RecentProperties'
 import Services from './Services'

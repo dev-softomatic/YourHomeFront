@@ -81,7 +81,7 @@ html:lang(ar) #myCarousel .carousel-item > .carousel-text {
 }
 
 .column-icon-svg {
-  margin: -24px 20px 0 0;
+  margin: -7px 20px 0 0;
 }
 
 .icon-slider.icon-svg {
@@ -106,10 +106,10 @@ html:lang(ar) .carousel-text small {
 }
 
 .carousel-form {
-  position: absolute;
+  /* position: absolute;
   top: 400px;
   left: 20%;
-  right: 20%;
+  right: 20%; */
   background-color: #FFFFFF5C ;
   border-radius: 10px;
   padding: 25px 30px;
@@ -122,7 +122,6 @@ html:lang(ar) .carousel-text small {
   opacity: 1;
   border-radius: 7px;
   border: 1px solid #555;
-  padding: 15px;
   color: rgb(77, 76, 76);
   width: 206px;
 }
@@ -695,11 +694,7 @@ html:lang(ar) #members {
   }
 
   .carousel-form {
-    top: 220px;
-    left: 120px;
-    padding: 15px 10px;
     width: 70%;
-    padding: 3% 8%;
   }
 
   .carousel-form .row {
@@ -709,7 +704,7 @@ html:lang(ar) #members {
   .carousel-form select {
     margin-right: 10px;
     opacity: 1;
-    height: 20px;
+    height: 35px;
     font-size: 9px;
   } 
 
@@ -1224,3 +1219,182 @@ button:focus, a:focus {
   float: left !important;
 }
 
+.slick-slider {
+  margin-top: 95px;
+}
+
+.slick-slide {
+  text-align: center;
+  position: relative;
+}
+.slick-slide:focus {
+  outline: none;
+}
+.slick-slide-title {
+  text-transform: capitalize;
+}
+.slick-slide-image {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3),
+    0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+.carousel-text {
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 80%;
+}
+
+html:lang(en) .carousel-text {
+  left: 17%;
+  top: 25px;
+  width: 71%;
+}
+
+
+.carousel-text .info-project {
+  justify-content: flex-end;
+}
+
+html:lang(en) .carousel-text .info-project {
+  justify-content: flex-start;
+}
+
+html:lang(en) .carousel-text .info-project .box-icon {
+  padding: 0 15px;
+}
+
+.carousel-form {
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .carousel-form {
+      width: 95%;
+  }
+}
+
+html:lang(en) .carousel-form {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #777777;
+}
+
+
+.slick-prev, .slick-next {
+  top: 50%;
+  border-radius: 50% !important;
+}
+
+html:lang(ar) .slick-next {
+  right: 61px !important;
+  left: 95% !important;
+}
+
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next,
+.slick-list {
+  -webkit-transition: all .7s ease-in;
+  -moz-transition: all .7s ease-in;
+  -o-transition: all .7s ease-in;
+  transition: all .7s ease-in;
+}
+
+.slick-arrow.slick-prev  {
+  left: -55px !important;
+  opacity: 0;
+}
+
+.slick-arrow.slick-next {
+  left: 100% !important;
+  opacity: 0;
+}
+
+.slick-slider:hover .slick-arrow.slick-prev {
+  left: 65px !important;
+  opacity: 1;
+}
+
+.slick-slider:hover .slick-arrow.slick-next {
+  left: 95% !important;
+  opacity: 1;
+}
+
+.slick-slider:hover .slick-arrow.slick-prev,
+.slick-slider:hover .slick-arrow.slick-next {
+  background-color: #ffce0a;
+  color: #fff;
+}
+
+.info-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-project .box-icon .row-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width: 767px) {
+  .slick-slide a .slick-slide-image {
+    height: 250px;
+  }
+  .carousel-text {
+    width: 100%;
+  }
+  .carousel-text h3 {
+    display: none;
+  }
+
+  .carousel-text h1 {
+    display: none;
+  }
+
+  .carousel-text .info-project {
+    display: none !important;
+  }
+
+  .carousel-text .price-slider {display: none;}
+
+  .carousel-text .carousel-form {
+    width: 75%;
+  }
+
+  html:lang(ar) .carousel-text .carousel-form {
+    direction: rtl;
+  }
+
+  @media(max-width: 767px) {
+    .carousel-text .carousel-form {
+      width: 85%;
+    }
+
+    html:lang(ar) .carousel-text .carousel-form {
+      direction: rtl;
+    }
+  }
+
+  .slick-slider:hover .slick-arrow.slick-next {
+    left: 85% !important;
+    opacity: 1;
+  }
+
+  .slick-slider:hover .slick-arrow.slick-prev {
+    left: 53px !important;
+    opacity: 1;
+  }
+}
