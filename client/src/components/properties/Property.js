@@ -197,7 +197,7 @@ const Property = ({ getProperty, property: { property, loading }, match, lang, l
                             <p style={{fontWeight: "700"}}>{lang === 'en' ? pln.description_en : pln.description_ar}</p>
                             <div className="details" style={{fontWeight: "700"}}>
                               <div className="plan"><span className="span-plan1">{pln.area}</span>  <span className="span-plan2">&#13217;</span></div>
-                              <div className="price"><span className="span-plan1">{calculatePrice(pln.price)}</span> <span className="span-plan2">{currency}</span></div>
+                              <div className="price"><span className="span-plan1">{calculatePrice(pln.price).toLocaleString()}</span> <span className="span-plan2">{currency}</span></div>
                             </div>
                           </div>
                         </div>
