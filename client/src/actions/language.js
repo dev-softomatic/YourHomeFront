@@ -46,5 +46,5 @@ export const getStr = key => {
 export const calculatePrice = price => {
     let rate = store.getState().language.rate;
 
-    return Math.ceil(price / rate)
+    return rate === 1? parseFloat((price / rate).toFixed(1)) : parseFloat(Math.ceil(price/rate))
 }
