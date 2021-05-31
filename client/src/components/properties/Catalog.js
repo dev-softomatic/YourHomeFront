@@ -116,7 +116,7 @@ const Catalog = ({category: {categories, loading}, getCategories, filterSettings
                    
                     <Fragment>
                         <PropertiesGrid properties={property.properties}/>
-                        <Pagination page={page} onPage={onPage} documentsCount={property.documentsCount}/>
+                        <Pagination page={+page} onPage={onPage} documentsCount={property.documentsCount}/>
                      </Fragment>
                     
                 )

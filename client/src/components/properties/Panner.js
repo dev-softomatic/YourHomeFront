@@ -60,7 +60,8 @@ const Panner = ({ categories, settings, formData, setFormData, onSubmit, title, 
             </option>
           ))}
         </select>
-        <select defaultValue={0} onChange={e => onChangePrice(e)} name='range'>
+        <select onChange={e => onChangePrice(e)} name='range'>
+          <option value="">{getStr('select_price')}</option>
           {
             settings.ranges.map((rng, i) => (
               <option value={i} key={rng._id}>{formatPrice(calculatePrice(rng.minimum))} - {formatPrice(calculatePrice(rng.maximum))}</option>

@@ -111,7 +111,7 @@
     color: #074252;
 }
 
-button.page-link:hover, button.page-link:active {
+button.page-link:hover, button.page-link.active {
     background-color: #074252;
     color: #fff;
 }

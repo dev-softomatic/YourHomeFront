@@ -118,6 +118,7 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
               }
             </select>
             <select className='col-md-2 col-sm-6' onChange={e => setFormData({...formData, price_high: settings.ranges[e.target.value].maximum, price_low: settings.ranges[e.target.value].minimum})}>
+              <option value="" >{getStr('select_price')}</option>
               {
                 settings.ranges.map((rng, index) => (
                   <option value={index} key={rng._id}>{formatPrice(calculatePrice(rng.minimum))} - {formatPrice(calculatePrice(rng.maximum))}</option>

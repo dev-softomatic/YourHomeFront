@@ -976,6 +976,10 @@
     "send_popup": {
         "en": "Send",
         "ar": "ارسال"
+    },
+    "select_price": {
+        "en": "Select Price",
+        "ar": "اختر السعر"
     }
 
 }
