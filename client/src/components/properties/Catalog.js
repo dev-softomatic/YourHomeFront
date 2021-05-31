@@ -28,6 +28,8 @@ const Catalog = ({category: {categories, loading}, getCategories, filterSettings
     });
       
     useEffect(()=> {
+        window.scrollTo({left: 0, top: 0})
+
         getCategories()
         getFilterSettings()
         getCities()
@@ -42,31 +44,63 @@ const Catalog = ({category: {categories, loading}, getCategories, filterSettings
         let price_high = query.price_high ? query.price_high : formData.price.max;
         let price_low = query.price_low ? query.price_low : formData.price.min;
 
-        getProperties(page, type, area, bedrooms, price_high, price_low)
+        let price = {
+            min: price_low,
+            max: price_high
+        }
+
+        setFormData({type, price, area, bedrooms})
+
+        getProperties(query.page, type, area, bedrooms, price_high, price_low)
         
     }, [getCategories, getFilterSettings, getProperties, location.search])
+
+
+    const setURL = (p = page)=>{
+        let url = `/properties?page=${p}`
+        for(let prop in formData){
+            if(formData[prop] !== 0 && formData[prop] !== ''){
+                if(prop === 'price'){
+                    if(formData.price.min !== 0 && formData.price.max !== 0){
+                        url += `&price_high=${formData.price.max}&price_low=${formData.price.min}`
+                    }
+                }else{
+                    if(formData[prop] !== '' && formData[prop] !== 0){
+                        url += `&${prop}=${formData[prop]}`
+                    }   
+                }
+            }
+        }
+        window.location = url
+    }
+
+    const onPage = (p) => {
+        setPage(p)
+        setURL(p)
+    }
 
     const onSubmit = ev => {
         ev.preventDefault();
 
         console.log(formData)
         setPage(1);
-        let url = '/properties?'
-        for(let prop in formData){
-            if(formData[prop] !== 0 && formData[prop] !== ''){
-                if(prop === 'price'){
-                    if(formData.price.min !== 0 && formData.price.max !== 0){
-                        url += `price_high=${formData.price.max}&price_low=${formData.price.min}&`
-                    }
-                }else{
-                   url += `${prop}=${formData[prop]}&`
-                }
-            }
-        }
-        console.log(url.charAt(url.length -1))
-        if(url.charAt(url.length - 1) === '&')
-            url.substr(0, url.length - 2);
-        window.location = url
+        setURL(1)
+        // let url = '/properties?'
+        // for(let prop in formData){
+        //     if(formData[prop] !== 0 && formData[prop] !== ''){
+        //         if(prop === 'price'){
+        //             if(formData.price.min !== 0 && formData.price.max !== 0){
+        //                 url += `price_high=${formData.price.max}&price_low=${formData.price.min}&`
+        //             }
+        //         }else{
+        //            url += `${prop}=${formData[prop]}&`
+        //         }
+        //     }
+        // }
+        // console.log(url.charAt(url.length -1))
+        // if(url.charAt(url.length - 1) === '&')
+        //     url.substr(0, url.length - 2);
+        // window.location = url
     }
 
     return (
@@ -82,7 +116,7 @@ const Catalog = ({category: {categories, loading}, getCategories, filterSettings
                    
                     <Fragment>
                         <PropertiesGrid properties={property.properties}/>
-                        <Pagination documentsCount={property.documentsCount}/>
+                        <Pagination page={page} onPage={onPage} documentsCount={property.documentsCount}/>
                      </Fragment>
                     
                 )
