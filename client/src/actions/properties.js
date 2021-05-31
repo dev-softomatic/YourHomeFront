@@ -42,7 +42,9 @@ export const getProperties = (page = 1, type='', area = '', bedrooms = 0, price_
             url += `&price_high=${price_high}&price_low=${price_low}`
         }
 
-        console.log(url, 'area:', area)
+        url += `&sort=price`
+
+        console.log(url)
 
         const res = await axios.get(url)
         dispatch({

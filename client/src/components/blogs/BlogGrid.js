@@ -45,14 +45,14 @@ const BlogGrid = ({category: {categories},list, article: {articles, loading, doc
             setPage(query.page)
         }
     
-        let type = query.type ? query.type : formData.type;
-        let area = query.area ? query.area : formData.area;
-        let bedrooms = query.bedrooms ? query.bedrooms : formData.bedrooms;
-        let price_high = query.price_high ? query.price_high : formData.price.max;
-        let price_low = query.price_low ? query.price_low : formData.price.min;
+        // let type = query.type ? query.type : formData.type;
+        // let area = query.area ? query.area : formData.area;
+        // let bedrooms = query.bedrooms ? query.bedrooms : formData.bedrooms;
+        // let price_high = query.price_high ? query.price_high : formData.price.max;
+        // let price_low = query.price_low ? query.price_low : formData.price.min;
     
-        getProperties(page, type, area, bedrooms, price_high, price_low)
-        list()
+        // getProperties(page, type, area, bedrooms, price_high, price_low)
+        list('', +query.page)
     }, [list,getCategories, getFilterSettings, getProperties, location.search])
 
     const onSubmit = ev => {
@@ -79,6 +79,11 @@ const BlogGrid = ({category: {categories},list, article: {articles, loading, doc
        // getProperties(1, formData.type, formData.area, formData.bedrooms, formData.price.max, formData.price.min)
     }
 
+    const onPage = p => {
+        setPage(p)
+        window.location = `/blog?page=${p}`
+    }
+
     return (
         <section id="blogGrid">
 
@@ -101,7 +106,7 @@ const BlogGrid = ({category: {categories},list, article: {articles, loading, doc
                     }
                 </div>}
             </div>
-            <Pagination documentsCount={documentsCount} />
+            <Pagination page={page} onPage={onPage} documentsCount={documentsCount} />
         </section>
     )
 }
