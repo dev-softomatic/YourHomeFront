@@ -42,7 +42,7 @@ export const getProperties = (page = 1, type='', area = '', bedrooms = 0, price_
             url += `&price_high=${price_high}&price_low=${price_low}`
         }
 
-        url += `&sort=price`
+        url += `&sort=minPrice`
 
         console.log(url)
 
