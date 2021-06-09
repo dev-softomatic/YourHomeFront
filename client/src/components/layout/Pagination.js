@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom'
 const Pagination = ({ documentsCount, page, onPage }) => {
     const pageSize = 20;
     const numberOfPages = Math.ceil(documentsCount / pageSize);
-
+    console.log(documentsCount);
     const next = () => onPage(page+1)
     const prev = () => onPage(page-1)
 

@@ -55,8 +55,30 @@ html:lang(ar) #myCarousel .carousel-item > .carousel-text {
   text-transform: uppercase;
 }
 
+
+
 .carousel-text .price-slider {
   font-size: 3.5rem;
+}
+
+@media(min-width: 1024px) and (max-width: 1199px) {
+  .carousel-text h3 {
+    font-size: 2.5em;
+  }
+  .carousel-text h1 {
+    font-size: 1.5em;
+  }
+  .carousel-text .price-slider {
+    font-size: 2em;
+  }
+
+  
+}
+
+@media(min-width: 1200px) and (max-width: 1325px) {
+  .carousel-text h1, .carousel-text .price-slider {
+    font-size: 2em;
+  }
 }
 
 
@@ -1311,17 +1333,27 @@ html:lang(en) .carousel-text .info-project .box-icon {
 
 @media(min-width: 1380px) and (max-width: 1449px) {
   .carousel-form {
-    bottom: 116px;
+    bottom: 67px;
     left: 15%;
     width: 55%;
-    top: 61%;
+    top: 73%;
     padding-top: 20px;
   }
 }
 
 @media(min-width: 1450px) and (max-width: 1600px) {
   .carousel-form {
-    bottom: 136px;
+    bottom: 102px;
+    left: 15%;
+    width: 55%;
+    top: 69%;
+    padding-top: 20px;
+  }
+}
+
+@media(min-width: 1600px) and (max-width: 1700px) {
+  .carousel-form {
+    bottom: 156px;
     left: 15%;
     width: 55%;
     top: 61%;
@@ -1329,13 +1361,23 @@ html:lang(en) .carousel-text .info-project .box-icon {
   }
 }
 
-@media(min-width: 1600px) and (max-width: 1800px) {
+@media(min-width: 1701px) and (max-width: 1900px) {
   .carousel-form {
-    bottom: 156px;
+    bottom: 290px;
     left: 15%;
     width: 55%;
-    top: 61%;
-    padding-top: 20px;
+    top: 47%;
+    padding-top: 28px;
+  }
+}
+
+@media(min-width: 1901px) and (max-width: 2200px) {
+  .carousel-form {
+    bottom: 307px;
+    left: 15%;
+    width: 55%;
+    top: 47%;
+    padding-top: 28px;
   }
 }
 
