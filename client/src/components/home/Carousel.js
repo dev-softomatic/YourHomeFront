@@ -54,13 +54,13 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        /* autoplay: true,
         speed: 1000,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 5000, */
         cssEase: "linear"
     };
 
-    return (
+    return (<div className="search-box">
         <Slider {...setting}>
           {
           offers.map((item, i) =>
@@ -105,44 +105,47 @@ const Jumbotron = ({ categories, settings, cities, language: {currency}}) => {
                     : "" }
                     </div>
                     <h2 className='mt-3 price-slider wow fadeInUp'>{calculatePrice(item.price).toLocaleString('de-DE')} {currency}</h2>
-                    <div className='carousel-form mt-2' style={{position: "relative"}}>
-                        <form className='row' onSubmit={e => onSubmit(e)}>
-                            <h4 className="m-auto" style={{fontWeight:"900", color:"#ffcf0a"}}>{getStr('istanbul-name')}</h4>
-                            <select className='col-md-3 col-sm-6' name='type' onChange={e => onChange(e)}>
-                            <option value="" key="type">{getStr('type')}</option>
-                            {
-                                categories.map(cat => (
-                                <option value={cat._id} key={cat._id}>{lang === 'en' ? cat.name_en : cat.name_ar}</option>
-                                ))
-                            }
-                            </select>
-                            <select className='col-md-3 col-sm-6' name='bedrooms' onChange={e => onChange(e)}>
-                            <option value="" key="bedrooms">{getStr('bedrooms')}</option>
-                            {
-                                settings.bedrooms.map(br => (
-                                <option value={br} key={br}>{br}</option>
-                                ))
-                            }
-                            </select>
-                            <select className='col-md-2 col-sm-6' onChange={e => setFormData({...formData, price_high: settings.ranges[e.target.value].maximum, price_low: settings.ranges[e.target.value].minimum})}>
-                            {
-                                settings.ranges.map((rng, index) => (
-                                <option value={index} key={rng._id}>{formatPrice(calculatePrice(rng.minimum))} - {formatPrice(calculatePrice(rng.maximum))}</option>
-                                ))
-                            }
-                            </select>
-                            <button className='search-btn col-md-1 col-sm-6' type='submit'>
-                            <img src={searchIcon} alt="" />
-                            </button>
-                        </form>
-                    </div>
+                    
                 </div>
                 
             </div>
-          )}
-        
-      </Slider>
+            )}
 
+          
+        
+        </Slider>
+        <div className='carousel-form mt-2'>
+            <form className='row' onSubmit={e => onSubmit(e)}>
+                <h4 className="m-auto" style={{fontWeight:"900", color:"#ffcf0a"}}>{getStr('istanbul-name')}</h4>
+                <select className='col-md-3 col-sm-6' name='type' onChange={e => onChange(e)}>
+                <option value="" key="type">{getStr('type')}</option>
+                {
+                    categories.map(cat => (
+                    <option value={cat._id} key={cat._id}>{lang === 'en' ? cat.name_en : cat.name_ar}</option>
+                    ))
+                }
+                </select>
+                <select className='col-md-3 col-sm-6' name='bedrooms' onChange={e => onChange(e)}>
+                <option value="" key="bedrooms">{getStr('bedrooms')}</option>
+                {
+                    settings.bedrooms.map(br => (
+                    <option value={br} key={br}>{br}</option>
+                    ))
+                }
+                </select>
+                <select className='col-md-2 col-sm-6' onChange={e => setFormData({...formData, price_high: settings.ranges[e.target.value].maximum, price_low: settings.ranges[e.target.value].minimum})}>
+                {
+                    settings.ranges.map((rng, index) => (
+                    <option value={index} key={rng._id}>{formatPrice(calculatePrice(rng.minimum))} - {formatPrice(calculatePrice(rng.maximum))}</option>
+                    ))
+                }
+                </select>
+                <button className='search-btn col-md-1 col-sm-6' type='submit'>
+                <img src={searchIcon} alt="" />
+                </button>
+            </form>
+        </div>
+    </div>
     )
 }
 
