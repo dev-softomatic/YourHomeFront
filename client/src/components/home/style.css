@@ -61,25 +61,6 @@ html:lang(ar) #myCarousel .carousel-item > .carousel-text {
   font-size: 3.5rem;
 }
 
-@media(min-width: 1024px) and (max-width: 1199px) {
-  .carousel-text h3 {
-    font-size: 2.5em;
-  }
-  .carousel-text h1 {
-    font-size: 1.5em;
-  }
-  .carousel-text .price-slider {
-    font-size: 2em;
-  }
-
-  
-}
-
-@media(min-width: 1200px) and (max-width: 1325px) {
-  .carousel-text h1, .carousel-text .price-slider {
-    font-size: 2em;
-  }
-}
 
 
 .bed-upper-white {
@@ -146,6 +127,7 @@ html:lang(ar) .carousel-text small {
   border: 1px solid #555;
   color: rgb(77, 76, 76);
   width: 206px;
+  height: 40px;
 }
 
 button.search-btn {
@@ -673,7 +655,7 @@ html:lang(ar) #members {
   
 }
 
-@media all and ( max-width: 1024px){
+@media (min-wdth: 992px) and ( max-width: 1024px){
 
   #blog-row h1 {
     font-size: 25px;
@@ -733,7 +715,7 @@ html:lang(ar) #members {
 }
 
 
-@media all and (max-width: 768px){
+@media all and (max-width: 991){
 
   #myCarousel .carousel-item > .carousel-text {
     display: block;
@@ -1296,10 +1278,10 @@ html:lang(en) .carousel-text .info-project .box-icon {
   margin-left: auto;
   font-size: 1rem;
   position: absolute;
-  bottom: 29px;
+  bottom: 18px;
   left: 18%;
-  width: 55%;
-  top: 77%;
+  width: 68%;
+  top: 74%;
 }
 
 @media(max-width: 576px) {
@@ -1311,75 +1293,139 @@ html:lang(en) .carousel-text .info-project .box-icon {
   }
 }
 
+@media(min-width: 577px) and (max-width: 767px) {
+  .carousel-form {
+    bottom: 0;
+    left: 25%;
+    width: 45%;
+    top: 5px;
+    height: 87%;
+  }
+
+  .carousel-form form {
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+    transform: translate(10%);
+  }
+
+  .carousel-form form select {
+    margin-bottom: 3px;
+  }
+
+  .carousel-form form .search-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
 @media(min-width: 768px) and (max-width: 991px) {
   .carousel-form {
-    bottom: 25px;
-    left: 15%;
-    width: 74%;
-    top: 68%;
+    bottom: 15px;
+    left: 18%;
+    width: 78%;
+    top: 73%;
     padding-top: 15px;
+  }
+
+  .carousel-form form select {
+    max-width: 20%;
   }
 }
 
 @media(min-width: 992px) and (max-width: 1024px) {
   .carousel-form {
-    bottom: 41px;
-    left: 15%;
+    bottom: 30px;
+    left: 18%;
     width: 74%;
-    top: 68%;
+    top: 72%;
     padding-top: 20px;
   }
 }
 
+@media(min-width: 1300px) and (max-width: 1379px) {
+  .carousel-form {
+    bottom: 44px;
+    left: 18%;
+    width: 55%;
+    top: 76%;
+    padding-top: 20px;
+  }
+}
+
+
 @media(min-width: 1380px) and (max-width: 1449px) {
   .carousel-form {
-    bottom: 67px;
-    left: 15%;
+    bottom: 55px;
+    left: 18%;
     width: 55%;
-    top: 73%;
+    top: 75%;
     padding-top: 20px;
   }
 }
 
 @media(min-width: 1450px) and (max-width: 1600px) {
   .carousel-form {
-    bottom: 102px;
-    left: 15%;
+    bottom: 90px;
+    left: 18%;
     width: 55%;
-    top: 69%;
+    top: 70%;
     padding-top: 20px;
   }
 }
 
 @media(min-width: 1600px) and (max-width: 1700px) {
   .carousel-form {
-    bottom: 156px;
-    left: 15%;
+    bottom: 150px;
+    left: 18%;
     width: 55%;
-    top: 61%;
+    top: 63%;
     padding-top: 20px;
   }
 }
 
-@media(min-width: 1701px) and (max-width: 1900px) {
+@media(min-width: 1701px) and (max-width: 1781px) {
   .carousel-form {
-    bottom: 290px;
-    left: 15%;
+    bottom: 173px;
+    left: 18%;
+    width: 55%;
+    top: 60%;
+    padding-top: 28px;
+  }
+}
+
+@media(min-width: 1782px) and (max-width: 1900px) {
+  .carousel-form {
+    bottom: 220px;
+    left: 18%;
+    width: 55%;
+    top: 55%;
+    padding-top: 28px;
+  }
+}
+
+@media(min-width: 1901px) and (max-width: 2049px) {
+  .carousel-form {
+    bottom: 307px;
+    left: 18%;
     width: 55%;
     top: 47%;
     padding-top: 28px;
   }
 }
 
-@media(min-width: 1901px) and (max-width: 2200px) {
+@media(min-width: 2050px) and (max-width: 2200px) {
   .carousel-form {
-    bottom: 307px;
-    left: 15%;
+    bottom: 366px;
+    left: 18%;
     width: 55%;
-    top: 47%;
+    top: 44%;
     padding-top: 28px;
   }
 }
+
+
 
 html:lang(en) .carousel-form {
   margin-left: 0;
@@ -1494,5 +1540,62 @@ html:lang(ar) .slick-next {
   .slick-slider:hover .slick-arrow.slick-prev {
     left: 53px !important;
     opacity: 1;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+  .carousel-text h3 {
+    font-size: 1.5em;
+  }
+  .carousel-text h1 {
+    font-size: 1.3em;
+  }
+
+  .carousel-text small {
+    font-size: 20px;
+  }
+  .carousel-text .price-slider {
+    font-size: 1.7em;
+  }
+
+  
+}
+
+@media(min-width: 992px) and (max-width: 1024px) {
+  .carousel-text h3 {
+    font-size: 2.2em;
+  }
+  .carousel-text h1 {
+    font-size: 1.8em;
+  }
+
+  .carousel-text small {
+    font-size: 20px;
+  }
+  .carousel-text .price-slider {
+    font-size: 2.1em;
+  }
+
+  
+}
+
+@media(min-width: 1025px) and (max-width: 1199px) {
+  .carousel-text h3 {
+    font-size: 2.5em;
+  }
+  
+  .carousel-text h1 {
+    font-size: 1.5em;
+  }
+  .carousel-text .price-slider {
+    font-size: 2em;
+  }
+
+  
+}
+
+@media(min-width: 1200px) and (max-width: 1325px) {
+  .carousel-text h1, .carousel-text .price-slider {
+    font-size: 2em;
   }
 }
