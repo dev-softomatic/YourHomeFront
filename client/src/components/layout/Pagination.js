@@ -3,12 +3,10 @@ import './style.css'
 import {Link} from 'react-router-dom'
 
 const Pagination = ({ documentsCount, page, onPage }) => {
-    const pageSize = 20;
+    const pageSize = 12;
     const numberOfPages = Math.ceil(documentsCount / pageSize);
-    console.log(documentsCount);
     const next = () => onPage(page+1)
     const prev = () => onPage(page-1)
-
   return (
     <div className="row justify-content-center mr-3">
       <nav aria-label="Page navigation">
